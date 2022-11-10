@@ -1,0 +1,572 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization xmlns="http://www.xnormal.net/xNormal" Name="简体字 (Simplified Chinese)" Version="3.19.3" ISO3166One="ch-CH" RightToLeft="false">
+
+    <!-- General -->
+    <LoadingPlugin Value="装载插入式"/>
+    <Visible Value="可看见"/>
+    <Warning Value="警告"/>
+    <Error Value="错误"/>
+    <Filter Value="过滤器"/>
+    <Enabled Value="使能"/>
+    <Disabled Value="残疾"/>
+    <File Value="文件"/>
+    <Copy Value="副本"/>
+    <Paste Value="浆糊"/>
+    <Save Value="保持"/>
+    <AllKnownFileTypes Value="所有已知的文件类型"/>
+    <Color Value="颜色"/>
+    <FileAreadyExistsOverwriteConfirmation Value="档案已经存在。你要覆写它？"/>
+    <Threshold Value="开始"/>
+    <Maximum Value="最大"/>
+    <Minimum Value="最低"/>
+    <Options Value="选项"/>
+    
+    <!-- GeneralUI -->
+    <RightClickToShowContextMenu Value="按鼠标右按钮以显示上下文菜单"/>
+
+    <Close Value="关闭"/>
+    <CloseToolip Value="点击这里结束xNormal"/>
+
+    <GenerateMaps Value="引起地图"/>
+    <GenerateMapsTooltip Value="点击这里开始引起地图"/>
+    <Generating Value="发电"/>
+    <Progress Value="进度"/>
+
+    <AbortMaps Value="放弃"/>
+    <AbortMapsTooltip Value="点击这里放弃生成过程"/>
+    <MinimizeTooltip Value="点击这里使xNormal 窗口减到最小"/>
+    <PluginManagerTooltip Value="点击这里显示插入式经理"/>
+    <ButtonSoundsTooltip Value="点击这里使能/使无能力按钮声音"/>
+    <HaltedTooltip Value="这显示改变它的肤色到展示如果xNormal 止步不前"/>
+
+    <ClickToBrowseTexture Value="点击这里浏览图象或纹理"/>
+    <BrowseTextureDialogTitle Value="请, 选择图象或构造"/>
+    <ClickToResetTexture Value="点击这里重新设置图象或纹理"/>
+
+    <DefaultMeshScale Value="默认网规模"/>
+
+    <SmoothNormals Value="光滑的法线"/>
+    <UseExportedNormals Value="使用被出口的normals"/>
+    <AverageNormals Value="平均normals"/>
+    <HardenNormals Value="硬化normals"/>
+
+    <ClearAllMeshes Value="明确各网格"/>
+
+    <FileOverwriteWarning Value="档案覆写警告"/>
+
+    <!-- Highpoly tab -->
+    <HighpolyButtonText Value="高定义滤网"/>
+    <HighpolyButtonTooltip Value="点击这里显示高定义滤网名单和他们的选择"/>
+
+    <HighpolyVisibleTooltip Value="检查它使高定义滤网可看见(在3D 观察者和为光芒铸工)"/>
+
+    <HighpolyFileTooltip Value="文件包含高定义滤网。用鼠标右键单击显示上下文菜单"/>
+
+    <HighpolyBaseTextureToBake Value="基本的纹理烘烤"/>
+    <HighpolyBaseTextureToBakeTooltip Value="将被射出对低定义一个高定义模型的基本的纹理"/>
+    <HighpolyBaseTextureIsTSNM Value="该基地的纹理是一个切线空间的正常地图"/>
+
+    <HighpolyIgnorePerVertexColor Value="忽略每端点四周锁柱"/>
+
+    <HighpolyMenu_BrowseMeshes Value="浏览滤网"/>
+    <HighpolyMenu_BrowseBaseTexstureForBaking Value="浏览基本的纹理为烘烤"/>
+    <HighpolyMenu_ResetBaseTexstureForBaking Value="复位基地纹理烘焙"/>
+    <HighpolyMenu_Delete Value="删除滤网"/>
+
+    <HighpolyMenu_BrowseMeshesDialogTitle Value="请, 选择高定义模型增加"/>
+
+    <HighpolyMenu_LoadMeshFolder Value="装载滤网文件夹"/>
+    <FolderToLoad Value="文件夹装载"/>
+    <StartingName Value="开始名字"/>
+
+    <MeshFileExtension Value="网格的文件扩展名"/>
+    <MeshFileExtensionTooltip Value="网格的文件扩展名（例如，目标） ，没有任何一点"/>
+    <ImageFileExtension Value="图象的文件扩展名"/>
+    <ImageFileExtensionTooltip Value="图象的文件扩展名（例如， JPG格式） ，没有任何一点"/>
+
+    <Load Value="装载"/>
+
+    <!-- Lowpoly tab -->
+    <LowpolyButtonText Value="低定义滤网"/>
+    <LowpolyButtonTooltip Value="点击这里显示低定义滤网名单和他们的选择"/>
+
+    <LowpolyVisibleTooltip Value="检查它使低定义滤网可看见(在观察者和在光芒铸工)"/>
+
+    <LowpolyFileTooltip Value="文件包含低定义滤网。用鼠标右键单击显示上下文菜单"/>
+
+    <LowpolyMaxRayDistanceFront Value="最大光芒距离(前线)"/>
+    <LowpolyMaxRayDistanceFrontTooltip Value="一致的最大光芒距离(为前面边光芒)"/>
+
+    <LowpolyMaxRayDistanceBack Value="最大光芒距离(后面)"/>
+    <LowpolyMaxRayDistanceBackTooltip Value="一致的最大光芒距离(为后侧方光芒)"/>
+
+    <LowpolyUseCage Value="使用笼子"/>
+    <LowpolyUseCageTooltip Value="检查它使用一只用户定义的笼子包含最大光芒距离"/>
+    <LowpolyExternalCageWarning Value="如果你指定一个外部档案笼网已选定请相信绝对相同或网状拓扑比低多边形::你会得到错误"/>
+
+    <LowpolyBatchProtection Value="批保护"/>
+    <LowpolyBatchProtectionTooltip Value="检查它防止这个滤网映像点由下个批被回报的滤网重写"/>
+
+    <LowpolyExternalCageFile Value="对外笼子档案"/>
+    <LowpolyExternalCageFileTooltip Value="右点击显示菜单装入外部笼子档案"/>
+
+    <LowpolyAONormalsOverrideFile Value="highpoly正常人凌驾档案"/>
+    <LowpolyAONormalsOverrideFileTooltip Value="选择正常地图凌驾highpoly击中正常人在周围闭塞计算"/>
+    <LowpolyAONormalsOverrideTangentSpace Value="highpoly正常人凌驾切空间"/>
+    <LowpolyAONormalsOverrideTangentSpaceTooltip Value="马克,它使用正切空间正常地图或保持下去它使用一种面向空间之一"/>
+
+    <LowpolyMeshScale Value="滤网标度"/>
+
+    <LowpolyRenderOrder Value="回报命令"/>
+    <LowpolyRenderOrderTooltip Value="B批回报命令。滤网从顶向下将被回报"/>
+
+    <LowpolyMenu_BrowseMeshes Value="浏览滤网"/>
+    <LowpolyMenu_MoveUp Value="老鼠"/>
+    <LowpolyMenu_MoveDown Value="行动下来"/>
+    <LowpolyMenu_Delete Value="删除"/>
+    <LowpolyMenu_BrowseExternalCage Value="浏览外部笼子档案"/>
+    <LowpolyMenu_ResetExternalCage Value="外部复位笼档案"/>
+
+    <LowpolyMenu_BrowseMeshesDialogTitle Value="请, 选择低定义滤网增加"/>
+    <LowpolyMenu_BrowseCageDialogTitle Value="请选择网箱外围档案"/>
+
+    <LowpolyMenu_BrowseAONormalsOverride Value="浏览外部笼档案"/>
+    <LowpolyMenu_ResetAONormalsOverride Value="外部复位笼档案"/>
+
+    <Lowpoly_BlockersFile Value="阻滞剂档案"/>
+    <LowpolyMenu_BrowseBlockers Value="浏览阻滞剂档案"/>
+    <LowpolyMenu_ResetBlockers Value="重置阻滯劑檔案"/>
+    
+    <!-- Normal map tab -->
+    <NormalmapButtonText Value="正常地图"/>
+    <NormalmapButtonTooltip Value="点击这里显示正常地图选择"/>
+
+    <NormalmapOutputFile Value="输出文件"/>
+    <NormalmapOutputFileTooltip Value="选择这里一个文件名为产品地图使用'... ' 按钮"/>
+
+    <NormalmapSize Value="大小"/>
+    <NormalmapSizeTooltip Value="T大小, 在映像点, 产品映射。我不推荐您通过2048x2048 或将是非常慢的, 将消耗吨记忆"/>
+
+    <NormalmapBackgroundColor Value="背景颜色"/>
+    <NormalmapEdgePadding Value="边缘填料"/>
+    <NormalmapBucketSize Value="桶大小"/>
+
+    <NormalmapAntialiasing Value="Anti-aliasing"/>
+
+    <NormalmapGenerateMipmaps Value="引起mipmaps"/>
+    <NormalmapGenerateMipmapsTooltip Value="检查它引起非常准确mipmaps 。联合国检查它如果您不需要mipmaps"/>
+
+    <NormalmapClosestHitIfRayFails Value="最接近的命中如果光芒失败"/>
+    <NormalmapClosestHitIfRayFailsTooltip Value="使用最接近的命中如果没有光芒碰撞在低定义滤网和高定义滤网之间。保持它被检查避免问题"/>
+
+    <NormalmapDiscardBackFacesHits Value="摈除面孔命中"/>
+    <NormalmapDiscardBackFacesHitsTooltip Value="标记它摈除光芒被击中如果低定义滤网正常和高你是在对面"/>
+
+    <GenerateNormals Value="引起法线和高度地图"/>
+    <NormalmapSwizzleCoordinates Value="变换座标"/>
+    <NormalmapSwizzleCoordinatesTooltip Value="您能变换最后的正常地图座标使用这"/>
+    <NormalmapTangentSpace Value="正切空间"/>
+    <NormalmapTangentSpaceTooltip Value="检查它引起正切空间法线地图。联合国检查它使用对象空间法线地图"/>
+
+    <NormalmapBakeHighpolyBaseTex Value="烘烤高定义模型的基本的纹理入低定义模型"/>
+    <NormalmapBakeHighpolyBaseTexTooltip Value="检查它烘烤高定义滤网基地纹理入低定义滤网"/>
+    <NormalmapBakeHighpolyBaseTexWriteObjectIDIfNoTexture Value="写ObjectID 如果没有纹理"/>
+    <NormalmapBakeHighpolyBaseTexDrawUsingThisColor Value="提请使用此颜色"/>
+
+    <NormalmapRenderer Value="Renderer"/>
+    <NormalmapRendererTooltip Value="Renderer"/>
+
+    <NormalmapAdditionalMaps Value="新增地图"/>
+
+    <NormalmapGenerateAmbientOcclusion Value="引起四周锁柱"/>
+    <NormalmapGenerateAmbientOcclusionTooltip Value="检查它引起四周锁柱地图"/>
+
+    <NormalmapAODistribution Value="发行"/>
+    <NormalmapAODistributionTooltip Value="选择这里四周锁柱发行。制服通常给更加干净的结果和余弦更加黑暗"/>
+    <NormalmapAODistributionUniform Value="制服"/>
+    <NormalmapAODistributionCosine Value="余弦"/>
+    <NormalmapAOLimitRayDistance Value="极限光芒距离"/>
+    <NormalmapAOAttenuation Value="衰减"/>
+    <NormalmapAOEnableWeighting Value="让重量"/>
+    <NormalmapAOPRTColorNormalize Value="铂电阻温度计彩色正常化"/>
+
+    <NormalmapAOAllowPureOcclusion Value="允许纯闭塞"/>
+    <NormalmapAOCoordinateSystem Value="坐标系统"/>
+    <NormalmapEncodeAO Value="编码闭塞"/>
+    
+    <NormalmapGenerateProximity Value="产生近距离"/>
+
+    <NormalmapRays Value="光线"/>
+    <NormalmapAngle Value="角"/>
+    <NormalmapMinValue Value="最低值"/>
+    <NormalmapMaxValue Value="最大值"/>
+    <NormalmapMinValueInvalid Value="无效最低值(需要是更小或均等比最大值)"/>
+
+    <NormalmapConvexityScale Value="凸形标度"/>
+    <NormalmapConcavity Value="凹状"/>
+
+    <NormalmapFilters Value="过滤器"/>
+
+    <NormalmapWireframeAndRayFails Value="线框和射线失败"/>
+    <NormalmapRenderWireframe Value="令线框"/>
+    <NormalmapRenderRayFails Value="使射线失败"/>
+
+    <NormalmapDirectionMap Value="方向图"/>
+    <NormalmapEncodeHeights Value="编码高峰"/>
+
+	<NormalmapBakeHighpolyVertexColors Value="Bake highpoly's vertex colors"/>
+
+	<ImageFilterMenu_Tooltip Value="点击鼠标右键显示过滤器菜单"/>
+    <ImageFilterMenu_AddFilter Value="增加图象过滤器"/>
+    <ImageFilterMenu_RemoveFilter Value="去除图象过滤器"/>
+    <ImageFilterMenu_MoveUp Value="移动过滤器"/>
+    <ImageFilterMenu_MoveDown Value="移动过滤器下来"/>
+    <ImageFilterMenu_ShowInfo Value="显示过滤器信息"/>
+    <ImageFilterMenu_Configure Value="配置过滤器"/>
+
+    <AutoNormalizeHeight Value="自动高度正常化"/>
+    <ManualNormalization Value="手册正常化"/>
+    
+    <!-- Fine detail tab-->
+    <FineDetailButtonText Value="美好的细节"/>
+    <FineDetailButtonTooltip Value="点击这里打开美好的细节选择"/>
+
+    <FineDetailFile Value="细目文件"/>
+    <FineDetailFileTooltip Value="选择这里使用'... ' 按一个签字的高度地图图象为好微细节"/>
+    <FineDetailBlendFactor Value="混合因素"/>
+    <FineDetailBlendFactorTooltip Value="混和的混合因素。零意味细节不会增加来正常地图。你意味您将看见细节和只您不会看见引起的正常地图根本。0.5 手段50% 细节与引起的正常地图将被混合"/>
+
+    <!-- Tools -->
+    <ToolsButtonText Value="工具"/>
+    <ToolsButtonTooltip Value="点此打开工具"/>
+    <ToolsAvailable Value="工具"/>
+
+    <ToolsHeightmapToNM Value="正常身高图图"/>
+    <ToolsOptions Value="期权"/>
+    <ToolsHeightSrc Value="高源"/>
+    <ToolsNormalizeHeights Value="正常化高地"/>
+    <ToolsSmooth Value="平稳"/>
+    <ToolsSmoothTooltip Value="如何控制这一突然将正常"/>
+    <ToolsMethod Value="法"/>
+    <ToolsMethodTooltip Value="这一代的控制方法. 快捷方式(分明)四个样本. 结果得到顺利使用7x7过滤"/>
+    <ToolsPutHeightInAlpha Value="阿尔法提出在高空"/>
+    <ToolsBrowseHeightmap Value="浏览身高图"/>
+    <ToolsSaveNormalmap Value="节省正常地图"/>
+
+    <ToolsNormalmapToCavity Value="正切空间正常地图对洞地图"/>
+    <ToolsCavityMap Value="洞地图"/>
+    <ToolsBrowseTangentSpaceNormalmap Value="浏览正切空间正常地图文件"/>
+    <ToolsBright Value="明亮" />
+    <ToolsContrast Value="对比" />
+    <ToolsNormalize Value="正常化"/>
+    <ToolsUseLuminance Value="使用光亮"/>
+    <ToolsSaveCavitymap Value="之外洞地图"/>
+
+    <ToolsGenerate Value="生成"/>
+    <ToolsAllowTiling Value="允许块"/>
+    <ToolsSavedOK Value="文件成功地被保存了"/>
+
+    <ToolsPhotoLightLeft Value="左亮图片"/>
+    <ToolsPhotoLightRight Value="右亮图片"/>
+    <ToolsPhotoLightTop Value="顶部亮图片"/>
+    <ToolsPhotoLightBottom Value="底部亮图片"/>
+    <ToolsLoadImage Value="装载图象"/>
+
+    <ToolsHeightmapToOcclusion Value="高度图遮挡图"/>
+    <ToolsSaveOcclusionmap Value="商店遮挡图"/>
+
+    <ToolsObjectTangentSpaceConverter Value="对象/切线空间转换"/>
+    <ToolsInputNormalmap Value="投入正常地图"/>
+    <ToolsOutputNormalmap Value="输出正常地图"/>
+    <ToolsConvertObjectToTangentSpace Value="把物体空间,切空间"/>
+    <ToolsConvertTangentToObjectSpace Value="转换正切空间物体空间"/>
+
+    <ToolsRelaxedConemap Value="放宽锥地图"/>
+    <ToolsHeightmapToRelaxedConemap Value="高度图轻松锥地图"/>
+    <ToolsConemapNSteps Value="步骤"/>
+    <ToolsConemapSave Value="轻松节省锥地图"/>
+    <ToolsHeightIsDepth Value="高度是深度"/>
+
+    <ToolsSimpleAOGenerator Value="简单的四周锁柱发电器"/>
+    <ToolsPrecision Value="精确度"/>
+    <ToolsPrecisionWarning Value="您设置了FP16 和超过2048 个样品。根据您的GPU 这能是或不可能, 如果您看一个不正确结果, 请如此减少样品的数量或变成CPU/FP32 精确度"/>
+    <ToolsCosineWeightingWarning Value="光明大于1.0 ，不建议使用时余弦加权...但好...您人士决定..."/>
+    <ToolsSimpleGPUMeshDenseWarning Value="网格是个非常密集。一些图形卡不容许使用网格与超过1或16000000顶点或三角形。如果你观察一个完全黑色或白色，最终的结果可能是因为这一点。"/>
+    <ToolsSimpleGPUSmoothShadows Value="光滑的陰影"/>
+
+    <ToolsRayDistanceCalculator Value="雷距离计算器"/>
+
+    <ToolsSH Value="环境立方体映射到周围立方体地图发生器"/>
+    <ToolsSHInputEnvironmentCubeMap Value="输入环境立方体地图"/>
+    <ToolsSHOutputAmbientCubeMap Value="环境立方体地图"/>
+    <ToolsSHOutputCoefficients Value="输出系数"/>
+    <ToolsSHNumberOfBands Value="一些频段"/>
+    <ToolsSHNumberOfBandsTooltip Value="少意味着更多的混淆。更意味着更少的模糊。"/>
+    <ToolsSHBrowseCubeMap Value="选择地图立方米"/>
+    
+    <!-- 3D Viewer -->
+    <Viewer3DButtonText Value="3D 观察者"/>
+    <Viewer3DButtonTooltip Value="点击这里显示3D 观察者选择"/>
+
+    <Viewer3DMesh Value="低定义滤网"/>
+    <Viewer3DMeshTooltip Value="使用组合框选择滤网为了编辑它的物产"/>
+    <Viewer3DCastShadows Value="塑像阴影"/>
+    <Viewer3DCastShadowsTooltip Value="检查它如果您要这个滤网投下阴影在其它滤网"/>
+    <Viewer3DReceiveShadows Value="接受阴影"/>
+    <Viewer3DReceiveShadowsTooltip Value="检查它如果您要这个滤网接受阴影从其它滤网"/>
+    <Viewer3DBackfaceCull Value="后面面孔拣掉"/>
+    <Viewer3DBackfaceCullTooltip Value="检查它掩藏面孔不指向照相机为了优选回报速度"/>
+
+    <Viewer3DBaseTex Value="基本的纹理"/>
+    <Viewer3DBaseTexTooltip Value="基本的(散开, 白度) 纹理"/>
+
+    <Viewer3DTransparencyModeLabel Value="透明模式"/>
+    <Viewer3DTransparencyMode_None Value="无"/>
+    <Viewer3DTransparencyMode_1Bit Value="1Bit"/>
+    <Viewer3DTransparencyMode_AdditiveGlow Value="添加剂辉光"/>
+    <Viewer3DTransparencyMode_ScreenGlass Value="屏幕玻璃"/>
+    <Viewer3DTransparencyMode_Blend Value="混纺"/>
+
+    <Viewer3DNormTex Value="正常地图"/>
+    <Viewer3DNormTexTooltip Value="正常纹理为爆沸映射"/>
+    <Viewer3DTangentSpace Value="正切空间"/>
+    <Viewer3DTangentSpaceTooltip Value="检查它如果正常地图是在正切空间或联合国检查它对象空间"/>
+    <Viewer3DNMSwizzle Value="置换"/>
+
+    <Viewer3DHeightTex Value="高度地图"/>
+    <Viewer3DHeightTexTooltip Value="高度纹理为位差映射"/>
+
+    <Viewer3DOccLMTex Value="锁柱/轻的地图纹理"/>
+    <Viewer3DOccLMTexTooltip Value="锁柱或光地图纹理将倍增基本的纹理颜色"/>
+    <Viewer3DUsePerVertexColors Value="使用每端点锁柱"/>
+
+    <Viewer3DReflectTex Value="反射纹理"/>
+    <Viewer3DReflectTexTooltip Value="环境立方体地图纹理"/>
+    <Viewer3DEnableFresnel Value="使能菲涅耳"/>
+    <Viewer3DEnableFresnelTooltip Value="检查它使表面指向照相机更加反射性"/>
+    <Viewer3DFresnelRefractiveIndex Value="菲涅耳反射索引"/>
+    <Viewer3DFresnelRefractiveIndexTooltip Value="价值表明多少光必须反射表面。1.33 是水, 2 是金刚石, 30 是镜子"/>
+    <Viewer3DGlossTex Value="光泽纹理"/>
+    <Viewer3DGlossTexTooltip Value="光泽纹理倍增反射纹理。使用这使一些映像点反射性或非反射性"/>
+
+    <Viewer3DEmissiveTex Value="放射性的纹理"/>
+    <Viewer3DEmissiveTexTooltip Value="放射性的纹理将增加轻的' 焕发' 既使当没有光存在"/>
+
+    <Viewer3DSpecularTex Value="镜子纹理"/>
+    <Viewer3DSpecularTexTooltip Value="镜子纹理的RGB 价值将倍增光的镜子因素。阿尔法将被使用控制Phong 指数期限(更多手段更加锋利)"/>
+
+    <Viewer3DDiffuseGITex Value="散开全球性照明纹理"/>
+    <Viewer3DDiffuseGITexTooltip Value="散开立方体地图以环境照明设备低频率发行。理想模仿室外环境"/>
+
+    <Viewer3DRunWindowed Value="跑在窗口方式下"/>
+    <Viewer3DRunWindowedTooltip Value="点击这里跑3D 观察者在窗口方式下(非全荧光屏)"/>
+    <Viewer3DVideoMode Value="视频模式"/>
+    <Viewer3DVideoModeTooltip Value="选择这里3D 观察者将使用的视频模式"/>
+
+    <Viewer3DPlayMusic Value="戏剧音乐在观察者里面"/>
+    <Viewer3DPlayMusicTooltip Value="检查这如果您想要xNormal 演奏一些背景音乐当您使用3D 观察者"/>
+
+    <Viewer3DUseXBox360Gamepad Value="使用XBox 360控制器"/>
+    <Viewer3DUseXBox360GamepadTooltip Value="检查它使用XBox 360 控制器在3D 观察者里面"/>
+
+    <Viewer3DLaunch Value="发射观察者"/>
+    <Viewer3DLaunchTooltip Value="按得这里开始3D 观察者"/>
+
+    <!-- Settings and examples-->
+    <SettingsAndExamplesButtonText Value="设置和例子"/>
+    <SettingsAndExamplesButtonTooltip Value="点击这里打开设置选择和例子"/>
+
+    <SettingsLoad Value="装载设置"/>
+    <SettingsLoadTooltip Value="点击这里用装载XML 文件早先被保存的设置"/>
+    <SettingsLoadDialogTitle Value="请, 选择一个XML 文件装载包含早先被保存的设置"/>
+    <SettingsLoadedOK Value="设置正确地装载了"/>
+    <SettingsLoadError Value="错误。不能装载设置。"/>
+
+    <SettingsRestore Value="恢复缺省设置"/>
+    <SettingsRestoreTooltip Value="点击这里重新设置缺省设置"/>
+    <SettingsRestoredOK Value="设置被恢复了以缺省值"/>
+
+    <SettingsSave Value="之外设置"/>
+    <SettingsSaveTooltip Value="点击这里保存当前的设置对XML 文件"/>
+    <SettingsSaveDialogTitle Value="请, 选择一个XML 文件在哪里保存当前的设置"/>
+    <SettingsSavedOK Value="设置正确地被保存了"/>
+    <SettingsSaveError Value="错误。不能保存设置。"/>
+
+    <SettingsXMLFilter Value="xNormal XML 设置"/>
+
+    <SettingsExamplesGroupbox Value="例子"/>
+
+    <AcidButtonText Value="反射性酸"/>
+    <AcidButtonTooltip Value="点击这里装载' 酸' 例子"/>
+
+    <WallButtonText Value="位差被映射的墙壁"/>
+    <WallButtonTooltip Value="点击这里装载墙壁例子"/>
+
+    <DiabloButtonText Value="Pablo ・Hoyos 的Diablo"/>
+    <DiabloButtonTooltip  Value="点击这里装载Pablo ・Hoyos 的Diablo 例子" />
+
+    <XemakosButtonText Value="Paul・Greveson 的Xemakos"/>
+    <XemakosButtonTooltip Value="点击这里打开Paul Greveson 的Xemakos 将军例子"/>
+
+    <SyliaButtonText Value="Kevin George 的Sylia"/>
+    <SyliaButtonTooltip Value="点击这里打开Kevin George 的Sylia 例子"/>
+
+    <FlagButtonText Value="旗基地烘焙纹理"/>
+    <FlagButtonTooltip Value="点此打开旗为例 "/>
+
+    <MirroredUVsAndHardEdgesButtonText Value="反映UV和艰难的边界"/>
+    <MirroredUVsAndHardEdgesTooltip Value="单击打开反映的UV和艰难的边界例子"/>
+
+
+    <!-- Support and about-->
+    <SupportAndAboutButtonText Value="支持和"/>
+    <SupportAndAboutButtonTooltip Value="点击这里打开支持和关于窗口"/>
+
+    <WebPage Value="网页"/>
+    <ContactEMail Value="联络电子邮件"/>
+
+    <!-- Plugin manager -->
+    <AllThePluginsTab Value="所有plugins"/>
+    <ImageImportersTab Value="图象进口商"/>
+    <ImageExportersTab Value="图象出口商"/>
+    <ImageFiltersTab Value="图象过滤器"/>
+    <MeshImportersTab Value="滤网进口商"/>
+    <MeshExportersTab Value="滤网出口商"/>
+    <GraphicsDriversTab Value="图表司机"/>
+    <TangentBasisCalculatorsTab Value="正切依据计算器"/>
+    <RenderersTab Value="渲染"/>
+    <VideoMakersTab Value="录影制作商"/>
+
+    <PluginInformation Value="插入式信息"/>
+    <PluginName Value="名字"/>
+    <PluginGUID Value="全局唯一标识符"/>
+    <PluginDescription Value="描述"/>
+    <PluginAuthor Value="作者"/>
+    <PluginVersion Value="版本"/>
+    <PluginConfigure Value="配置"/>
+
+    <Defaults Value="缺省"/>
+    <DefaultsGraphicsDriver Value="图表司机"/>
+    <DefaultsTBCalculator Value="依据计算器"/>
+    <DefaultsLanguage Value="语言"/>
+    <DefaultsVideoMaker Value="录影制作商"/>
+
+    <!-- Viewer3D (inside) -->
+    <PressESCToAbort Value="按ESC 放弃"/>
+
+    <BackgroundColor Value="背景颜色"/>
+    <GridColor Value="栅格颜色"/>
+
+    <ShowLowpolyNormals Value="显示法线"/>
+    <ShowAO Value="显示每端点锁柱"/>
+    <DrawGrid Value="凹道栅格"/>
+    <ShowLowpolyWireframe Value="显示导线"/>
+    <ShowLowpolyTangents Value="显示正切"/>
+    <ShowLowpolyMeshes Value="显示低定义滤网"/>
+    <ShowHighpolyMeshes Value="显示高定义滤网"/>
+    <DrawStarfield Value="借鉴明星"/>
+
+    <DiffuseGIIntensity Value="散开全球性照明强度"/>
+    <LightIntensity Value="光强度"/>
+    <LightIndirectIntensity Value="轻间接强度"/>
+    <LightOrbitDistance Value="轻的轨道距离"/>
+    <LightAmbientColor Value="轻的四周颜色"/>
+    <LightDiffuseColor Value="光散开颜色"/>
+    <LightSpecularColor Value="轻的镜子颜色"/>
+    <LightSecondaryColor Value="轻的二次色"/>
+    <LightTertiaryColor Value="轻的三重颜色"/>
+
+    <Exposure Value="曝光 (DX10)"/>
+    <HDRThreshold Value="高动态范围门限(DX10)"/>
+
+    <SaveMeshes Value="之外滤网"/>
+    <ReloadTextures Value="再装纹理"/>
+    <ReloadMeshes Value="再装滤网"/>
+
+    <CastShadows Value="塑像阴影"/>
+    <ShadowBias Value="阴影偏心"/>
+    <AreaLightRadius Value="阴影半影(DX)"/>
+    <DisableFresnelReflections Value="功能失效菲涅耳"/>
+
+    <UseEmissiveGlow Value="使用放射性的焕发"/>
+    <EmissiveGlowIntensity Value="放射性的焕发强度"/>
+
+    <UseParallax Value="使用位差爆沸"/>
+    <ParallaxStrength Value="位差力量"/>
+
+    <ShowCage Value="显示笼"/>
+    <EditCage Value="编辑笼"/>
+    <CageOpacity Value="笼子混浊"/>
+    <CageColor Value="彩色笼子"/>
+    <CageGlobalExtrussion Value="全球笼挤压"/>
+
+    <SelectionExtrussion Value="选择挤压"/>
+    <IgnoreHiddenFacesForSelection Value="忽略暗藏的面孔为选择"/>
+    <UseMButtonToSelectVertices Value="按老鼠中间按钮选择端点"/>
+    <HoldShiftToMultiSelect Value="拿着移位键选择多个端点"/>
+    <SelectionMoveX Value="选择移动在X 轴"/>
+    <SelectionMoveY Value="选择移动在Y 轴"/>
+    <SelectionMoveZ Value="选择移动在Z 轴"/>
+    <ResetCageSelectionValues Value="重置"/>
+    <BreakCageSelectionValues Value="背"/>
+    <AverageCageSelectionValues Value="平"/>
+    <CameraAdvanceSensibility Value="照相机的先遣感觉"/>
+    <CameraRotationSensibility Value="照相机的自转感觉"/>
+    <AxisDebugScale Value="轴/调试凹道标度"/>
+    <CameraOrbitDistance Value="摄像轨道距离"/>
+
+    <FPS Value="FPS"/>
+
+    <Radius Value="半径"/>
+    <MaxCageExtrussion Value="最高笼距离"/>
+
+    <ASWDRMouseToMove Value="按ASWD + 鼠标右键移动照相机"/>
+    <CTRLRMouseToOrbitCam Value="按CTRL + 鼠标右键围绕照相机旋转"/>
+    <ALTRMouseToOrbitLight Value="按ALT + 鼠标右键移动光"/>
+    <F8ToTakeScreenshot Value="按F8 采取屏幕俘获"/>
+    <F1ToShowHideUI Value="按F1 显示/皮用户界面"/>
+    <F9ToVideoCapture Value="F9 对录影捕获"/>
+    <VideoCapturing Value="录影夺取..."/>
+
+    <LockLightToCamera Value="锁光相机"/>
+    <CameraAutoOrbitCenter Value="相机自动轨道中心"/>
+
+    <ALTENTERToAttach Value ="鼠标释放.按alt + enter重视"/>
+
+    <SSAOEnable Value="使画面空间环境闭塞"/>
+    <SSAOBright Value="ssao亮度"/>
+    <SSAOContrast Value="ssao对比"/>
+    <SSAOAtten Value="ssao衰减"/>
+    <SSAORadius Value="屏幕空间环境闭塞半径"/>
+    <SSAOBlurRadius Value="屏幕空间环境闭塞半径(blur)"/>
+
+    <SaveMeshesAutoAssign Value="你想不想自动分配节省下来的网格到你的网格插槽？"/>
+
+    <ShowBlockers Value="查看阻滞剂"/>
+
+    <ShowVDMSeams Value="查看接缝位移"/>
+    
+    <!-- Preview dialog -->
+    <NormalMap Value="正常地图"/>
+    <HeightMap Value="身高图"/>
+    <OcclusionMap Value="锁柱地图"/>
+    <ConvexityMap Value="凸地图"/>
+    <ThicknessMap Value="厚度图"/>
+    <ProximityMap Value="接近地图"/>
+    <BaseTextureBaked Value="基本的纹理被烘烤"/>
+
+    <Statistics Value="统计"/>
+    <NumRaysFailed Value="光芒失败了"/>
+    <MaxHeight Value="最大高度"/>
+    <MaxThickness Value="马克斯厚度"/>
+    <MaxProximity Value="马克斯近距离"/>
+    <TimeInSecs Value="时间(在几秒钟内)"/>
+    <KRaysPerSec Value="K 光芒/其次"/>
+    <MapsRAMInMb Value="地图使用了记忆(Mb)"/>
+    <LowpolyRAMInMb Value="低定义滤网的半新记忆(Mb)"/>
+    <HighpolyRAMInMb Value="高定义滤网的半新记忆(Mb)"/>
+
+    <NotifyTileUpdates Value="通知瓷砖更新"/>
+    <DoNotNotifyTileUpdates Value="不通知瓷砖更新"/>
+
+</Localization>

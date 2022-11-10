@@ -1,0 +1,570 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization xmlns="http://www.xnormal.net/xNormal" Name="Italiano (Italian)" Version="3.19.3" ISO3166One="it-IT" RightToLeft="false">
+
+    <!-- General -->
+    <LoadingPlugin Value="Carico plugin"/>
+    <Visible Value="Visibile"/>
+    <Warning Value="Avvertimento"/>
+    <Error Value="Errore"/>
+    <Filter Value="Filtro"/>
+    <Enabled Value="Permesso"/>
+    <Disabled Value="Disabled"/>
+    <File Value="Lima"/>
+    <Copy Value="Copiare"/>
+    <Paste Value="Colla"/>
+    <Save Value="Tenere"/>
+    <AllKnownFileTypes Value="Tutti i tipi di file conosciuti"/>
+    <Color Value="Colore"/>
+    <FileAreadyExistsOverwriteConfirmation Value="Il file esiste già. Vuoi sovrascriverlo?"/>
+    <Threshold Value="Soglia"/>
+    <Maximum Value="Massimo"/>
+    <Minimum Value="Minimo"/>
+    <Options Value="Opzioni"/>
+    
+    <!-- GeneralUI -->
+    <RightClickToShowContextMenu Value="Premere il tasto di mouse di destra per mostrare il menu di contesto"/>
+
+    <Close Value="Fine"/>
+    <CloseToolip Value="Scattisi qui per chiudere xNormal"/>
+
+    <GenerateMaps Value="Generi I Programmi"/>
+    <GenerateMapsTooltip Value="Scattisi qui PER INIZIARE a generare i programmi"/>
+    <Generating Value="Generazione"/>
+    <Progress Value="Progresso"/>
+
+    <AbortMaps Value="Terminazione"/>
+    <AbortMapsTooltip Value="Scattisi qui PER ABBANDONARE il processo di generazione"/>
+    <MinimizeTooltip Value="Scattisi qui per minimizzare la finestra xNormal"/>
+    <PluginManagerTooltip Value="Scattisi qui per mostrare il responsabile plugin"/>
+    <ButtonSoundsTooltip Value="Scattisi qui per enable/disable i suoni del tasto"/>
+    <HaltedTooltip Value="Questo indicatore cambia il relativo colore all'esposizione se xNormal è fermato oppure no"/>
+
+    <ClickToBrowseTexture Value="Scattisi qui per passare in rassegna l'immagine o la struttura"/>
+    <BrowseTextureDialogTitle Value="Per favore, selezioni l'immagine o la struttura"/>
+    <ClickToResetTexture Value="Scattisi qui per ripristinare l'immagine o la struttura"/>
+
+    <DefaultMeshScale Value="Default maglia scala"/>
+
+    <SmoothNormals Value="Normals lisci"/>
+    <UseExportedNormals Value="Usi i normals esportati"/>
+    <AverageNormals Value="Normals medii"/>
+    <HardenNormals Value="Indurisca i normals"/>
+
+    <ClearAllMeshes Value="Cancella tutte le maglie"/>
+
+    <FileOverwriteWarning Value="Sovrascrivere file di avvertimento"/>
+
+  <!-- Highpoly tab -->
+    <HighpolyButtonText Value="Alte maglie di definizione"/>
+    <HighpolyButtonTooltip Value="Scattisi qui per mostrare l'alta lista delle maglie di definizione e le loro opzioni"/>
+
+    <HighpolyVisibleTooltip Value="Controllilo per rendere l'alta maglia di definizione visibile (nel visore 3D e per l'raggio-elemento tracciante)"/>
+
+    <HighpolyFileTooltip Value="Lima che contiene l'alta maglia di definizione. Giusto scatto per mostrare il menu di contesto"/>
+
+    <HighpolyBaseTextureToBake Value="Struttura bassa da cuocere"/>
+    <HighpolyBaseTextureToBakeTooltip Value="Struttura bassa di alto modello di definizione che sarà proiettato nella definizione bassa una"/>
+    <HighpolyBaseTextureIsTSNM Value="La base è un tessuto spazio-tangente normale mappa"/>
+    
+    <HighpolyIgnorePerVertexColor Value="Ignori l'color di per-vertice"/>
+    <HighpolyMenu_BrowseMeshes Value="Passi in rassegna le maglie"/>
+    <HighpolyMenu_BrowseBaseTexstureForBaking Value="Passi in rassegna le maglie"/>
+    <HighpolyMenu_ResetBaseTexstureForBaking Value="Reset trama di base per la cottura"/>
+    <HighpolyMenu_Delete Value="Maglia di cancellazione"/>
+
+    <HighpolyMenu_BrowseMeshesDialogTitle Value="Per favore, selezioni gli ALTI modelli di DEFINIZIONE PER AGGIUNGERE"/>
+
+    <HighpolyMenu_LoadMeshFolder Value="Dispositivo di piegatura della maglia del carico"/>
+    <FolderToLoad Value="Dispositivo di piegatura da caricare"/>
+    <StartingName Value="Iniziare nome"/>
+    <MeshFileExtension Value="Maglia del file con estensione"/>
+    <MeshFileExtensionTooltip Value="Maglia estensione del file (per esempio, obj), senza alcun punto"/>
+    <ImageFileExtension Value="L'estensione del file immagine"/>
+    <ImageFileExtensionTooltip Value="L'estensione del file immagine (ad esempio, jpg), senza alcun punto"/>
+
+    <Load Value="Carico"/>
+
+    <!-- Lowpoly tab -->
+    <LowpolyButtonText Value="Maglie basse di definizione"/>
+    <LowpolyButtonTooltip Value="Scattisi qui per mostrare la lista bassa delle maglie di definizione e le loro opzioni"/>
+
+    <LowpolyVisibleTooltip Value="Controllilo per rendere la maglia bassa di definizione visibile (nel visore e nell'raggio-elemento tracciante)"/>
+
+    <LowpolyFileTooltip Value="Lima che contiene la maglia bassa di definizione. Giusto scatto per mostrare il menu di contesto"/>
+
+    <LowpolyMaxRayDistanceFront Value="Distanza massima del raggio (parte anteriore)"/>
+    <LowpolyMaxRayDistanceFrontTooltip Value="Distanza massima del raggio dell'uniforme (per i raggi del anteriore-lato)"/>
+
+    <LowpolyMaxRayDistanceBack Value="Distanza massima del raggio (posteriore)"/>
+    <LowpolyMaxRayDistanceBackTooltip Value="Distanza massima del raggio dell'uniforme (per i raggi del dorso)"/>
+
+    <LowpolyUseCage Value="Usi la gabbia"/>
+    <LowpolyUseCageTooltip Value="Controllilo per usare una gabbia prestabilita dall'utente che contiene le distanze massime del raggio"/>
+    <LowpolyExternalCageWarning Value="Se specificate una lima esterna della gabbia prego SICURA la maglia selezionata avete ASSOLUTAMENTE la STESSA topologia che lowpoly la maglia o otterrete gli errori..."/>
+
+    <LowpolyBatchProtection Value="Protezione in lotti"/>
+    <LowpolyBatchProtectionTooltip Value="Controllilo per impedire i pixel di questa maglia da scrivere sopra dalla maglia batch-resa seguente"/>
+
+    <LowpolyExternalCageFile Value="Lima esterna della gabbia"/>
+    <LowpolyExternalCageFileTooltip Value="Giusto scatto per mostrare il menu per caricare la lima esterna della gabbia"/>
+
+    <LowpolyAONormalsOverrideFile Value="Lima della sovrapposizione di un comando manuale di normals di Highpoly"/>
+    <LowpolyAONormalsOverrideFileTooltip Value="Selezionare un programma normale per escludere highpoly i normals di colpo nel calcolo ambientale di occlusione"/>
+    <LowpolyAONormalsOverrideTangentSpace Value="Spazio di tangente della sovrapposizione di un comando manuale di normals di Highpoly"/>
+    <LowpolyAONormalsOverrideTangentSpaceTooltip Value="Contrassegnarlo per usare un programma normale dello tangente-spazio o per mantenerlo incontrollato per usare uno oggetto-spazio uno"/>
+
+    <LowpolyMeshScale Value="Scala della maglia"/>
+
+    <LowpolyRenderOrder Value="Renda l'ordine"/>
+    <LowpolyRenderOrderTooltip Value="Il batch rende l'ordine. Le maglie saranno rese dall'alto al basso"/>
+
+    <LowpolyMenu_BrowseMeshes Value="Passi in rassegna le maglie"/>
+    <LowpolyMenu_MoveUp Value="Mouse in su"/>
+    <LowpolyMenu_MoveDown Value="Abbassisi"/>
+    <LowpolyMenu_Delete Value="Cancellazione"/>
+    <LowpolyMenu_BrowseExternalCage Value="Passare in rassegna la lima esterna della gabbia"/>
+    <LowpolyMenu_ResetExternalCage Value="Ripristinare la lima esterna della gabbia"/>
+
+    <LowpolyMenu_BrowseMeshesDialogTitle Value="Per favore, selezioni i modelli di LOWPOLY PER AGGIUNGERE"/>
+    <LowpolyMenu_BrowseCageDialogTitle Value="Per favore, selezionare la lima esterna della maglia della gabbia"/>
+
+    <LowpolyMenu_BrowseAONormalsOverride Value="Passare in rassegna highpoly la sovrapposizione di un comando manuale di normals"/>
+    <LowpolyMenu_ResetAONormalsOverride Value="Di risistemazione sovrapposizione di un comando manuale di normals highpoly"/>
+
+    <Lowpoly_BlockersFile Value="Bloccanti file"/>
+    <LowpolyMenu_BrowseBlockers Value="People bloccanti file"/>
+    <LowpolyMenu_ResetBlockers Value="Reset bloccanti file"/>
+    
+    <!-- Normal map tab -->
+    <NormalmapButtonText Value="Programma normale"/>
+    <NormalmapButtonTooltip Value="Scattisi qui per mostrare le opzioni normali del programma"/>
+
+    <NormalmapOutputFile Value="Archivio di uscita"/>
+    <NormalmapOutputFileTooltip Value="Selezioni qui un nome di archivio per usando dei programmi dell'uscita '... ' tasto"/>
+
+    <NormalmapSize Value="Formato"/>
+    <NormalmapSizeTooltip Value="Il formato, in pixels, dell'uscita traccia. Non li suggerisco per passare 2048x2048 o sarò molto lento e consumerò le tonnellate di memoria"/>
+
+    <NormalmapBackgroundColor Value="Colore della priorità bassa"/>
+    <NormalmapEdgePadding Value="Riempimento del bordo"/>
+    <NormalmapBucketSize Value="Formato della benna"/>
+
+    <NormalmapAntialiasing Value="Anti-aliasing"/>
+
+    <NormalmapGenerateMipmaps Value="Generi i mipmaps"/>
+    <NormalmapGenerateMipmapsTooltip Value="Controllilo per generare i mipmaps molto esatti. Uncheck esso se non avete bisogno dei mipmaps."/>
+
+    <NormalmapClosestHitIfRayFails Value="Colpo più vicino se il raggio viene a mancare"/>
+    <NormalmapClosestHitIfRayFailsTooltip Value="Usi il colpo più vicino se non ci è scontro del raggio fra lowpoly la maglia e highpoly la maglia. Conservazione che ha controllato per evitare i problemi."/>
+
+    <NormalmapDiscardBackFacesHits Value="Scarti i colpi delle indietro-facce"/>
+    <NormalmapDiscardBackFacesHitsTooltip Value="Controllilo per scartare il raggio colpito se lowpoly il normale e highpoly il normale sono di fronte a"/>
+
+    <GenerateNormals Value="Generi il programma di normale"/>
+    <NormalmapSwizzleCoordinates Value="Trasformi le coordinate"/>
+    <NormalmapSwizzleCoordinatesTooltip Value="Potete trasformare le coordinate normali finali del programma usando questo"/>
+    <NormalmapTangentSpace Value="Spazio di tangente"/>
+    <NormalmapTangentSpaceTooltip Value="Controllilo per generare un programma di normale dello tangente-spazio. Uncheck esso per usare uno oggetto-spazio uno"/>
+
+    <NormalmapBakeHighpolyBaseTex Value="Cuocia l'alta struttura della base della maglia di definizione nella maglia bassa di definizione"/>
+    <NormalmapBakeHighpolyBaseTexTooltip Value="Controllilo per cuocere l'alta struttura della base della maglia di definizione nella maglia bassa di definizione"/>
+    <NormalmapBakeHighpolyBaseTexWriteObjectIDIfNoTexture Value="Scriva ObjectID se nessuna struttura"/>
+    <NormalmapBakeHighpolyBaseTexDrawUsingThisColor Value="Disegnare utilizzando questo colore"/>
+
+    <NormalmapRenderer Value="Renderer"/>
+    <NormalmapRendererTooltip Value="Selezioni qui il renderer per usare"/>
+
+    <NormalmapAdditionalMaps Value="Programmi supplementari"/>
+
+    <NormalmapGenerateAmbientOcclusion Value="Generi l'occlusione ambientale"/>
+    <NormalmapGenerateAmbientOcclusionTooltip Value="Controllilo per generare il programma ambientale di occlusione"/>
+
+    <NormalmapAODistribution Value="Distribuzione"/>
+    <NormalmapAODistributionTooltip Value="Scelga qui la distribuzione ambientale di occlusione. L'uniforme dà solitamente i risultati più puliti ed il coseno più scuri"/>
+    <NormalmapAODistributionUniform Value="Uniforme"/>
+    <NormalmapAODistributionCosine Value="Coseno"/>
+    <NormalmapAOLimitRayDistance Value="Limiti la distanza del raggio"/>
+    <NormalmapAOAttenuation Value="Attenuazione"/>
+    <NormalmapAOEnableWeighting Value="Permettere appesantire"/>
+    <NormalmapAOPRTColorNormalize Value="PRT colore normalizzare"/>
+
+    <NormalmapAOAllowPureOcclusion Value="Consenti puro occlusione"/>
+    <NormalmapAOCoordinateSystem Value="Sistema di Coordinate"/>
+    <NormalmapEncodeAO Value="Codifica occlusione"/>
+
+    <NormalmapGenerateProximity Value="Generare la prossimità"/>
+
+    <NormalmapRays Value="Raggi"/>
+    <NormalmapAngle Value="Angolo"/>
+    <NormalmapMinValue Value="Valore Minimo"/>
+    <NormalmapMaxValue Value="Valore Massimo"/>
+    <NormalmapMinValueInvalid Value="Valore minimo non valido (necessità di essere di meno o uguale che il valore massimo)"/>
+
+    <NormalmapConvexityScale Value="Scala di convessità"/>
+    <NormalmapConcavity Value="Concavità"/>
+
+    <NormalmapFilters Value="Filtri"/>
+
+    <NormalmapWireframeAndRayFails Value="Wireframe e non Ray"/>
+    <NormalmapRenderWireframe Value="Render wireframe"/>
+    <NormalmapRenderRayFails Value="Ray non rendere"/>
+
+    <NormalmapDirectionMap Value="Direzione mappa"/>
+    <NormalmapEncodeHeights Value="Codifica altezze"/>
+
+	<NormalmapBakeHighpolyVertexColors Value="Bake highpoly's vertex colors"/>
+
+	<ImageFilterMenu_Tooltip Value="Scatti il tasto di mouse di destra per mostrare il menu del filtro"/>
+    <ImageFilterMenu_AddFilter Value="Aggiunga il filtro di immagine"/>
+    <ImageFilterMenu_RemoveFilter Value="Rimuova il filtro di immagine"/>
+    <ImageFilterMenu_MoveUp Value="Alzi il filtro"/>
+    <ImageFilterMenu_MoveDown Value="Abbassi il filtro"/>
+    <ImageFilterMenu_ShowInfo Value="Mostri il filtro Info"/>
+    <ImageFilterMenu_Configure Value="Configuri il filtro"/>
+
+    <AutoNormalizeHeight Value="Auto-normalizzare le altezze"/>
+    <ManualNormalization Value="Manuale di altezze"/>
+    
+    <!-- Fine detail tab-->
+    <FineDetailButtonText Value="Particolare fine"/>
+    <FineDetailButtonTooltip Value="Scattisi qui per aprire le opzioni fini del particolare"/>
+
+    <FineDetailFile Value="Lima di particolare"/>
+    <FineDetailFileTooltip Value="Selezioni qui usando '...' abbottoni un'immagine firmata del heightmap per il micro-particolare fine"/>
+    <FineDetailBlendFactor Value="Fattore di miscela"/>
+    <FineDetailBlendFactorTooltip Value="Fattore di mescolamento della miscela. Zero significa che nessun particolare sarà aggiunto al normalmap. Uno significa vedrete che soltanto il particolare e voi non vedranno il programma normale generato affatto. 0.5 mezzi un 50% del particolare saranno mescolati con il programma normale generato"/>
+
+    <!-- Tools -->
+    <ToolsButtonText Value="Attrezzi"/>
+    <ToolsButtonTooltip Value="Scattar qui per aprire gli attrezzi"/>
+    <ToolsAvailable Value="Lavora disponibile"/>
+
+    <ToolsHeightmapToNM Value="Programma di altezza al programma normale"/>
+    <ToolsOptions Value="Opzioni"/>
+    <ToolsHeightSrc Value="Fonte di altezze"/>
+    <ToolsNormalizeHeights Value="Normalizzare le altezze"/>
+    <ToolsSmooth Value="Liscio"/>
+    <ToolsSmoothTooltip Value="Ciò comandi come il abrubt il normale sarà"/>
+    <ToolsMethod Value="Metodo"/>
+    <ToolsMethodTooltip Value="Ciò controlla il metodo della generazione. Il metodo (e più taglienti) più veloci è i quattro campioni. Per ottenere uso che più regolare di risultati i 7x7 filtrano "/>
+    <ToolsPutHeightInAlpha Value="Mettere l'altezza nell'alfa"/>
+    <ToolsBrowseHeightmap Value="Selezionare il programma normale"/>
+    <ToolsSaveNormalmap Value="Risparmi il programma normale"/>
+
+    <ToolsNormalmapToCavity Value="Programma normale dello tangente-spazio al programma della cavità"/>
+    <ToolsCavityMap Value="Programma della cavità"/>
+    <ToolsBrowseTangentSpaceNormalmap Value="Passi in rassegna il programma di normale dello tangente-spazio"/>
+    <ToolsBright Value="Luminoso" />
+    <ToolsContrast Value="Contrasto" />
+    <ToolsNormalize Value="Normalizzi"/>
+    <ToolsUseLuminance Value="Usi la luminosità"/>
+    <ToolsSaveCavitymap Value="Risparmi il programma della cavità"/>
+
+    <ToolsGenerate Value="Generare"/>
+    <ToolsAllowTiling Value="Concedere coprire di tegoli"/>
+    <ToolsSavedOK Value="La lima è stata conservata con successo"/>
+
+    <ToolsPhotoLightLeft Value="Di sinistra-ha illuminato la foto"/>
+    <ToolsPhotoLightRight Value="Di destra-ha illuminato la foto"/>
+    <ToolsPhotoLightTop Value="Parte-ha illuminato la foto"/>
+    <ToolsPhotoLightBottom Value="Parte-ha illuminato la foto"/>
+    <ToolsLoadImage Value="Immagine del carico"/>
+
+    <ToolsHeightmapToOcclusion Value="Programma di altezza al programma di occlusione"/>
+    <ToolsSaveOcclusionmap Value="Immagazzinare il programma di occlusione"/>
+
+    <ToolsObjectTangentSpaceConverter Value="Convertitore dello spazio tangente/dell'oggetto"/>
+    <ToolsInputNormalmap Value="Programma di normale dell'input"/>
+    <ToolsOutputNormalmap Value="Programma di normale dell'uscita"/>
+    <ToolsConvertObjectToTangentSpace Value="Spazio dell'oggetto del convertito allo spazio di tangent"/>
+    <ToolsConvertTangentToObjectSpace Value="Spazio di tangente del convertito per obiettare spazio"/>
+
+    <ToolsRelaxedConemap Value="Programma disteso del cono"/>
+    <ToolsHeightmapToRelaxedConemap Value="Programma di altezza al programma disteso del cono"/>
+    <ToolsConemapNSteps Value="Punti"/>
+    <ToolsConemapSave Value="Il risparmio si è disteso il programma del cono"/>
+    <ToolsHeightIsDepth Value="L'altezza è profondità"/>
+
+    <ToolsSimpleAOGenerator Value="Generatore ambientale semplice di occlusione"/>
+    <ToolsPrecision Value="Precisione"/>
+    <ToolsPrecisionWarning Value="Avete regolato FP16 e più di 2048 campioni. Secondo il vostro GPU questo potrebbe essere o non possibile così, se vedete un risultato errato, faccia diminuire prego il numero di campioni o cambi a precisione CPU/FP32"/>
+    <ToolsCosineWeightingWarning Value="Bright maggiore di 1,0 non è consigliato quando si utilizzano coseno ponderazione ... Ma anche ... Sei che decidono ..."/>
+    <ToolsSimpleGPUMeshDenseWarning Value="La maglia è molto denso. Alcune schede grafiche non consentono di utilizzare maglie con più di 1 o 16 milioni di vertici o triangoli. Se si osservano uno completamente nero o bianco risultato finale può essere dovuto a questo."/>
+    <ToolsSimpleGPUSmoothShadows Value="Ombre liscie"/>
+
+    <ToolsRayDistanceCalculator Value="Ray distanza calcolatrice"/>
+
+    <ToolsSH Value="Ambiente cubo mappa per ambiente cubo mappa generatore"/>
+    <ToolsSHInputEnvironmentCubeMap Value="Ingresso ambiente cubo mappa"/>
+    <ToolsSHOutputAmbientCubeMap Value="Ambient cubo mappa"/>
+    <ToolsSHOutputCoefficients Value="Uscita coefficienti"/>
+    <ToolsSHNumberOfBands Value="Numero di bande"/>
+    <ToolsSHNumberOfBandsTooltip Value="Meno mezzi più sfocatura. Più mezzi meno di sfocatura."/>
+    <ToolsSHBrowseCubeMap Value="Selezionare la mappa cubi"/>
+    
+    <!-- 3D Viewer -->
+    <Viewer3DButtonText Value="Visore 3D"/>
+    <Viewer3DButtonTooltip Value="Scattisi qui per mostrare le opzioni del visore 3D"/>
+
+    <Viewer3DMesh Value="Maglia bassa di definizione"/>
+    <Viewer3DMeshTooltip Value="Usi il combobox per selezionare una maglia per pubblicare le relative proprietà"/>
+    <Viewer3DCastShadows Value="Ombre del getto"/>
+    <Viewer3DCastShadowsTooltip Value="Controllilo se desiderate questa maglia lanciare le ombre sopra altre maglie"/>
+    <Viewer3DReceiveShadows Value="Ricevi le ombre"/>
+    <Viewer3DReceiveShadowsTooltip Value="Controllilo se desiderate questa maglia ricevere le ombre da altre maglie"/>
+    <Viewer3DBackfaceCull Value="Raccolta di backface"/>
+    <Viewer3DBackfaceCullTooltip Value="Controllilo per nascondere le facce che non indicano alla macchina fotografica per ottimizzare la velocità di rappresentazione"/>
+
+    <Viewer3DBaseTex Value="Struttura bassa"/>
+    <Viewer3DBaseTexTooltip Value="(diffondasi, albedo) la struttura bassa"/>
+
+    <Viewer3DTransparencyModeLabel Value="Modo dell'acetato"/>
+    <Viewer3DTransparencyMode_None Value="Nessuno"/>
+    <Viewer3DTransparencyMode_1Bit Value="1Bit"/>
+    <Viewer3DTransparencyMode_AdditiveGlow Value="Additivo-emettere luce"/>
+    <Viewer3DTransparencyMode_ScreenGlass Value="Schermo-vetro"/>
+    <Viewer3DTransparencyMode_Blend Value="Miscela"/>
+
+    <Viewer3DNormTex Value="Normale"/>
+    <Viewer3DNormTexTooltip Value="Programma normale"/>
+    <Viewer3DTangentSpace Value="Spazio di tangente"/>
+    <Viewer3DTangentSpaceTooltip Value="Controllilo se il normalmap è nello spazio o nel uncheck di tangente esso se per lo spazio dell'oggetto"/>
+    <Viewer3DNMSwizzle Value="Permutare"/>
+
+    <Viewer3DHeightTex Value="Programma di altezza"/>
+    <Viewer3DHeightTexTooltip Value="Programma di altezza per il tracciato di parallasse"/>
+
+    <Viewer3DOccLMTex Value="Occlusione/struttura chiara del programma"/>
+    <Viewer3DOccLMTexTooltip Value="La struttura del programma della luce o di occlusione moltiplicerà il colore basso di struttura"/>
+    <Viewer3DUsePerVertexColors Value="Usi l'color di per-vertice"/>
+
+    <Viewer3DReflectTex Value="Rifletta la struttura"/>
+    <Viewer3DReflectTexTooltip Value="Struttura del programma del cubo dell'ambiente"/>
+    <Viewer3DEnableFresnel Value="Permetta fresnel"/>
+    <Viewer3DEnableFresnelTooltip Value="Controllilo per rendere le superfici che indicano alla macchina fotografica più riflettenti"/>
+    <Viewer3DFresnelRefractiveIndex Value="Fresnel riflette l'indice"/>
+    <Viewer3DFresnelRefractiveIndexTooltip Value="Indicare di valore quanta luce deve riflettere la superficie. 1.33 è acqua, 2 è un diamante, 30 è uno specchio"/>
+    <Viewer3DGlossTex Value="Struttura di lucentezza"/>
+    <Viewer3DGlossTexTooltip Value="La struttura di lucentezza moltiplica la struttura di riflessione. Usi questo per rendere alcuni pixel riflettenti o non riflettenti"/>
+
+    <Viewer3DEmissiveTex Value="Struttura di Emissive"/>
+    <Viewer3DEmissiveTexTooltip Value="La struttura di Emissive aggiungerà 'un'incandescenza 'chiara anche quando non ci è presente della luce"/>
+
+    <Viewer3DSpecularTex Value="Struttura speculare"/>
+    <Viewer3DSpecularTexTooltip Value="I valori di RGB della struttura speculare moltipliceranno il fattore speculare della luce. L'ALFA sarà usata per controllare il termine Phong-esponenziale (più mezzi più taglienti)"/>
+
+    <Viewer3DDiffuseGITex Value="Struttura diffusa GI"/>
+    <Viewer3DDiffuseGITexTooltip Value="Programma diffuso del cubo con la distribuzione a bassa frequenza di illuminazione ambientale. Ideale per simulare gli ambienti esterni"/>
+
+    <Viewer3DRunWindowed Value="Funzioni nel modo della finestra"/>
+    <Viewer3DRunWindowedTooltip Value="Scattisi qui per fare funzionare il visore 3D nel modo della finestra (schermo non pieno)"/>
+    <Viewer3DVideoMode Value="Video modo"/>
+    <Viewer3DVideoModeTooltip Value="Selezioni qui il video modo che il visore 3D userà"/>
+
+    <Viewer3DPlayMusic Value="Musica del gioco all'interno del visore"/>
+    <Viewer3DPlayMusicTooltip Value="Controlli questo se desiderate xNormal giocare una certa musica della priorità bassa mentre usate il visore 3D"/>
+
+    <Viewer3DUseXBox360Gamepad Value="Usi XBox 360 leva di comando"/>
+    <Viewer3DUseXBox360GamepadTooltip Value="Lo controlli per usare il XBox 360 leva di comando nell'osservatore del 3D"/>
+
+    <Viewer3DLaunch Value="Visore del lancio"/>
+    <Viewer3DLaunchTooltip Value="Premi qui per iniziare il visore 3D"/>
+
+    <!-- Settings and examples-->
+    <SettingsAndExamplesButtonText Value="Regolazioni ed esempi"/>
+    <SettingsAndExamplesButtonTooltip Value="Scattisi qui per aprire le opzioni delle regolazioni e gli esempi"/>
+
+    <SettingsLoad Value="Regolazioni del carico"/>
+    <SettingsLoadTooltip Value="Scattisi qui per caricare una lima di XML con le regolazioni precedentemente conservate"/>
+    <SettingsLoadDialogTitle Value="Per favore, selezioni una lima di XML PER CARICARE contenere le regolazioni precedente-conservate"/>
+    <SettingsLoadedOK Value="Regolazioni caricate correttamente"/>
+    <SettingsLoadError Value="Errore. Non può caricare le regolazioni."/>
+
+    <SettingsRestore Value="Regolazioni di difetto di restore"/>
+    <SettingsRestoreTooltip Value="Scattisi qui per ripristinare le regolazioni di difetto"/>
+    <SettingsRestoredOK Value="Le regolazioni sono state ristabilite con i valori di difetto"/>
+
+    <SettingsSave Value="Risparmi le regolazioni"/>
+    <SettingsSaveTooltip Value="Scattisi qui per conservare le regolazioni correnti ad una lima di XML"/>
+    <SettingsSaveDialogTitle Value="Per favore, selezioni una lima di XML dove CONSERVARE le regolazioni correnti"/>
+    <SettingsSavedOK Value="Le regolazioni sono state conservate correttamente"/>
+    <SettingsSaveError Value="Errore. Non può conservare le regolazioni."/>
+
+    <SettingsXMLFilter Value="regolazioni xNormal di XML"/>
+
+    <SettingsExamplesGroupbox Value="Esempi"/>
+
+    <AcidButtonText Value="L'Acido Riflettente"/>
+    <AcidButtonTooltip Value="Scattisi qui per caricare l'esempio 'acido '"/>
+
+    <WallButtonText Value="Parete Parallasse-tracciata"/>
+    <WallButtonTooltip Value="Scattisi qui per caricare l'esempio della parete"/>
+
+    <DiabloButtonText Value="Diablo Del Pablo Hoyos"/>
+    <DiabloButtonTooltip  Value="Scattisi qui per caricare l'esempio del Diablo del Pablo il Hoyos" />
+
+    <XemakosButtonText Value="Xemakos Del Paul Greveson"/>
+    <XemakosButtonTooltip Value="Scattisi qui per aprire l'esempio del General Xemakos del Paul il Greveson"/>
+
+    <SyliaButtonText Value="Sylia Di Kevin George"/>
+    <SyliaButtonTooltip Value="Scattisi qui per aprire l'esempio di Sylia di Kevin il George"/>
+
+    <FlagButtonText Value="Cottura bassa di struttura della bandierina"/>
+    <FlagButtonTooltip Value="Scattar qui per aprire l'esempio della bandierina"/>
+
+    <MirroredUVsAndHardEdgesButtonText Value="UVs rispecchiati ed orli duri"/>
+    <MirroredUVsAndHardEdgesTooltip Value="Clicchi qui per aprire l'UVs rispecchiato ed esempio di orli duro"/>
+
+    <!-- Support and about-->
+    <SupportAndAboutButtonText Value="Supporto e circa"/>
+    <SupportAndAboutButtonTooltip Value="Scattisi qui per aprire il supporto e circa la finestra"/>
+
+    <WebPage Value="Web page"/>
+    <ContactEMail Value="Email del contatto"/>
+
+    <!-- Plugin manager -->
+    <AllThePluginsTab Value="Tutti i plugins"/>
+    <ImageImportersTab Value="Importatori di immagine"/>
+    <ImageExportersTab Value="Esportatori di immagine"/>
+    <ImageFiltersTab Value="Filtri di immagine"/>
+    <MeshImportersTab Value="Importatori della maglia"/>
+    <MeshExportersTab Value="Esportatori della maglia"/>
+    <GraphicsDriversTab Value="Driver dei grafici"/>
+    <TangentBasisCalculatorsTab Value="Calcolatori di base di tangente"/>
+    <RenderersTab Value="Renderers"/>
+    <VideoMakersTab Value="Video Creatori"/>
+
+    <PluginInformation Value="Le informazioni plugin"/>
+    <PluginName Value="Nome"/>
+    <PluginGUID Value="Contrassegno unico globale"/>
+    <PluginDescription Value="Descrizione"/>
+    <PluginAuthor Value="Autore"/>
+    <PluginVersion Value="Versione"/>
+    <PluginConfigure Value="Configuri"/>
+
+    <Defaults Value="Difetti"/>
+    <DefaultsGraphicsDriver Value="Driver dei grafici"/>
+    <DefaultsTBCalculator Value="Calcolatore di base"/>
+    <DefaultsLanguage Value="Lingua"/>
+    <DefaultsVideoMaker Value="Video Creatore"/>
+
+    <!-- Viewer3D (inside) -->
+    <PressESCToAbort Value="Premi l'ESC per abbandonare"/>
+
+    <BackgroundColor Value="Priorità bassa colore"/>
+    <GridColor Value="Colore della griglia"/>
+
+    <ShowLowpolyNormals Value="Mostri i normals"/>
+    <ShowAO Value="Mostri l'occlusione di per-vertice"/>
+    <DrawGrid Value="Griglia di tiraggio"/>
+    <ShowLowpolyWireframe Value="Mostri i legare"/>
+    <ShowLowpolyTangents Value="Mostri le tangenti"/>
+    <ShowLowpolyMeshes Value="Mostri le maglie basse"/>
+    <ShowHighpolyMeshes Value="Mostri le alte maglie"/>
+    <DrawStarfield Value="Stelle di tiraggio"/>
+
+    <DiffuseGIIntensity Value="Intensità globale diffusa di illuminazione"/>
+    <LightIntensity Value="Intensità della luce della luce"/>
+    <LightIndirectIntensity Value="Intensità di luce indiretta"/>
+    <LightOrbitDistance Value="Distanza chiara di orbita"/>
+    <LightAmbientColor Value="Colore ambientale chiaro"/>
+    <LightDiffuseColor Value="Colore diffuso della luce"/>
+    <LightSpecularColor Value="Colore speculare chiaro"/>
+    <LightSecondaryColor Value="Colore secondario chiaro"/>
+    <LightTertiaryColor Value="Colore terziario chiaro"/>
+
+    <Exposure Value="Esposizione (DX10)"/>
+    <HDRThreshold Value="HDR Threshold (DX10)"/>
+
+    <SaveMeshes Value="Risparmi le maglie"/>
+    <ReloadTextures Value="Strutture della ricarica"/>
+    <ReloadMeshes Value="Maglie della ricarica"/>
+
+    <CastShadows Value="Ombre"/>
+    <ShadowBias Value="Polarizzazione dell'ombra"/>
+    <AreaLightRadius Value="Penumbra dell'ombra(DX)"/>
+    <DisableFresnelReflections Value="Inabiliti Fresnel"/>
+
+    <UseEmissiveGlow Value="Usi l'incandescenza emissive"/>
+    <EmissiveGlowIntensity Value="Intensità di incandescenza di Emissive"/>
+
+    <UseParallax Value="Usi l'urto di parallasse"/>
+    <ParallaxStrength Value="Resistenza di parallasse"/>
+
+    <ShowCage Value="Mostri la gabbia"/>
+    <EditCage Value="Pubblichi la gabbia"/>
+    <CageOpacity Value="Opacità della gabbia"/>
+    <CageColor Value="Colore della gabbia"/>
+    <CageGlobalExtrussion Value="Espulsione globale della gabbia"/>
+
+    <SelectionExtrussion Value="Espulsione di selezione"/>
+    <IgnoreHiddenFacesForSelection Value="Ignori le facce nascoste per la selezione"/>
+    <UseMButtonToSelectVertices Value="Tasto centrale per selezionare i vertici"/>
+    <HoldShiftToMultiSelect Value="SPOSTI a multiselect"/>
+    <SelectionMoveX Value="Movimento X di selezione"/>
+    <SelectionMoveY Value="Movimento Y di selezione"/>
+    <SelectionMoveZ Value="Movimento Z di selezione"/>
+    <ResetCageSelectionValues Value="Azzerare"/>
+    <BreakCageSelectionValues Value="Rompere"/>
+    <AverageCageSelectionValues Value="Media"/>
+    <CameraAdvanceSensibility Value="Sensibilità di avanzamento"/>
+    <CameraRotationSensibility Value="Sensibilità di rotazione"/>
+    <AxisDebugScale Value="L'asse/mette a punto la scala"/>
+    <CameraOrbitDistance Value="Distanza di orbita della cámara"/>
+
+    <FPS Value="FPS"/>
+
+    <Radius Value="Raggio"/>
+    <MaxCageExtrussion Value="Distanza massima gabbia"/>
+
+    <ASWDRMouseToMove Value="ASWD+tasto di destra sposta la cámara"/>
+    <CTRLRMouseToOrbitCam Value="CTRL+tasto di destra orbita intorno cámara"/>
+    <ALTRMouseToOrbitLight Value="ALT+tasto di destra orbita intorno luce"/>
+    <F8ToTakeScreenshot Value="F8 prende un bloccaggio di schermo"/>
+    <F1ToShowHideUI Value="F1 le esposizioni/nasconde l'UI"/>
+    <F9ToVideoCapture Value="F9 al video bloccaggio"/>
+    <VideoCapturing Value="VIDEO CHE BLOCCA..."/>
+
+
+    <LockLightToCamera Value="Bloccare la luce alla camara"/>
+    <CameraAutoOrbitCenter Value="Camera auto-orbit-center"/>
+
+    <ALTENTERToAttach Value ="Mouse liberato. Premere ALT+ENTER per fissare"/>
+
+    <SSAOEnable Value="Attiva SSAO"/>
+    <SSAOBright Value="SSAO Luminosità"/>
+    <SSAOContrast Value="SSAO Contrasto"/>
+    <SSAOAtten Value="SSAO Attenuazione"/>
+    <SSAORadius Value="Area di SSAO"/>
+    <SSAOBlurRadius Value="Area di blur di SSAO"/>
+
+    <SaveMeshesAutoAssign Value="Volete per auto-assegnare le maglie salvato nel tuo maglie slot?"/>
+
+    <ShowBlockers Value="Visualizza bloccanti"/>
+
+    <ShowVDMSeams Value="Visualizza spostamento cuciture"/>
+    
+    <!-- Preview dialog -->
+    <NormalMap Value="Programma normale"/>
+    <HeightMap Value="Programma di altezza"/>
+    <OcclusionMap Value="Programma di occlusione"/>
+    <ConvexityMap Value="Programma di convessità"/>
+    <ThicknessMap Value="Programma di spessore"/>
+    <ProximityMap Value="Programma di prossimità"/>
+    <BaseTextureBaked Value="Struttura bassa ha cotto"/>
+
+    <Statistics Value="Statistiche"/>
+    <NumRaysFailed Value="Raggi Sono venuto a mancare"/>
+    <MaxHeight Value="Altezza massima"/>
+    <MaxThickness Value="Spessore massimo"/>
+    <MaxProximity Value="Prossimità massima"/>
+    <TimeInSecs Value="Time(nei secondi)"/>
+    <KRaysPerSec Value="K-Raggi/in secondo luogo"/>
+    <MapsRAMInMb Value="Traccia la memoria (Mb)"/>
+    <LowpolyRAMInMb Value="Memoria bassa delle maglie (Mb)"/>
+    <HighpolyRAMInMb Value="Alta memoria delle maglie (Mb)"/>
+
+    <NotifyTileUpdates Value="Comunica gli aggiornamenti di piastrelle"/>
+    <DoNotNotifyTileUpdates Value="NON notificare tegola aggiornamenti"/>
+
+</Localization>

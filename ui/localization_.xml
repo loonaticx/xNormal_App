@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Localization xmlns="http://www.xnormal.net/xNormal" Name="Default (Neutral)" Version="3.19.3" ISO3166One="" RightToLeft="false">
+
+    <!-- General -->
+    <LoadingPlugin Value="Loading plugin"/>
+    <Visible Value="Visible"/>
+    <Warning Value="Warning"/>
+    <Error Value="Error"/>
+    <Filter Value="Filter"/>
+    <Enabled Value="Enabled"/>
+    <Disabled Value="Disabled"/>
+    <File Value="File"/>
+    <Copy Value="Copy"/>
+    <Paste Value="Paste"/>
+    <Save Value="Save"/>
+    <AllKnownFileTypes Value="All known file types"/>
+    <Color Value="Color"/>
+    <FileAreadyExistsOverwriteConfirmation Value="File already exists. Do you want to overwrite it?"/>
+    <Threshold Value="Threshold"/>
+    <Maximum Value="Maximum"/>
+    <Minimum Value="Minimum"/>
+    <Options Value="Options"/>
+    
+    <!-- GeneralUI -->
+    <RightClickToShowContextMenu Value="Press the right mouse button to show the context menu"/>
+
+    <Close Value="Close"/>
+    <CloseToolip Value="Click here to close xNormal"/>
+
+    <GenerateMaps Value="Generate Maps"/>
+    <GenerateMapsTooltip Value="Click here to START to generate the maps"/>
+    <Generating Value="Generating"/>
+    <Progress Value="Progress"/>
+
+    <AbortMaps Value="Abort"/>
+    <AbortMapsTooltip Value="Click here to ABORT the generation process"/>
+    <MinimizeTooltip Value="Click here to minimize the xNormal window"/>
+    <PluginManagerTooltip Value="Click here to show the plugin manager"/>
+    <ButtonSoundsTooltip Value="Click here to enable/disable the button sounds"/>
+    <HaltedTooltip Value="This indicator changes its color to show if xNormal is halted or not"/>
+
+    <ClickToBrowseTexture Value="Click here to browse the image or texture"/>
+    <BrowseTextureDialogTitle Value="Please, select the image or texture"/>
+    <ClickToResetTexture Value="Click here to reset the image or texture"/>
+
+    <DefaultMeshScale Value="Default mesh scale"/>
+
+    <SmoothNormals Value="Smooth normals"/>
+    <UseExportedNormals Value="Use exported normals"/>
+    <AverageNormals Value="Average normals"/>
+    <HardenNormals Value="Harden normals"/>
+
+    <ClearAllMeshes Value="Clear all meshes"/>
+
+    <FileOverwriteWarning Value="File overwrite warning"/>
+
+    <!-- Highpoly tab -->
+    <HighpolyButtonText Value="High definition meshes"/>
+    <HighpolyButtonTooltip Value="Click here to show the high definition meshes list and their options"/>
+
+    <HighpolyVisibleTooltip Value="Check it to make the high definition mesh visible ( in the 3D viewer and for the raytracer )"/>
+
+    <HighpolyFileTooltip Value="File containing the high definition mesh. Right click to show the context menu"/>
+
+    <HighpolyBaseTextureToBake Value="Base texture to bake"/>
+    <HighpolyBaseTextureToBakeTooltip Value="Base texture of the high definition model that will be projected into the low definition one"/>
+    <HighpolyBaseTextureIsTSNM Value="Base texture is a tangent-space normal map"/>
+
+    <HighpolyIgnorePerVertexColor Value="Ignore per-vertex-color"/>
+
+    <HighpolyMenu_BrowseMeshes Value="Add meshes"/>
+    <HighpolyMenu_BrowseBaseTexstureForBaking Value="Browse base texture for baking"/>
+    <HighpolyMenu_ResetBaseTexstureForBaking Value="Reset base texture for baking"/>
+    <HighpolyMenu_Delete Value="Remove mesh from list"/>
+
+    <HighpolyMenu_BrowseMeshesDialogTitle Value="Please, select the HIGH DEFINITION models to ADD"/>
+
+    <HighpolyMenu_LoadMeshFolder Value="Load mesh folder"/>
+    <FolderToLoad Value="Folder to load"/>
+    <StartingName Value="Starting name"/>
+    <MeshFileExtension Value="Mesh's file extension"/>
+    <MeshFileExtensionTooltip Value="Mesh's file extension ( for example, obj ) without any point"/>
+    <ImageFileExtension Value="Image's file extension"/>
+    <ImageFileExtensionTooltip Value="Image file extension ( for example, jpg ) without any point"/>
+    <Load Value="Load"/>
+
+    <!-- Lowpoly tab -->
+    <LowpolyButtonText Value="Low definition meshes"/>
+    <LowpolyButtonTooltip Value="Click here to show the low definition meshes list and their options"/>
+
+    <LowpolyVisibleTooltip Value="Check it to make the low definition mesh visible ( in the viewer and in the raytracer )"/>
+
+    <LowpolyFileTooltip Value="File containing the low definition mesh. Right click to show the context menu"/>
+
+    <LowpolyMaxRayDistanceFront Value="Maximum frontal ray distance"/>
+    <LowpolyMaxRayDistanceFrontTooltip Value="Uniform maximum ray distance ( for frontal rays )"/>
+
+    <LowpolyMaxRayDistanceBack Value="Maximum rear ray distance"/>
+    <LowpolyMaxRayDistanceBackTooltip Value="Uniform maximum ray distance ( for rear rays )"/>
+
+    <LowpolyUseCage Value="Use cage"/>
+    <LowpolyUseCageTooltip Value="Check it to use an user-defined mesh cage for maximum ray distances"/>
+    <LowpolyExternalCageWarning Value="If you specify an external cage file please SURE the selected mesh has ABSOLUTELY THE SAME topology than the lowpoly mesh or you will get errors..."/>
+
+    <LowpolyBatchProtection Value="Batch protection"/>
+    <LowpolyBatchProtectionTooltip Value="Check it to prevent the pixels of this mesh to be overwritten by the next batch-rendered mesh"/>
+
+    <LowpolyExternalCageFile Value="External cage file"/>
+    <LowpolyExternalCageFileTooltip Value="Right click to show the menu to load the external cage file"/>
+
+    <LowpolyAONormalsOverrideFile Value="Highpoly normals override file"/>
+    <LowpolyAONormalsOverrideFileTooltip Value="Select a normal map to override the highpoly hit normals in the ambient occlusion calculation"/>
+    <LowpolyAONormalsOverrideTangentSpace Value="Highpoly normals override tangent space"/>
+    <LowpolyAONormalsOverrideTangentSpaceTooltip Value="Mark it to use a tangent-space normal map or keep it unchecked to use an object-space one"/>
+
+    <LowpolyMeshScale Value="Mesh scale"/>
+
+    <LowpolyRenderOrder Value="Render order"/>
+    <LowpolyRenderOrderTooltip Value="Batch render order. Meshes will be rendered from TOP to BOTTOM"/>
+
+    <LowpolyMenu_BrowseMeshes Value="Add meshes"/>
+    <LowpolyMenu_MoveUp Value="Move up"/>
+    <LowpolyMenu_MoveDown Value="Move down"/>
+    <LowpolyMenu_Delete Value="Remove mesh from list"/>
+    <LowpolyMenu_BrowseExternalCage Value="Browse external cage file"/>
+    <LowpolyMenu_ResetExternalCage Value="Reset external cage file"/>
+
+    <LowpolyMenu_BrowseMeshesDialogTitle Value="Please, select the LOWPOLY models to ADD"/>
+    <LowpolyMenu_BrowseCageDialogTitle Value="Please, select the external cage mesh file"/>
+
+    <LowpolyMenu_BrowseAONormalsOverride Value="Browse highpoly normals override"/>
+    <LowpolyMenu_ResetAONormalsOverride Value="Reset highpoly normals override"/>
+
+    <Lowpoly_BlockersFile Value="Blockers file"/>
+    <LowpolyMenu_BrowseBlockers Value="Browse blockers file"/>
+    <LowpolyMenu_ResetBlockers Value="Reset blockers file"/>
+    
+    <!-- Normal map tab -->
+    <NormalmapButtonText Value="Baking options"/>
+    <NormalmapButtonTooltip Value="Click here to show the map options"/>
+
+    <NormalmapOutputFile Value="Output File"/>
+    <NormalmapOutputFileTooltip Value="Select here a file name for the output maps using the '...' button"/>
+
+    <NormalmapSize Value="Size"/>
+    <NormalmapSizeTooltip Value="The size, in pixels, of the output maps. I don't recommend you to pass 2048x2048 or will be very slow and will consume tons of memory"/>
+
+    <NormalmapBackgroundColor Value="Background color"/>
+    <NormalmapEdgePadding Value="Edge padding"/>
+    <NormalmapBucketSize Value="Bucket size"/>
+
+    <NormalmapAntialiasing Value="Antialising"/>
+
+    <NormalmapGenerateMipmaps Value="Generate mipmaps"/>
+    <NormalmapGenerateMipmapsTooltip Value="Check it to generate very accurate mipmaps. Uncheck it if you don't need mipmaps."/>
+
+    <NormalmapClosestHitIfRayFails Value="Closest hit if ray fails"/>
+    <NormalmapClosestHitIfRayFailsTooltip Value="Use closest hit if there is no ray collision between the lowpoly mesh and the highpoly mesh. Keep it checked to avoid problems."/>
+
+    <NormalmapDiscardBackFacesHits Value="Discard back-faces hits"/>
+    <NormalmapDiscardBackFacesHitsTooltip Value="Check it to discard the ray hit if the lowpoly normal and the highpoly normal are opposite"/>
+
+    <GenerateNormals Value="Normal map"/>
+    <NormalmapSwizzleCoordinates Value="Swizzle Coordinates"/>
+    <NormalmapSwizzleCoordinatesTooltip Value="You can transform the final coordinates using this"/>
+    <NormalmapTangentSpace Value="Tangent space"/>
+    <NormalmapTangentSpaceTooltip Value="Check it to generate a tangent-space normalmap. Uncheck it to use an object-space normalmap"/>
+
+    <NormalmapBakeHighpolyBaseTex Value="Bake highpoly base texture in lowpoly"/>
+    <NormalmapBakeHighpolyBaseTexTooltip Value="Check it to bake the high definition mesh base texture into the low definition mesh"/>
+    <NormalmapBakeHighpolyBaseTexWriteObjectIDIfNoTexture Value="Write ObjectID if no texture"/>
+    <NormalmapBakeHighpolyBaseTexDrawUsingThisColor Value="Draw using this color"/>
+
+    <NormalmapRenderer Value="Renderer"/>
+    <NormalmapRendererTooltip Value="Select here the renderer to use"/>
+
+    <NormalmapAdditionalMaps Value="Maps to render"/>
+
+    <NormalmapGenerateAmbientOcclusion Value="Ambient occlusion"/>
+    <NormalmapGenerateAmbientOcclusionTooltip Value="Check it to generate ambient occlusion map"/>
+    <NormalmapAODistribution Value="Distribution"/>
+    <NormalmapAODistributionTooltip Value="Choose here the ambient occlusion distribution. Uniform gives cleaner results and cosine darker usually"/>
+    <NormalmapAODistributionUniform Value="Uniform"/>
+    <NormalmapAODistributionCosine Value="Cosine"/>
+    <NormalmapAOLimitRayDistance Value="Limit ray distance"/>
+    <NormalmapAOAttenuation Value="Attenuation"/>
+    <NormalmapAOEnableWeighting Value="Enable weighting"/>
+    <NormalmapAOPRTColorNormalize Value="PRT Color Normalize"/>
+
+    <NormalmapAOAllowPureOcclusion Value="Allow pure occlusion"/>
+    <NormalmapAOCoordinateSystem Value="Coordinate System"/>
+    <NormalmapEncodeAO Value="Encode occlusion"/>
+    
+    <NormalmapGenerateProximity Value="Proximity map"/>
+
+    <NormalmapRays Value="Rays"/>
+    <NormalmapAngle Value="Spread Angle"/>
+    <NormalmapMinValue Value="Min Value"/>
+    <NormalmapMaxValue Value="Max Value"/>
+    <NormalmapMinValueInvalid Value="Invalid min value ( need to be less or equal than the max value ). Perhaps you need to change first the maximum value and then the minimum one..."/>
+
+    <NormalmapConvexityScale Value="Convexity scale"/>
+    <NormalmapConcavity Value="Concavity"/>
+
+    <NormalmapFilters Value="Filters"/>
+
+    <NormalmapWireframeAndRayFails Value="Wireframe and ray fails"/>
+    <NormalmapRenderWireframe Value="Render wireframe"/>
+    <NormalmapRenderRayFails Value="Render ray fails"/>
+
+    <NormalmapDirectionMap Value="Direction map"/>
+    <NormalmapEncodeHeights Value="Encode heights"/>
+
+	<NormalmapBakeHighpolyVertexColors Value="Bake highpoly's vertex colors"/>
+	
+    <ImageFilterMenu_Tooltip Value="Click the right mouse button to show the filter menu"/>
+    <ImageFilterMenu_AddFilter Value="Add image filter"/>
+    <ImageFilterMenu_RemoveFilter Value="Remove image filter"/>
+    <ImageFilterMenu_MoveUp Value="Move filter up"/>
+    <ImageFilterMenu_MoveDown Value="Move filter down"/>
+    <ImageFilterMenu_ShowInfo Value="Show filter info"/>
+    <ImageFilterMenu_Configure Value="Configure filter"/>
+
+    <AutoNormalizeHeight Value="Auto-normalize heights"/>
+    <ManualNormalization Value="Manual normalization"/>
+    
+    <!-- Fine detail tab-->
+    <FineDetailButtonText Value="Fine detail"/>
+    <FineDetailButtonTooltip Value="Click here to open the fine detail options"/>
+
+    <FineDetailFile Value="Detail File"/>
+    <FineDetailFileTooltip Value="Select here using the '...' button a signed heightmap image for the fine micro-detail"/>
+    <FineDetailBlendFactor Value="Blend factor"/>
+    <FineDetailBlendFactorTooltip Value="Blending mix factor. Zero means no detail will be added to the normalmap. One means you will see only the detail and you won't see the generated normalmap at all. 0.5 means a 50% of the detail will be mixed with the generated normalmap"/>
+
+    <!-- Tools -->
+    <ToolsButtonText Value="Tools"/>
+    <ToolsButtonTooltip Value="Click here to open the tools"/>
+    <ToolsAvailable Value="Tools available"/>
+
+    <ToolsHeightmapToNM Value="Height map to normal map"/>
+    <ToolsOptions Value="Options"/>
+    <ToolsHeightSrc Value="Height source"/>
+    <ToolsNormalizeHeights Value="Normalize heights"/>
+    <ToolsSmooth Value="Smooth"/>
+    <ToolsSmoothTooltip Value="This controls how abrupt the normal will be"/>
+    <ToolsMethod Value="Method"/>
+    <ToolsMethodTooltip Value="This controls the generation method. Faster method(and sharper) is the four samples. To get smoother results use the 7x7 filter"/>
+    <ToolsPutHeightInAlpha Value="Puts height in alpha"/>
+    <ToolsBrowseHeightmap Value="Browse height map"/>
+    <ToolsSaveNormalmap Value="Save normal map"/>
+
+    <ToolsNormalmapToCavity Value="Tangent-space normal map to cavity map"/>
+    <ToolsCavityMap Value="Cavity map"/>
+    <ToolsBrowseTangentSpaceNormalmap Value="Browse tangent-space normal map"/>
+    <ToolsBright Value="Bright"/>
+    <ToolsContrast Value="Contrast"/>
+    <ToolsNormalize Value="Normalize image colors"/>
+    <ToolsUseLuminance Value="Use luminance"/>
+    <ToolsSaveCavitymap Value="Save cavity map"/>
+
+    <ToolsGenerate Value="Generate"/>
+    <ToolsAllowTiling Value="Allow tiling"/>
+    <ToolsSavedOK Value="The file was saved successfully"/>
+
+    <ToolsPhotoLightLeft Value="Left-lit photo"/>
+    <ToolsPhotoLightRight Value="Right-lit photo"/>
+    <ToolsPhotoLightTop Value="Top-lit photo"/>
+    <ToolsPhotoLightBottom Value="Bottom-lit photo"/>
+    <ToolsLoadImage Value="Load image"/>
+
+    <ToolsHeightmapToOcclusion Value="Height map to occlusion map"/>
+    <ToolsSaveOcclusionmap Value="Save occlusion map"/>
+
+    <ToolsObjectTangentSpaceConverter Value="Object/Tangent space converter"/>
+    <ToolsInputNormalmap Value="Input normal map"/>
+    <ToolsOutputNormalmap Value="Output normal map"/>
+    <ToolsConvertObjectToTangentSpace Value="Convert object space to tangent space"/>
+    <ToolsConvertTangentToObjectSpace Value="Convert tangent space to object space"/>
+
+    <ToolsRelaxedConemap Value="Cone map"/>
+    <ToolsHeightmapToRelaxedConemap Value="Height map to cone map"/>
+    <ToolsConemapNSteps Value="Steps"/>
+    <ToolsConemapSave Value="Save cone map"/>
+    <ToolsHeightIsDepth Value="Height is depth"/>
+
+    <ToolsSimpleAOGenerator Value="Simple ambient occlusion generator"/>
+    <ToolsPrecision Value="Precision"/>
+    <ToolsPrecisionWarning Value="You set FP16 and more than 2048 samples. Depending on your GPU this could be or not possible so, if you see an incorrect result, please decrease the number of samples or change to CPU/FP32 precision"/>
+    <ToolsCosineWeightingWarning Value="Bright greater than 1.0 is not recommended when using cosine weighting... but well... you're who decide..."/>
+    <ToolsSimpleGPUMeshDenseWarning Value="The mesh is very dense. Some graphics cards don't allow to use meshes with more than 1 or 16 million vertices or triangles. If you observe a completely black or white final result can be due to this."/>
+    <ToolsSimpleGPUSmoothShadows Value="Smooth shadows"/>
+
+    <ToolsRayDistanceCalculator Value="Ray distance calculator"/>
+
+    <ToolsSH Value="Environment cube map to ambient cube map generator"/>
+    <ToolsSHInputEnvironmentCubeMap Value="Input environment cube map"/>
+    <ToolsSHOutputAmbientCubeMap Value="Output ambient cube map"/>
+    <ToolsSHOutputCoefficients Value="Output coefficients"/>
+    <ToolsSHNumberOfBands Value="Number of bands"/>
+    <ToolsSHNumberOfBandsTooltip Value="More means less blur. Less means more blur."/>
+    <ToolsSHBrowseCubeMap Value="Browse cube map"/>
+    
+    <!-- 3D Viewer -->
+    <Viewer3DButtonText Value="3D Viewer"/>
+    <Viewer3DButtonTooltip Value="Click here to show the 3D viewer options"/>
+
+    <Viewer3DMesh Value="Lowpoly mesh"/>
+    <Viewer3DMeshTooltip Value="Use the combobox to select a mesh in order to edit its properties"/>
+    <Viewer3DCastShadows Value="Cast shadows"/>
+    <Viewer3DCastShadowsTooltip Value="Check it if you want this mesh to cast shadows over other meshes"/>
+    <Viewer3DReceiveShadows Value="Receive shadows"/>
+    <Viewer3DReceiveShadowsTooltip Value="Check it if you want this mesh to receive shadows from other meshes"/>
+    <Viewer3DBackfaceCull Value="Backface culling"/>
+    <Viewer3DBackfaceCullTooltip Value="Check it to hide the faces not pointing to the camera in order to optimize the rendering speed"/>
+
+    <Viewer3DBaseTex Value="Base texture"/>
+    <Viewer3DBaseTexTooltip Value="The base(diffuse,albedo) texture"/>
+
+    <Viewer3DTransparencyModeLabel Value="Transparency mode"/>
+    <Viewer3DTransparencyMode_None Value="None"/>
+    <Viewer3DTransparencyMode_1Bit Value="1Bit"/>
+    <Viewer3DTransparencyMode_AdditiveGlow Value="Additive-glow"/>
+    <Viewer3DTransparencyMode_ScreenGlass Value="Screen-glass"/>
+    <Viewer3DTransparencyMode_Blend Value="Blend"/>
+
+    <Viewer3DNormTex Value="Normal map"/>
+    <Viewer3DNormTexTooltip Value="The normal map texture"/>
+    <Viewer3DTangentSpace Value="Tangent space"/>
+    <Viewer3DTangentSpaceTooltip Value="Check it if the normalmap is in tangent space or uncheck it if for object space"/>
+    <Viewer3DNMSwizzle Value="Swizzle"/>
+
+    <Viewer3DHeightTex Value="Height map"/>
+    <Viewer3DHeightTexTooltip Value="The height map texture for parallax mapping"/>
+
+    <Viewer3DOccLMTex Value="Occlusion texture"/>
+    <Viewer3DOccLMTexTooltip Value="Occlusion texture for precalculated shadows"/>
+    <Viewer3DUsePerVertexColors Value="Use per-vertex colors"/>
+
+    <Viewer3DReflectTex Value="Reflect texture"/>
+    <Viewer3DReflectTexTooltip Value="Environment cubemap texture"/>
+    <Viewer3DEnableFresnel Value="Enable fresnel"/>
+    <Viewer3DEnableFresnelTooltip Value="Check it to make the surfaces pointing to the camera more reflective"/>
+    <Viewer3DFresnelRefractiveIndex Value="Fresnel reflect index"/>
+    <Viewer3DFresnelRefractiveIndexTooltip Value="A value indicating how much light must reflect the surface. 1.33 is water, 2 is a diamond, 30 is a mirror"/>
+    <Viewer3DGlossTex Value="Gloss texture"/>
+    <Viewer3DGlossTexTooltip Value="Gloss texture multiplies the reflection texture. Use this to make some pixels reflective or non reflective"/>
+
+    <Viewer3DEmissiveTex Value="Emissive texture"/>
+    <Viewer3DEmissiveTexTooltip Value="Emissive texture will add a light 'glow' even when there is no light present"/>
+
+    <Viewer3DSpecularTex Value="Specular texture"/>
+    <Viewer3DSpecularTexTooltip Value="The RGB values of the specular texture will multiply the specular factor of the light. The ALPHA will be used to control the Phong-exponential term ( more means sharper )"/>
+
+    <Viewer3DDiffuseGITex Value="DiffuseGI texture"/>
+    <Viewer3DDiffuseGITexTooltip Value="Diffuse cubemap with the environmental lighting low-frequency distribution. Ideal to simulate outdoor environments"/>
+
+    <Viewer3DRunWindowed Value="Run windowed"/>
+    <Viewer3DRunWindowedTooltip Value="Click here to run the 3D viewer in windowed mode ( non fullscreen )"/>
+    <Viewer3DVideoMode Value="Video mode"/>
+    <Viewer3DVideoModeTooltip Value="Select here the video mode the 3D viewer will use"/>
+
+    <Viewer3DPlayMusic Value="Play music inside the viewer"/>
+    <Viewer3DPlayMusicTooltip Value="Check this if you want xNormal to play some background music while you use the 3D viewer"/>
+
+    <Viewer3DUseXBox360Gamepad Value="Use XBox 360's controller"/>
+    <Viewer3DUseXBox360GamepadTooltip Value="Check it to use the XBox 360's controller inside the 3D viewer"/>
+
+    <Viewer3DLaunch Value="Launch viewer"/>
+    <Viewer3DLaunchTooltip Value="Press here to start the 3D viewer"/>
+
+    <!-- Settings and examples-->
+    <SettingsAndExamplesButtonText Value="Settings and examples"/>
+    <SettingsAndExamplesButtonTooltip Value="Click here to open the settings options and the examples"/>
+
+    <SettingsLoad Value="Load settings"/>
+    <SettingsLoadTooltip Value="Click here to load a XML file with a previously saved settings"/>
+    <SettingsLoadDialogTitle Value="Please, select a XML file to LOAD containing previously-saved settings"/>
+    <SettingsLoadedOK Value="Settings loaded correctly"/>
+    <SettingsLoadError Value="Error. Can't load settings."/>
+
+    <SettingsRestore Value="Restore default settings"/>
+    <SettingsRestoreTooltip Value="Click here to reset the default settings"/>
+    <SettingsRestoredOK Value="Settings were restored with the default values"/>
+
+    <SettingsSave Value="Save settings"/>
+    <SettingsSaveTooltip Value="Click here to save the current settings to a XML file"/>
+    <SettingsSaveDialogTitle Value="Please, select a XML file where to SAVE the current settings"/>
+    <SettingsSavedOK Value="Settings were saved correctly"/>
+    <SettingsSaveError Value="Error. Can't save settings."/>
+
+    <SettingsXMLFilter Value="xNormal XML Settings"/>
+
+    <SettingsExamplesGroupbox Value="Examples"/>
+
+    <AcidButtonText Value="The Reflective Smiley"/>
+    <AcidButtonTooltip Value="Click here to load the 'smiley' example"/>
+
+    <WallButtonText Value="Parallax-mapped Wall"/>
+    <WallButtonTooltip Value="Click here to load the wall example"/>
+
+    <DiabloButtonText Value="Pablo Hoyos's Diablo"/>
+    <DiabloButtonTooltip  Value="Click here to load the Pablo Hoyos's Diablo example" />
+
+    <XemakosButtonText Value="Paul Greveson's Xemakos"/>
+    <XemakosButtonTooltip Value="Click here to open the Paul Greveson's General Xemakos example"/>
+
+    <SyliaButtonText Value="Kevin George's Sylia"/>
+    <SyliaButtonTooltip Value="Click here to open the Kevin George's Sylia example"/>
+
+    <FlagButtonText Value="Flag base texture baking"/>
+    <FlagButtonTooltip Value="Click here to open the flag example"/>
+
+    <MirroredUVsAndHardEdgesButtonText Value="Mirrored UVs and hard edges"/>
+    <MirroredUVsAndHardEdgesTooltip Value="Click here to open the mirrored UVs and hard edges example"/>
+
+    <!-- Support and about-->
+    <SupportAndAboutButtonText Value="Support"/>
+    <SupportAndAboutButtonTooltip Value="Click here to open the support and about window"/>
+
+    <WebPage Value="Web page"/>
+    <ContactEMail Value="Contact e-mail"/>
+
+    <!-- Plugin manager -->
+    <AllThePluginsTab Value="All the plugins"/>
+    <ImageImportersTab Value="Image importers"/>
+    <ImageExportersTab Value="Image exporters"/>
+    <ImageFiltersTab Value="Image filters"/>
+    <MeshImportersTab Value="Mesh importers"/>
+    <MeshExportersTab Value="Mesh exporters"/>
+    <GraphicsDriversTab Value="Graphics drivers"/>
+    <TangentBasisCalculatorsTab Value="Tangent basis calculators"/>
+    <RenderersTab Value="Renderers"/>
+    <VideoMakersTab Value="Video Makers"/>
+
+    <PluginInformation Value="Plugin information"/>
+    <PluginName Value="Name"/>
+    <PluginGUID Value="GUID"/>
+    <PluginDescription Value="Description"/>
+    <PluginAuthor Value="Author"/>
+    <PluginVersion Value="Version"/>
+    <PluginConfigure Value="Configure"/>
+
+    <Defaults Value="Defaults"/>
+    <DefaultsGraphicsDriver Value="Graphics driver"/>
+    <DefaultsTBCalculator Value="TB Calculator"/>
+    <DefaultsLanguage Value="Language"/>
+    <DefaultsVideoMaker Value="Video Maker"/>
+
+    <!-- Viewer3D (inside) -->
+    <PressESCToAbort Value="Press ESC to abort"/>
+
+    <BackgroundColor Value="Background color"/>
+    <GridColor Value="Grid color"/>
+
+    <ShowLowpolyNormals Value="Show normals"/>
+    <ShowAO Value="Show occlusion/vcol"/>
+    <DrawGrid Value="Draw grid"/>
+    <ShowLowpolyWireframe Value="Show wireframe"/>
+    <ShowLowpolyTangents Value="Show tangents"/>
+    <ShowLowpolyMeshes Value="Show lowpoly meshes"/>
+    <ShowHighpolyMeshes Value="Show highpoly meshes"/>
+    <DrawStarfield Value="Draw stars"/>
+
+    <DiffuseGIIntensity Value="DiffuseGI intensity"/>
+    <LightIntensity Value="Light intensity"/>
+    <LightIndirectIntensity Value="Light indirect intensity"/>
+    <LightOrbitDistance Value="Light orbit distance"/>
+    <LightAmbientColor Value="Light ambient color"/>
+    <LightDiffuseColor Value="Light diffuse color"/>
+    <LightSpecularColor Value="Light specular color"/>
+    <LightSecondaryColor Value="Light secondary color"/>
+    <LightTertiaryColor Value="Light tertiary color"/>
+
+    <Exposure Value="Exposure (DX10)"/>
+    <HDRThreshold Value="HDR Threshold (DX10)"/>
+
+
+    <SaveMeshes Value="Save meshes"/>
+    <ReloadTextures Value="Reload textures"/>
+    <ReloadMeshes Value="Reload meshes"/>
+
+    <CastShadows Value="Cast shadows"/>
+    <ShadowBias Value="Shadow bias"/>
+    <AreaLightRadius Value="Shadow penumbrae(DX)"/>
+    <DisableFresnelReflections Value="Disable Fresnel"/>
+
+    <UseEmissiveGlow Value="Use emissive glow"/>
+    <EmissiveGlowIntensity Value="Emissive glow intensity"/>
+
+    <UseParallax Value="Use parallax bump"/>
+    <ParallaxStrength Value="Parallax strength"/>
+
+    <ShowCage Value="Show cage"/>
+    <EditCage Value="Edit cage"/>
+    <CageOpacity Value="Cage opacity"/>
+    <CageColor Value="Cage color"/>
+    <CageGlobalExtrussion Value="Cage global extrusion"/>
+
+    <SelectionExtrussion Value="Selection extrusion"/>
+    <IgnoreHiddenFacesForSelection Value="Ignore hidden faces for selection"/>
+    <UseMButtonToSelectVertices Value="Middle button to select vertices"/>
+    <HoldShiftToMultiSelect Value="SHIFT to multiselect"/>
+    <SelectionMoveX Value="Selection move X"/>
+    <SelectionMoveY Value="Selection move Y"/>
+    <SelectionMoveZ Value="Selection move Z"/>
+    <ResetCageSelectionValues Value="Reset"/>
+    <BreakCageSelectionValues Value="Break"/>
+    <AverageCageSelectionValues Value="Weld"/>
+    <CameraAdvanceSensibility Value="Advance sensibility"/>
+    <CameraRotationSensibility Value="Rotation sensibility"/>
+    <AxisDebugScale Value="Axis/debug scale"/>
+    <CameraOrbitDistance Value="Camera's orbit distance"/>
+
+    <FPS Value="FPS"/>
+    <Radius Value="Radius"/>
+    <MaxCageExtrussion Value="Max cage distance"/>
+
+    <ASWDRMouseToMove Value="ASWD+rbutton moves the camera"/>
+    <CTRLRMouseToOrbitCam Value="CTRL+rbutton orbits the camera"/>
+    <ALTRMouseToOrbitLight Value="ALT+rbutton orbits the light"/>
+    <F8ToTakeScreenshot Value="F8 takes a screenshot"/>
+    <F1ToShowHideUI Value="F1 shows/hides the UI"/>
+    <F9ToVideoCapture Value="F9 to video capture"/>
+    <VideoCapturing Value="VIDEO CAPTURING ..."/>
+
+    <LockLightToCamera Value="Lock light to camera"/>
+    <CameraAutoOrbitCenter Value="Camera auto-orbit-center"/>
+
+    <ALTENTERToAttach Value ="Mouse released. Press ALT+ENTER to attach"/>
+
+    <SSAOEnable Value="Enable SSAO(DX10)"/>
+    <SSAOBright Value="SSAO Brightness"/>
+    <SSAOContrast Value="SSAO Contrast"/>
+    <SSAOAtten Value="SSAO Attenuation"/>
+    <SSAORadius Value="SSAO Trace Radius"/>
+    <SSAOBlurRadius Value="SSAO Blur Radius"/>
+
+    <SaveMeshesAutoAssign Value="Do you want to auto-assign the saved meshes into your mesh slots?"/>
+
+    <ShowBlockers Value="Show blockers"/>
+
+    <ShowVDMSeams Value="Show VDM seams"/>
+    
+    <!-- Preview dialog -->
+    <NormalMap Value="Normal map"/>
+    <HeightMap Value="Height map"/>
+    <OcclusionMap Value="Occlusion map"/>
+    <ConvexityMap Value="Convexity map"/>
+    <ThicknessMap Value="Thickness map"/>
+    <ProximityMap Value="Proximity map"/>
+    <BaseTextureBaked Value="Bake base texture"/>
+
+    <Statistics Value="Statistics"/>
+    <NumRaysFailed Value="Rays Failed"/>
+    <MaxHeight Value="Max height"/>
+    <MaxThickness Value="Max thickness"/>
+    <MaxProximity Value="Max proximity"/>
+    <TimeInSecs Value="Time(secs)"/>
+    <KRaysPerSec Value="KRays/sec"/>
+    <MapsRAMInMb Value="Maps RAM(Mb)"/>
+    <LowpolyRAMInMb Value="Lowpoly RAM(Mb)"/>
+    <HighpolyRAMInMb Value="Highpoly RAM(Mb)"/>
+
+
+    <NotifyTileUpdates Value="Notify tile updates"/>
+    <DoNotNotifyTileUpdates Value="Do NOT notify tile updates"/>
+
+</Localization>

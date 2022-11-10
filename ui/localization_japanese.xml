@@ -1,0 +1,573 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization xmlns="http://www.xnormal.net/xNormal" Name="日本語 (Japanese)by_ymt3d" Version="3.19.3" ISO3166One="jp-JP" RightToLeft="false">
+
+    <!-- General -->
+    <LoadingPlugin Value="プラグインをロード"/>
+    <Visible Value="表示"/>
+    <Warning Value="警告"/>
+    <Error Value="エラー"/>
+    <Filter Value="フィルター"/>
+    <Enabled Value="有効"/>
+    <Disabled Value="無効"/>
+    <File Value="ファイル"/>
+    <Copy Value="コピー"/>
+    <Paste Value="貼り付け"/>
+    <Save Value="保存"/>
+    <AllKnownFileTypes Value="対応したすべてのファイルタイプ"/>
+    <Color Value="カラー"/>
+    <FileAreadyExistsOverwriteConfirmation Value="このファイルは既に存在します。上書きしますか？"/>
+    <Threshold Value="糸XXXX"/>
+    <Maximum Value="最大"/>
+    <Minimum Value="最小"/>
+    <Options Value="オプション"/>
+    
+    <!-- GeneralUI -->
+    <RightClickToShowContextMenu Value="右クリックでコンテキストメニューを表示"/>
+
+    <Close Value="閉じる"/>
+    <CloseToolip Value="xNormalを閉じるにはこちらをクリック"/>
+
+    <GenerateMaps Value="マップの生成"/>
+    <GenerateMapsTooltip Value="マップ生成を開始します。"/>
+    <Generating Value="作成中"/>
+    <Progress Value="進行中"/>
+
+    <AbortMaps Value="中止"/>
+    <AbortMapsTooltip Value="生成を中止します。"/>
+    <MinimizeTooltip Value="xNormalを最小化します。"/>
+    <PluginManagerTooltip Value="プラグインマネージャーを開きます。"/>
+    <ButtonSoundsTooltip Value="ボタンサウンドの有無を切り替えます。"/>
+    <HaltedTooltip Value="xNormalの状況インジゲーター"/>
+
+    <ClickToBrowseTexture Value="イメージファイルを参照します。"/>
+    <BrowseTextureDialogTitle Value="イメージを選択してください。"/>
+    <ClickToResetTexture Value="イメージをリセットします。"/>
+
+    <DefaultMeshScale Value="デフォルトのメッシュスケール"/>
+
+    <SmoothNormals Value="法線の滑らかさ"/>
+    <UseExportedNormals Value="エクスポート時の法線"/>
+    <AverageNormals Value="ソフト法線"/>
+    <HardenNormals Value="ハード法線"/>
+
+    <ClearAllMeshes Value="メッシュをクリア"/>
+
+    <FileOverwriteWarning Value="ファイル上書きの警告"/>
+  
+    <!-- Highpoly tab -->
+    <HighpolyButtonText Value="ハイポリメッシュ 管理"/>
+    <HighpolyButtonTooltip Value="ハイポリメッシュのリストと設定を表示します。"/>
+
+    <HighpolyVisibleTooltip Value="表示するハイポリメッシュをチェック"/>
+
+    <HighpolyFileTooltip Value="右クリックメニューでハイポリメッシュ管理のメニューを表示します。"/>
+
+    <HighpolyBaseTextureToBake Value="ベーステクスチャー"/>
+    <HighpolyBaseTextureToBakeTooltip Value="ローポリにベイクされるハイポリ用テクスチャーの管理"/>
+    <HighpolyBaseTextureIsTSNM Value="ベーステクスチャーはタンジェントスペースのノーマルマップ"/>
+    
+    <HighpolyIgnorePerVertexColor Value="頂点カラーを無視"/>
+
+    <HighpolyMenu_BrowseMeshes Value="メッシュの追加"/>
+    <HighpolyMenu_BrowseBaseTexstureForBaking Value="ベイク用のベーステクスチャ読み込み"/>
+    <HighpolyMenu_ResetBaseTexstureForBaking Value="ベイク用のベーステクスチャリセット"/>
+    <HighpolyMenu_Delete Value="メッシュをリストから削除"/>
+
+    <HighpolyMenu_BrowseMeshesDialogTitle Value="ハイポリ参照メッシュを追加してください"/>
+
+    <HighpolyMenu_LoadMeshFolder Value="メッシュフォルダーを読み込み"/>
+    <FolderToLoad Value="読み込むフォルダのパス"/>
+    <StartingName Value="頭文字"/>
+	
+    <MeshFileExtension Value="メッシュファイルの拡張子"/>
+    <MeshFileExtensionTooltip Value="メッシュファイルの拡張子 ( 例 obj ) 任意です"/>
+    <ImageFileExtension Value="イメージファイルの拡張子"/>
+    <ImageFileExtensionTooltip Value="イメージファイルの拡張子 ( 例 jpg ) 任意です"/>
+	
+    <Load Value="ロード"/>
+
+    <!-- Lowpoly tab -->
+    <LowpolyButtonText Value="ローポリメッシュ 管理"/>
+    <LowpolyButtonTooltip Value="ローポリメッシュのリストと設定を表示します。"/>
+
+    <LowpolyVisibleTooltip Value="使用するローポリメッシュをチェック"/>
+
+    <LowpolyFileTooltip Value="右クリックメニューでローポリメッシュ管理のメニューを表示します"/>
+
+    <LowpolyMaxRayDistanceFront Value="表面光線の最大距離"/>
+    <LowpolyMaxRayDistanceFrontTooltip Value="表面光線の最大距離を入力 ( 表面の光線 )"/>
+
+    <LowpolyMaxRayDistanceBack Value="裏面光線の最大距離"/>
+    <LowpolyMaxRayDistanceBackTooltip Value="裏面光線の最大距離を入力 ( 裏面の光線 )"/>
+
+    <LowpolyUseCage Value="ケージを使う"/>
+    <LowpolyUseCageTooltip Value="レイの最大距離を計測するためにケージモデルを使用する"/>
+    <LowpolyExternalCageWarning Value="ケージ用のモデルを選択、ケージモデルは、ローポリモデルと同一のトポロジーを持っている事が前提です。"/>
+
+    <LowpolyBatchProtection Value="バッチ保護"/>
+    <LowpolyBatchProtectionTooltip Value="チェックすると該当するメッシュのUVピクセル部分を上書きされないように保護されます。"/>
+
+    <LowpolyExternalCageFile Value="ケージファイルの参照元"/>
+    <LowpolyExternalCageFileTooltip Value="右クリックメニューでケージファイル管理のメニューを表示します"/>
+
+    <LowpolyAONormalsOverrideFile Value="ハイポリモデルのノーマルマップ上書きファイル"/>
+    <LowpolyAONormalsOverrideFileTooltip Value="ハイポリモデルのノーマルマップテクスチャ読み込み"/>
+    <LowpolyAONormalsOverrideTangentSpace Value="ハイポリの法線設定（タンジェントスペース）"/>
+    <LowpolyAONormalsOverrideTangentSpaceTooltip Value="チェックするとタンジェントスペースノーマルマップ、外すとオブジェクトスペースノーマルマップ"/>
+
+    <LowpolyMeshScale Value="メッシュスケール"/>
+
+    <LowpolyRenderOrder Value="レンダー順序"/>
+    <LowpolyRenderOrderTooltip Value="バッチレンダー設定　上から順にレンダリング"/>
+
+    <LowpolyMenu_BrowseMeshes Value="メッシュの追加"/>
+    <LowpolyMenu_MoveUp Value="上へ移動"/>
+    <LowpolyMenu_MoveDown Value="下へ移動"/>
+    <LowpolyMenu_Delete Value="メッシュをリストから削除"/>
+    <LowpolyMenu_BrowseExternalCage Value="ケージファイルの参照"/>
+    <LowpolyMenu_ResetExternalCage Value="ケージファイルのリセット"/>
+
+    <LowpolyMenu_BrowseMeshesDialogTitle Value="ローポリモデルを選択して追加してください。"/>
+    <LowpolyMenu_BrowseCageDialogTitle Value="ケージファイルを選択して追加してください。"/>
+
+    <LowpolyMenu_BrowseAONormalsOverride Value="ハイポリの上書き用ノーマルマップを参照"/>
+    <LowpolyMenu_ResetAONormalsOverride Value="ハイポリの上書き用ノーマルマップをリセット"/>
+
+    <Lowpoly_BlockersFile Value="ブロッカーファイル"/>
+    <LowpolyMenu_BrowseBlockers Value="ブロッカーファイルの参照"/>
+    <LowpolyMenu_ResetBlockers Value="ブロッカーファイルのリセット"/>
+    
+    <!-- Normal map tab -->
+    <NormalmapButtonText Value="焼きこみ設定"/>
+    <NormalmapButtonTooltip Value="焼きこみのテクスチャー設定を開きます。"/>
+
+    <NormalmapOutputFile Value="出力ファイル"/>
+    <NormalmapOutputFileTooltip Value="出力先を指定するには '...' ボタンを押してください。"/>
+
+    <NormalmapSize Value="出力テクスチャーサイズ"/>
+    <NormalmapSizeTooltip Value="ピクセルで指定。2048x2048以上だと多くのメモリを消費します。"/>
+
+    <NormalmapBackgroundColor Value="背景色"/>
+    <NormalmapEdgePadding Value="エッジのパッディング"/>
+    <NormalmapBucketSize Value="バケツのサイズ"/>
+
+    <NormalmapAntialiasing Value="アンチエイリアシング"/>
+
+    <NormalmapGenerateMipmaps Value="ミップマップを生成"/>
+    <NormalmapGenerateMipmapsTooltip Value="チェックをするとミップマップを生成します。使用しない場合はチェックを外してください"/>
+
+    <NormalmapClosestHitIfRayFails Value="光線衝突を最適化"/>
+    <NormalmapClosestHitIfRayFailsTooltip Value="ローポリメッシュとハイポリメッシュとの光線衝突が全くなければ、最も厳密なヒットを使用するようにします。 問題を避けるためにチェックし続けてください。"/>
+
+    <NormalmapDiscardBackFacesHits Value="裏面ポリゴンを無視"/>
+    <NormalmapDiscardBackFacesHitsTooltip Value="ローポリまたはハイポリの一つが反転していたらレイ衝突で不具合が起きるのでチェックしてください"/>
+
+    <GenerateNormals Value="ノーマルマップ"/>
+    <NormalmapSwizzleCoordinates Value="Swizzle座標の調整"/>
+    <NormalmapSwizzleCoordinatesTooltip Value="これを使用する事でノーマルマップを正常な座標で出力できる"/>
+    <NormalmapTangentSpace Value="タンジェントスペース"/>
+    <NormalmapTangentSpaceTooltip Value="チェックするとタンジェントスペースノーマルマップ、外すとオブジェクトスペースノーマルマップ"/>
+
+    <NormalmapBakeHighpolyBaseTex Value="ハイポリのテクスチャをローポリに焼き付ける"/>
+    <NormalmapBakeHighpolyBaseTexTooltip Value="ハイポリのテクスチャをローポリに焼き付けたい場合はチェック"/>
+    <NormalmapBakeHighpolyBaseTexWriteObjectIDIfNoTexture Value="オブジェクトIDをテクスチャに焼き付ける"/>
+    <NormalmapBakeHighpolyBaseTexDrawUsingThisColor Value="この色を使用して描く"/>
+    
+    <NormalmapRenderer Value="レンダラー"/>
+    <NormalmapRendererTooltip Value="使用したいレンダラーへ変更出来ます"/>
+
+    <NormalmapAdditionalMaps Value="生成するテクスチャ"/>
+
+    <NormalmapGenerateAmbientOcclusion Value="アンビエントオクルージョン(Ambient occlusion)"/>
+    <NormalmapGenerateAmbientOcclusionTooltip Value="オクルージョンマップを生成したい場合はチェック"/>
+
+    <NormalmapAODistribution Value="配分"/>
+    <NormalmapAODistributionTooltip Value="AOの配分を選択してください。 ちなみにユニフォームだと明るく、コサインだと暗めになります。"/>
+    <NormalmapAODistributionUniform Value="ユニフォーム"/>
+    <NormalmapAODistributionCosine Value="コサイン"/>
+    <NormalmapAOLimitRayDistance Value="光線距離の限界"/>
+    <NormalmapAOAttenuation Value="減衰"/>
+    <NormalmapAOEnableWeighting Value="ウェイトを有効"/>
+    <NormalmapAOPRTColorNormalize Value="PRTカラーの平均化"/>
+
+    <NormalmapAOAllowPureOcclusion Value="ピュアオクルージョンを許可"/>
+    <NormalmapAOCoordinateSystem Value="座標系"/>
+    <NormalmapEncodeAO Value="オクルージョンをエンコード"/>
+    
+    <NormalmapGenerateProximity Value="近さを発生させなさい"/>
+
+    <NormalmapRays Value="光線"/>
+    <NormalmapAngle Value="角度"/>
+    <NormalmapMinValue Value="最小値"/>
+    <NormalmapMaxValue Value="最大値"/>
+    <NormalmapMinValueInvalid Value="無効な最小値(最大値未満または同輩がある必要性)"/>
+
+    <NormalmapConvexityScale Value="凸状のスケール"/>
+    <NormalmapConcavity Value="凹状"/>
+
+    <NormalmapFilters Value="フィルター"/>
+
+    <NormalmapWireframeAndRayFails Value="ワイヤーフレームと光線"/>
+    <NormalmapRenderWireframe Value="ワイヤフレームのレンダリング"/>
+    <NormalmapRenderRayFails Value="光線の無衝突部分レンダリング"/>
+
+    <NormalmapDirectionMap Value="ディレクションマップ"/>
+    <NormalmapEncodeHeights Value="エンコードの高さ"/>
+
+	<NormalmapBakeHighpolyVertexColors Value="ハイポリの頂点カラー"/>
+
+	<ImageFilterMenu_Tooltip Value="右クリックでフィルター設定メニューを開く"/>
+    <ImageFilterMenu_AddFilter Value="イメージフィルターを加える"/>
+    <ImageFilterMenu_RemoveFilter Value="イメージフィルターを取除く"/>
+    <ImageFilterMenu_MoveUp Value="上へ移動"/>
+    <ImageFilterMenu_MoveDown Value="下へ移動"/>
+    <ImageFilterMenu_ShowInfo Value="インフォメーション"/>
+    <ImageFilterMenu_Configure Value="フィルター設定"/>
+
+    <AutoNormalizeHeight Value="自動で高さを標準化"/>
+    <ManualNormalization Value="手動で標準化"/>
+    
+    <!-- Fine detail tab-->
+    <FineDetailButtonText Value="ディテール"/>
+    <FineDetailButtonTooltip Value="ディテール設定を開きます"/>
+
+    <FineDetailFile Value="ディテールファイル"/>
+    <FineDetailFileTooltip Value="'... 'を押してハイトマップイメージを参照。マイクロディテールとして取り込みます。"/>
+    <FineDetailBlendFactor Value="ブレンド要因"/>
+    <FineDetailBlendFactorTooltip Value="0だと無影響、1だとディテール優先、0.5ならノーマルマップとディテールマップを50%ブレンド"/>
+
+    <!-- Tools -->
+    <ToolsButtonText Value="ツール"/>
+    <ToolsButtonTooltip Value="xNormalツール集を使用する"/>
+    <ToolsAvailable Value="ツール"/>
+
+    <ToolsHeightmapToNM Value="ハイトマップをノーマルマップへ変換"/>
+    <ToolsOptions Value="設定"/>
+    <ToolsHeightSrc Value="ハイトマップ参照先"/>
+    <ToolsNormalizeHeights Value="高さの平均化"/>
+    <ToolsSmooth Value="スムース"/>
+    <ToolsSmoothTooltip Value="鋭い法線になるのを防ぎます"/>
+    <ToolsMethod Value="メソッド"/>
+    <ToolsMethodTooltip Value="生成方法を制御します。より高速(そして鋭い)のは4SAMPLEです。 滑らかにするには7x7フィルターを"/>
+    <ToolsPutHeightInAlpha Value="アルファに高さを挿入"/>
+    <ToolsBrowseHeightmap Value="ハイトマップの読み込み"/>
+    <ToolsSaveNormalmap Value="ノーマルマップの保存"/>
+
+    <ToolsNormalmapToCavity Value="ノーマルマップをキャビティマップへ変換"/>
+    <ToolsCavityMap Value="キャビティマップ"/>
+    <ToolsBrowseTangentSpaceNormalmap Value="ノーマルマップマップを読み込み"/>
+    <ToolsBright Value="明るさ" />
+    <ToolsContrast Value="コントラスト" />
+    <ToolsNormalize Value="イメージカラーの平均化"/>
+    <ToolsUseLuminance Value="輝度の使用"/>
+    <ToolsSaveCavitymap Value="キャビティマップを保存"/>
+
+    <ToolsGenerate Value="生成"/>
+    <ToolsAllowTiling Value="タイル表示"/>
+    <ToolsSavedOK Value="ファイルが正常に保存されました。"/>
+
+    <ToolsPhotoLightLeft Value="左ライトの写真"/>
+    <ToolsPhotoLightRight Value="右ライトの写真"/>
+    <ToolsPhotoLightTop Value="上ライトの写真"/>
+    <ToolsPhotoLightBottom Value="下ライトの写真"/>
+    <ToolsLoadImage Value="イメージの読み込み"/>
+
+    <ToolsHeightmapToOcclusion Value="ハイトマップ→オクルージョン変換"/>
+    <ToolsSaveOcclusionmap Value="オクルージョンマップの保存"/>
+
+    <ToolsObjectTangentSpaceConverter Value="オブジェクト＆タンジェントスペース相互変換"/>
+    <ToolsInputNormalmap Value="読み込みノーマルマップ"/>
+    <ToolsOutputNormalmap Value="書き出しノーマルマップ"/>
+    <ToolsConvertObjectToTangentSpace Value="オブジェクト→タンジェントへ変換"/>
+    <ToolsConvertTangentToObjectSpace Value="タンジェント→オブジェクトへ変換"/>
+
+    <ToolsRelaxedConemap Value="ハイトマップをコーンマップ"/>
+    <ToolsHeightmapToRelaxedConemap Value="ハイトマップをコーンマップへ変換"/>
+    <ToolsConemapNSteps Value="ステップ"/>
+    <ToolsConemapSave Value="コーンマップを保存"/>
+    <ToolsHeightIsDepth Value="高さ=深さである(Height is depth)"/>
+
+    <ToolsSimpleAOGenerator Value="シンプルアンビエントオクルージョン生成"/>
+    <ToolsPrecision Value="精度(Precision)"/>
+    <ToolsPrecisionWarning Value="2048pxではFP16にセット。使用しているGPUによって結果が良くない場合は、サンプルの数を減らすか、精度(precision)をCPU/FP32に変更"/>
+    <ToolsCosineWeightingWarning Value="明るさが1.0以上の場合コサインを使用するのはおすすめ出来ません・・・・うーん・・・しかし自己判断よろしく・・"/>
+    <ToolsSimpleGPUMeshDenseWarning Value="そのメッシュは非常に濃厚だ。グラフィックスカードの使用が認められていない1-16000000ポリゴン。確認の際真っ黒か真っ白になっている可能性が高い。"/>
+    <ToolsSimpleGPUSmoothShadows Value="影のスムース"/>
+
+    <ToolsRayDistanceCalculator Value="メッシュ光線距離の計算"/>
+
+    <ToolsSH Value="環境キューブマップを アンビエントキューブマップに 変換"/>
+    <ToolsSHInputEnvironmentCubeMap Value="環境キューブマップの入力"/>
+    <ToolsSHOutputAmbientCubeMap Value="アンビエントキューブマップ"/>
+    <ToolsSHOutputCoefficients Value="出力係数"/>
+    <ToolsSHNumberOfBands Value="Bands回数"/>
+    <ToolsSHNumberOfBandsTooltip Value="ブラーを使ってぼかしを入れる事ができます。回数を指定してください"/>
+    <ToolsSHBrowseCubeMap Value="キューブマップを参照"/>
+    
+    <!-- 3D Viewer -->
+    <Viewer3DButtonText Value="3Dビューアー"/>
+    <Viewer3DButtonTooltip Value="3Dビューアーを起動します。"/>
+
+    <Viewer3DMesh Value="ローポリメッシュ"/>
+    <Viewer3DMeshTooltip Value="各テクスチャ設定を行うために、コンボボックスからメッシュを選択"/>
+    <Viewer3DCastShadows Value="キャストシャドウ"/>
+    <Viewer3DCastShadowsTooltip Value="リアルタイムなキャストシャドウを表示したい場合はチェックしてください。"/>
+    <Viewer3DReceiveShadows Value="シャドウの影響を受ける"/>
+    <Viewer3DReceiveShadowsTooltip Value="他のメッシュからのシャドウの影響を受ける"/>
+    <Viewer3DBackfaceCull Value="裏面ポリゴン"/>
+    <Viewer3DBackfaceCullTooltip Value="裏側のポリゴンを表示させます。レンダリングの速度は低下します。"/>
+
+    <Viewer3DBaseTex Value="ベーステクスチャー"/>
+    <Viewer3DBaseTexTooltip Value="ベースのカラーテクスチャー"/>
+
+    <Viewer3DTransparencyModeLabel Value="透過処理(Transparency)"/>
+    <Viewer3DTransparencyMode_None Value="なし"/>
+    <Viewer3DTransparencyMode_1Bit Value="1Bit"/>
+    <Viewer3DTransparencyMode_AdditiveGlow Value="グロー追加"/>
+    <Viewer3DTransparencyMode_ScreenGlass Value="スクリーンガラス"/>
+    <Viewer3DTransparencyMode_Blend Value="ブレンド"/>
+
+    <Viewer3DNormTex Value="ノーマルマップ(Normal)"/>
+    <Viewer3DNormTexTooltip Value="ノーマルマップテクスチャー"/>
+    <Viewer3DTangentSpace Value="タンジェントスペース"/>
+    <Viewer3DTangentSpaceTooltip Value="タンジェントスペースのノーマルマップ。オブジェクトスペースの場合はチェックを外す"/>
+    <Viewer3DNMSwizzle Value="チャンネル置き換え"/>
+
+    <Viewer3DHeightTex Value="ハイトマップ(Height)"/>
+    <Viewer3DHeightTexTooltip Value="視差マップ用のハイトマップ"/>
+
+    <Viewer3DOccLMTex Value="オクルージョン(Occlusion)"/>
+    <Viewer3DOccLMTexTooltip Value="閉塞またはライトマップの質は基礎質色を増加する"/>
+    <Viewer3DUsePerVertexColors Value="頂点カラーを使用する"/>
+
+    <Viewer3DReflectTex Value="反射マップ(Reflect)"/>
+    <Viewer3DReflectTexTooltip Value="反射用の環境キューブマップテクスチャ"/>
+    <Viewer3DEnableFresnel Value="フレネルを有効"/>
+    <Viewer3DEnableFresnelTooltip Value="カメラを指す表面を反射にするためにそれを点検しなさい"/>
+    <Viewer3DFresnelRefractiveIndex Value="フレネルは索引を反映する"/>
+    <Viewer3DFresnelRefractiveIndexTooltip Value="価値どの位ライトが表面を反映しなければならないか指摘。1.33 年は水、2 であるダイヤモンド、30 であるミラーである"/>
+    <Viewer3DGlossTex Value="グロスマップ(Gloss)"/>
+    <Viewer3DGlossTexTooltip Value="グロスのはいった光沢が入ります。ピクセルを反射か非反射にするのにこれを使用してください"/>
+
+    <Viewer3DEmissiveTex Value="放射マップ(Emissive)"/>
+    <Viewer3DEmissiveTexTooltip Value="放射マップ。放射性のあるグロー効果を追加できます。ライトのない時でさえ軽い”白熱”表現がされます"/>
+
+    <Viewer3DSpecularTex Value="スペキュラーマップ(Specular)"/>
+    <Viewer3DSpecularTexTooltip Value="RGB対応のスペキュラーマップ。アルファを使って(More mean shaper) を制御出来る"/>
+
+    <Viewer3DDiffuseGITex Value="ディフューズGI(DiffuseGI)"/>
+    <Viewer3DDiffuseGITexTooltip Value="環境の照明低頻度の配分を用いるGIキューブマップ。疑似的な野外ライティングを構築"/>
+
+    <Viewer3DRunWindowed Value="ウインドウで表示"/>
+    <Viewer3DRunWindowedTooltip Value="フルスクリーンで起動したい場合はチェックを外してください。"/>
+    <Viewer3DVideoMode Value="ビデオモード"/>
+    <Viewer3DVideoModeTooltip Value="3Dビューアーで使用するビデオモードを選択してください。"/>
+
+    <Viewer3DPlayMusic Value="音楽を流す"/>
+    <Viewer3DPlayMusicTooltip Value="3Dビューアーを使用する間、バックグラウンドに音楽を流します。"/>
+
+    <Viewer3DUseXBox360Gamepad Value="XBox 360のコントローラーを使用する"/>
+    <Viewer3DUseXBox360GamepadTooltip Value="3DビューアーでXBox 360のコントローラーを使う場合はチェックしてください。"/>
+
+    <Viewer3DLaunch Value="ビューアー起動"/>
+    <Viewer3DLaunchTooltip Value="3Dビューアーを起動します"/>
+
+    <!-- Settings and examples-->
+    <SettingsAndExamplesButtonText Value="設定保存読込　とサンプル"/>
+    <SettingsAndExamplesButtonTooltip Value="設定の選択および例を開けるためにここにかちりと鳴らしなさい"/>
+
+    <SettingsLoad Value="設定のロード"/>
+    <SettingsLoadTooltip Value="設定用XMLファイルを読み込みます"/>
+    <SettingsLoadDialogTitle Value="XMLファイルを参照して選択してください"/>
+    <SettingsLoadedOK Value="正常にロードされました。"/>
+    <SettingsLoadError Value="設定を読み込むことが出来ませんでした"/>
+
+    <SettingsRestore Value="設定のクリーンナップ"/>
+    <SettingsRestoreTooltip Value="すべてを初期状態にしたい場合はクリックしてください。"/>
+    <SettingsRestoredOK Value="すべての設定が初期化されました。"/>
+
+    <SettingsSave Value="設定の保存"/>
+    <SettingsSaveTooltip Value="XMLファイルに現在の設定を保存します。"/>
+    <SettingsSaveDialogTitle Value="XMLファイルの保存先を指定してください"/>
+    <SettingsSavedOK Value="設定を保存しました。"/>
+    <SettingsSaveError Value="設定を保存出来ませんでした。"/>
+
+    <SettingsXMLFilter Value="xNormal XML の設定"/>
+
+    <SettingsExamplesGroupbox Value="サンプル"/>
+
+    <AcidButtonText Value="スマイリー君"/>
+    <AcidButtonTooltip Value="色々なマップが入ったスマイリー君のサンプルシーン"/>
+
+    <WallButtonText Value="視差マップ の 壁"/>
+    <WallButtonTooltip Value="視差マップが適用された壁のサンプルシーンです。"/>
+
+    <DiabloButtonText Value="Pablo Hoyos Diablo"/>
+    <DiabloButtonTooltip  Value="Pablo Hoyos Diablo のサンプルシーン" />
+
+    <XemakosButtonText Value="Paul Greveson Xemakos"/>
+    <XemakosButtonTooltip Value="Xemakos Paul Greveson のサンプルシーン"/>
+
+    <SyliaButtonText Value="Kevin George Sylia"/>
+    <SyliaButtonTooltip Value="Kevin George　Sylia のサンプルシーン"/>
+
+    <FlagButtonText Value="旗の テクスチャ ベイキング"/>
+    <FlagButtonTooltip Value="旗のテクスチャベイクのサンプルシーン"/>
+
+    <MirroredUVsAndHardEdgesButtonText Value="対象ミラーUV と ハードエッジ"/>
+    <MirroredUVsAndHardEdgesTooltip Value="ミラーリングされたUVとハードエッジのサンプルシーン"/>
+
+    <!-- Support and about-->
+    <SupportAndAboutButtonText Value="アバウト"/>
+    <SupportAndAboutButtonTooltip Value="サポートウインドウを開きます。"/>
+
+    <WebPage Value="WEBサイト"/>
+    <ContactEMail Value="メール"/>
+    
+    <!-- Plugin manager -->
+    <AllThePluginsTab Value="すべてのプラグイン"/>
+    <ImageImportersTab Value="イメージインポーター"/>
+    <ImageExportersTab Value="イメージエクスポーター"/>
+    <ImageFiltersTab Value="イメージフィルター"/>
+    <MeshImportersTab Value="メッシュインポーター"/>
+    <MeshExportersTab Value="メッシュエクスポーター"/>
+    <GraphicsDriversTab Value="グラフィックドライバー"/>
+    <TangentBasisCalculatorsTab Value="タンジェントの計算機"/>
+    <RenderersTab Value="レンダラー"/>
+    <VideoMakersTab Value="ビデオメーカー"/>
+
+    <PluginInformation Value="プラグイン情報"/>
+    <PluginName Value="プラグイン名"/>
+    <PluginGUID Value="GUID"/>
+    <PluginDescription Value="記述"/>
+    <PluginAuthor Value="作者"/>
+    <PluginVersion Value="バージョン"/>
+    <PluginConfigure Value="設定"/>
+
+    <Defaults Value="デフォルト"/>
+    <DefaultsGraphicsDriver Value="グラフィックの運転者"/>
+    <DefaultsTBCalculator Value="標準の計算機"/>
+    <DefaultsLanguage Value="言語"/>
+    <DefaultsVideoMaker Value="ビデオメーカー"/>
+
+    <!-- Viewer3D (inside) -->
+    <PressESCToAbort Value="ESCキーで中断"/>
+
+    <BackgroundColor Value="背景色"/>
+    <GridColor Value="グリッドカラー"/>
+
+    <ShowLowpolyNormals Value="ノーマルマップ"/>
+    <ShowAO Value="オクルージョンマップ"/>
+    <DrawGrid Value="グリッドの表示"/>
+    <ShowLowpolyWireframe Value="ワイヤーフレーム"/>
+    <ShowLowpolyTangents Value="タンジェント"/>
+    <ShowLowpolyMeshes Value="ローポリモデル"/>
+    <ShowHighpolyMeshes Value="ハイポリモデル"/>
+    <DrawStarfield Value="星空の表示"/>
+
+    <DiffuseGIIntensity Value="全体的な照明の強度"/>
+    <LightIntensity Value="輝度"/>
+    <LightIndirectIntensity Value="間接光強度"/>
+    <LightOrbitDistance Value="軽い軌道間隔"/>
+    <LightAmbientColor Value="アンビエントカラー"/>
+    <LightDiffuseColor Value="ディフューズカラー"/>
+    <LightSpecularColor Value="スペキュラカラー"/>
+    <LightSecondaryColor Value="セカンドカラー"/>
+    <LightTertiaryColor Value="サードカラー"/>
+
+    <Exposure Value="露出(DX10)"/>
+    <HDRThreshold Value="HDR効果(DX10)"/>
+
+    <SaveMeshes Value="メッシュ保存"/>
+    <ReloadTextures Value="テクスチャー再読込"/>
+    <ReloadMeshes Value="メッシュ再読込"/>
+
+    <CastShadows Value="キャストシャドウ"/>
+    <ShadowBias Value="シャドウバイアス"/>
+    <AreaLightRadius Value="シャドウpenumbrae(DX)"/>
+    <DisableFresnelReflections Value="フレネル無効"/>
+
+    <UseEmissiveGlow Value="グローの使用"/>
+    <EmissiveGlowIntensity Value="グローの強度"/>
+
+    <UseParallax Value="視差マップの使用"/>
+    <ParallaxStrength Value="視差の強さ"/>
+
+    <ShowCage Value="ケージの表示"/>
+    <EditCage Value="ケージの編集"/>
+    <CageOpacity Value="ケージの透明度"/>
+    <CageColor Value="ケージのカラー"/>
+    <CageGlobalExtrussion Value="ケージの押し出し"/>
+
+    <SelectionExtrussion Value="選択の放出"/>
+    <IgnoreHiddenFacesForSelection Value="選択のための隠された表面を無視しなさい"/>
+    <UseMButtonToSelectVertices Value="最高点を選ぶ中間ボタン"/>
+    <HoldShiftToMultiSelect Value="転位は多選ぶ"/>
+    <SelectionMoveX Value="X移動"/>
+    <SelectionMoveY Value="Y移動"/>
+    <SelectionMoveZ Value="Z移動"/>
+    <ResetCageSelectionValues Value="戻す"/>
+    <BreakCageSelectionValues Value="壊す"/>
+    <AverageCageSelectionValues Value="平均"/>
+    <CameraAdvanceSensibility Value="カメラ感度"/>
+    <CameraRotationSensibility Value="カメラ回転感度"/>
+    <AxisDebugScale Value="Axis/debug scale"/>
+    <CameraOrbitDistance Value="カメラオービット間隔"/>
+
+    <FPS Value="FPS"/>
+
+    <Radius Value="半径"/>
+    <MaxCageExtrussion Value="ケージの最大距離"/>
+
+    <ASWDRMouseToMove Value="WASD　+　右クリック　FPS操作でカメラを動かす"/>
+    <CTRLRMouseToOrbitCam Value="CTRL + 右クリック　カメラ回転"/>
+    <ALTRMouseToOrbitLight Value="ALT + 右クリック　ライト回転"/>
+    <F8ToTakeScreenshot Value="F8でスクリーンキャプチャ"/>
+    <F1ToShowHideUI Value="F1でUIのハイド"/>
+    <F9ToVideoCapture Value="F9でビデオキャプチャー"/>
+    <VideoCapturing Value="ビデオキャプチャー"/>
+
+
+    <LockLightToCamera Value="ライトをカメラへロック"/>
+    <CameraAutoOrbitCenter Value="オートセンターカメラ"/>
+
+    <ALTENTERToAttach Value ="マウスリリース　ALT+ENTERでアタッチ"/>
+
+    <SSAOEnable Value="SSAOを有効(DX10)"/>
+    <SSAOBright Value="SSAOの明るさ"/>
+    <SSAOContrast Value="SSAOントラスト"/>
+    <SSAOAtten Value="SSAO減衰"/>
+    <SSAORadius Value="SSAO半径"/>
+    <SSAOBlurRadius Value="SSAO半径(blur)"/>
+
+    <SaveMeshesAutoAssign Value="Do you want to auto-assign the saved meshes into your mesh slots?"/>
+
+    <ShowBlockers Value="ブロッカーを表示"/>
+
+    <ShowVDMSeams Value="VDMシームを表示"/>
+    
+    <!-- Preview dialog -->
+    <NormalMap Value="ノーマルマップ(Normal map)"/>
+    <HeightMap Value="ハイトマップ(Height map)"/>
+    <OcclusionMap Value="オクルージョンマップ(Occlusion map)"/>
+    <ConvexityMap Value="コンベクシティマップ(Convexity map)"/>
+    <ThicknessMap Value="厚さマップ(Thickness map)"/>
+    <ProximityMap Value="近接マップ(Proximity map)"/>
+    <BaseTextureBaked Value="ベーステクスチャ"/>
+
+    <Statistics Value="統計"/>
+    <NumRaysFailed Value="レイズに失敗しました"/>
+    <MaxHeight Value="最大の高さ"/>
+    <MaxThickness Value="最大の厚さ"/>
+    <MaxProximity Value="最大近接"/>
+    <TimeInSecs Value="タイム(秒)"/>
+    <KRaysPerSec Value="KRays/秒"/>
+    <MapsRAMInMb Value="マップ RAM(Mb)"/>
+    <LowpolyRAMInMb Value="ローポリ RAM(Mb)"/>
+    <HighpolyRAMInMb Value="ハイポリ RAM(Mb)"/>
+
+
+    <NotifyTileUpdates Value="レンダリング中キュービックを表示"/>
+    <DoNotNotifyTileUpdates Value="レンダリング中キュービックを表示しない"/>
+
+</Localization>

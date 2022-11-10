@@ -1,0 +1,568 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization xmlns="http://www.xnormal.net/xNormal" Name="Français (French)" Version="3.19.3" ISO3166One="fr-FR" RightToLeft="false">
+
+    <!-- General -->
+    <LoadingPlugin Value="Chargement d'enfichable"/>
+    <Visible Value="Visible"/>
+    <Warning Value="Avertissement"/>
+    <Error Value="Erreur"/>
+    <Filter Value="Filtre"/>
+    <Enabled Value="A permis"/>
+    <Disabled Value="Infirme"/>
+    <File Value="le Dossier"/>
+    <Copy Value="Copie"/>
+    <Paste Value="Pâte"/>
+    <Save Value="Garder"/>
+    <AllKnownFileTypes Value="Tous les types de fichiers connus"/>
+    <Color Value="Couleur"/>
+    <FileAreadyExistsOverwriteConfirmation Value="Le fichier existe déjà. Voulez-vous remplacer?"/>
+    <Threshold Value="Seuil"/>
+    <Maximum Value="Maximum"/>
+    <Minimum Value="Minimum"/>
+    <Options Value="Options"/>
+    
+    <!-- GeneralUI -->
+    <RightClickToShowContextMenu Value="Appuyer sur le bouton droit de souris pour montrer le menu de contexte"/>
+
+    <Close Value="Près"/>
+    <CloseToolip Value="Claquement ici pour fermer xNormal"/>
+
+    <GenerateMaps Value="Produisent des Cartes"/>
+    <GenerateMapsTooltip Value="Claquement ici pour COMMENCER à produire les cartes"/>
+    <Generating Value="Se produire"/>
+    <Progress Value="Progrès"/>
+
+    <AbortMaps Value="Abandon"/>
+    <AbortMapsTooltip Value="Claquement ici pour FAIRE AVORTER la génération traite"/>
+    <MinimizeTooltip Value="Claquement ici pour minimiser la fenêtre xNormal"/>
+    <PluginManagerTooltip Value="Claquement ici pour montrer le directeur enfichable"/>
+    <ButtonSoundsTooltip Value="Claquement ici pour permettre/rendre infirme le bouton semble"/>
+    <HaltedTooltip Value="l'indicateur de This change sa couleur pour montrer si xNormal est arrêté ou pas"/>
+
+    <ClickToBrowseTexture Value="Claquement ici pour parcourir l'image ou la texture"/>
+    <BrowseTextureDialogTitle Value="S'il vous plaît, choisissez l'image ou la texture"/>
+    <ClickToResetTexture Value="Claquement ici à la reconstruction l'image ou la texture"/>
+
+    <DefaultMeshScale Value="Défaut maillage échelle"/>
+
+    <SmoothNormals Value="Aplanissent normals"/>
+    <UseExportedNormals Value="Utilisez exporté normales"/>
+    <AverageNormals Value="Moyenne des normales"/>
+    <HardenNormals Value="Durcissez les normals"/>
+
+    <ClearAllMeshes Value="Effacer tous les maillages"/>
+
+    <FileOverwriteWarning Value="Dossier écraser avertissement"/>
+
+
+  <!-- Highpoly tab -->
+    <HighpolyButtonText Value="Haute définition s'enchevêtre"/>
+    <HighpolyButtonTooltip Value="Claquement ici pour montrer la haute définition fait concorder la liste et leurs options"/>
+
+    <HighpolyVisibleTooltip Value="Vérifie pour faire la haute définition s'enchevêtrer visible (dans le 3ème téléspectateur et pour le roulette de rayon)"/>
+
+    <HighpolyFileTooltip Value="le Dossier contenant la haute maille de définition. Le claquement juste pour montrer le menu de contexte"/>
+
+    <HighpolyBaseTextureToBake Value="Texture basée pour cuire"/>
+    <HighpolyBaseTextureToBakeTooltip Value="la texture basée du haut modèle de définition qui ira certainement dans la définition basse un"/>
+    <HighpolyBaseTextureIsTSNM Value="La texture de base est un espace-tangente normale carte"/>
+
+    <HighpolyIgnorePerVertexColor Value="Ignorez l'color de par-sommet"/>
+
+    <HighpolyMenu_BrowseMeshes Value="Parcourent des mailles"/>
+    <HighpolyMenu_BrowseBaseTexstureForBaking Value="Parcourent la texture basée pour cuire"/>
+    <HighpolyMenu_ResetBaseTexstureForBaking Value="Réinitialiser la texture de base pour la cuisson"/>
+    <HighpolyMenu_Delete Value="Effacent la maille"/>
+
+    <HighpolyMenu_BrowseMeshesDialogTitle Value="S'il vous plaît, choisissez les HAUTS modèles de DÉFINITION pour AJOUTER"/>
+
+    <HighpolyMenu_LoadMeshFolder Value="Chemise de maille de charge"/>
+    <FolderToLoad Value="Chemise à charger"/>
+    <StartingName Value="Commencer le nom"/>
+    <MeshFileExtension Value="Maillage de l'extension de fichier"/>
+    <MeshFileExtensionTooltip Value="Maillage de l'extension de fichier (par exemple, obj) sans aucun point"/>
+    <ImageFileExtension Value="De l'extension de fichier image"/>
+    <ImageFileExtensionTooltip Value="Image de l'extension du fichier (par exemple, jpg) sans aucun point"/>
+    <Load Value="Charge"/>
+
+    <!-- Lowpoly tab -->
+    <LowpolyButtonText Value="Définition basse s'enchevêtre"/>
+    <LowpolyButtonTooltip Value="Claquement ici pour montrer la définition basse fait concorder la liste et leurs options"/>
+
+    <LowpolyVisibleTooltip Value="Vérifie pour faire la définition basse s'enchevêtrer visible (dans le téléspectateur et dans le traceur de rayon)"/>
+
+    <LowpolyFileTooltip Value="le Dossier contenant la maille de définition basse. Le claquement juste pour montrer le menu de contexte"/>
+
+    <LowpolyMaxRayDistanceFront Value="Distance de rayon Maximum (le front)"/>
+    <LowpolyMaxRayDistanceFrontTooltip Value="la distance de rayon maximum Uniforme (pour les rayons de côté de devant)"/>
+
+    <LowpolyMaxRayDistanceBack Value="Distance de rayon Maximum (en arrière)"/>
+    <LowpolyMaxRayDistanceBackTooltip Value="la distance de rayon maximum Uniforme (pour les rayons de derrière)"/>
+
+    <LowpolyUseCage Value="Cage d'utilisation"/>
+    <LowpolyUseCageTooltip Value="Le vérifient pour utiliser une cage définie d'utilisateur contenant des distances de rayon maximums"/>
+    <LowpolyExternalCageWarning Value="Si vous indiquez un dossier externe de camp svp SÛR la maille choisie a ABSOLUMENT la MÊME topologie que lowpoly la maille ou vous obtiendrez des erreurs..."/>
+
+    <LowpolyBatchProtection Value="Protection de fournée"/>
+    <LowpolyBatchProtectionTooltip Value="Le vérifient pour prévenir les pixels de cette maille à être remplacée par la maille rendue de fournée suivante"/>
+
+    <LowpolyExternalCageFile Value="Dossier externe de camp"/>
+    <LowpolyExternalCageFileTooltip Value="Bon clic pour montrer le menu pour charger le dossier externe de camp"/>
+
+    <LowpolyAONormalsOverrideFile Value="Dossier à haute définition de priorité de normals de maille"/>
+    <LowpolyAONormalsOverrideFileTooltip Value="Choisir une carte normale pour dépasser les normals à haute définition de coup de maille dans le calcul ambiant d'occlusion"/>
+    <LowpolyAONormalsOverrideTangentSpace Value="L'espace à haute définition de tangente de priorité de normals de maille "/>
+    <LowpolyAONormalsOverrideTangentSpaceTooltip Value="Le marquer pour employer une carte normale du tangente-espace ou pour la maintenir non réprimée pour employer un objet-espace un"/>
+
+    <LowpolyMeshScale Value="Balance de maille"/>
+
+    <LowpolyRenderOrder Value="Rendent l'ordre"/>
+    <LowpolyRenderOrderTooltip Value="a Fournée rend l'ordre. Les mailles seront rendues du haut en bas"/>
+
+    <LowpolyMenu_BrowseMeshes Value="Parcourent des mailles"/>
+    <LowpolyMenu_MoveUp Value="Souris en haut"/>
+    <LowpolyMenu_MoveDown Value="Mouvement en bas"/>
+    <LowpolyMenu_Delete Value="Effacent"/>
+    <LowpolyMenu_BrowseExternalCage Value="Passer en revue le dossier externe de camp"/>
+    <LowpolyMenu_ResetExternalCage Value="Remettre à zéro le dossier externe de camp"/>
+
+    <LowpolyMenu_BrowseMeshesDialogTitle Value="S'il vous plaît, choisissez les modèles de LOWPOLY pour AJOUTER"/>
+    <LowpolyMenu_BrowseCageDialogTitle Value="S'il vous plaît, choisir le dossier externe de maille de camp"/>
+
+    <LowpolyMenu_BrowseAONormalsOverride Value="Passer en revue le dépassement de normals"/>
+    <LowpolyMenu_ResetAONormalsOverride Value="Dépassement de normals de remise"/>
+
+    <Lowpoly_BlockersFile Value="Bloquants fichier"/>
+    <LowpolyMenu_BrowseBlockers Value="Parcourir les bloqueurs de fichier"/>
+    <LowpolyMenu_ResetBlockers Value="Reset bloquants fichier"/>
+    
+    <!-- Normal map tab -->
+    <NormalmapButtonText Value="Options de carte"/>
+    <NormalmapButtonTooltip Value="Claquement ici pour montrer les options de carte"/>
+
+    <NormalmapOutputFile Value="Dossier de Production"/>
+    <NormalmapOutputFileTooltip Value="l'Élection ici un nom de dossier pour les cartes de production en utilisant le bouton '...'"/>
+
+    <NormalmapSize Value="Grandeur"/>
+    <NormalmapSizeTooltip Value="Grandeur, en pixels, des cartes de production. Je ne vous recommande pas de passer 2048x2048 ou serai très lent et consommerai des tonnes de mémoire"/>
+
+    <NormalmapBackgroundColor Value="Couleur de fond"/>
+    <NormalmapEdgePadding Value="Remplissage de bord"/>
+    <NormalmapBucketSize Value="Taille de seau"/>
+
+    <NormalmapAntialiasing Value="Anticrénelage"/>
+
+    <NormalmapGenerateMipmaps Value="Produisent mipmaps"/>
+    <NormalmapGenerateMipmapsTooltip Value="Le vérifient pour produire mipmaps très exact. Non vérifiez-le si vous n'avez pas besoin de mipmaps."/>
+
+    <NormalmapClosestHitIfRayFails Value="Coup le Plus proche si le rayon échoue"/>
+    <NormalmapClosestHitIfRayFailsTooltip Value="Utilise le coup le plus proche s'il n'y a aucune collision de rayon entre la maille de lowpoly et la maille de highpoly. Gardez-le vérifié pour éviter des problèmes."/>
+
+    <NormalmapDiscardBackFacesHits Value="Jetez les coups d'en arrière-visages"/>
+    <NormalmapDiscardBackFacesHitsTooltip Value="Vérifiez-le pour jeter le rayon frappé si lowpoly la normale et highpoly la normale sont vis-à-vis de"/>
+
+    <GenerateNormals Value="Produisez de la carte de normale"/>
+    <NormalmapSwizzleCoordinates Value="l'Ensemble de transformation"/>
+    <NormalmapSwizzleCoordinatesTooltip Value="Vous pouvez transformer la finale normalmap l'ensemble en l'utilisant"/>
+    <NormalmapTangentSpace Value="Tl'espace de Tangente"/>
+    <NormalmapTangentSpaceTooltip Value="Le vérifient pour produire un espace de tangente normalmap. Non vérifiez-le pour utiliser un espace d'objet normalmap"/>
+
+    <NormalmapBakeHighpolyBaseTex Value="Cuisent au four la texture de base de highpoly dans lowpoly"/>
+    <NormalmapBakeHighpolyBaseTexTooltip Value="Le vérifient pour cuire au four la haute texture de base de maille de définition dans la maille de définition basse"/>
+    <NormalmapBakeHighpolyBaseTexWriteObjectIDIfNoTexture Value="Écrivez ObjectID si aucune texture"/>
+    <NormalmapBakeHighpolyBaseTexDrawUsingThisColor Value="Dessiner avec cette couleur"/>
+
+    <NormalmapRenderer Value="Renderer"/>
+    <NormalmapRendererTooltip Value="l'Élection ici le renderer pour utiliser"/>
+
+    <NormalmapAdditionalMaps Value="Cartes additionnelles"/>
+
+    <NormalmapGenerateAmbientOcclusion Value="Produisent l'occlusion ambiante"/>
+    <NormalmapGenerateAmbientOcclusionTooltip Value="Le vérifient pour produire la carte d'occlusion ambiante"/>
+    <NormalmapAODistribution Value="Distribution"/>
+    <NormalmapAODistributionTooltip Value="Choisissent ici la distribution d'occlusion ambiante. L'uniforme donne des résultats plus propres et un cosinus plus sombre d'habitude"/>
+    <NormalmapAODistributionUniform Value="Uniforme"/>
+    <NormalmapAODistributionCosine Value="Cosinus"/>
+    <NormalmapAOLimitRayDistance Value="Limitez pas la distance de rayon"/>
+    <NormalmapAOAttenuation Value="Atténuation"/>
+    <NormalmapAOEnableWeighting Value="Permettre peser"/>
+    <NormalmapAOPRTColorNormalize Value="PRT couleur normaliser"/>
+
+    <NormalmapAOAllowPureOcclusion Value="Permettez pure occlusion"/>
+    <NormalmapAOCoordinateSystem Value="Système de coordonnées"/>
+    <NormalmapEncodeAO Value="Encode occlusion"/>
+    
+    <NormalmapGenerateProximity Value="Produire de la proximité"/>
+
+    <NormalmapRays Value="Rayons"/>
+    <NormalmapAngle Value="Angle"/>
+    <NormalmapMinValue Value="Valeur Minimum"/>
+    <NormalmapMaxValue Value="Valeur Maximum"/>
+    <NormalmapMinValueInvalid Value="Valeur minimum inadmissible (le besoin d'être moins ou égale que la valeur maximum)"/>
+
+    <NormalmapConvexityScale Value="Balance de convexité"/>
+    <NormalmapConcavity Value="Concavité"/>
+
+    <NormalmapFilters Value="Filtres"/>
+
+    <NormalmapWireframeAndRayFails Value="Fil de fer et Ray échoue"/>
+    <NormalmapRenderWireframe Value="Rendu filaire"/>
+    <NormalmapRenderRayFails Value="Ray Render échoue"/>
+
+    <NormalmapDirectionMap Value="Carte de direction"/>
+    <NormalmapEncodeHeights Value="Encode les hauteurs"/>
+
+	<NormalmapBakeHighpolyVertexColors Value="Bake highpoly's vertex colors"/>
+
+	<ImageFilterMenu_Tooltip Value="Claquent le bouton de souris juste pour montrer le menu de filtre"/>
+    <ImageFilterMenu_AddFilter Value="Ajoutent le filtre d'image"/>
+    <ImageFilterMenu_RemoveFilter Value="Enlèvent le filtre d'image"/>
+    <ImageFilterMenu_MoveUp Value="Mettent le filtre plus haut"/>
+    <ImageFilterMenu_MoveDown Value="Mouvement en bas"/>
+    <ImageFilterMenu_ShowInfo Value="les informations de filtre de Spectacle"/>
+    <ImageFilterMenu_Configure Value="Configurent le filtre"/>
+
+    <AutoNormalizeHeight Value="Auto-normaliser les hauteurs"/>
+    <ManualNormalization Value="Manuel normalization"/>
+    
+    <!-- Fine detail tab-->
+    <FineDetailButtonText Value="Détail Parfait"/>
+    <FineDetailButtonTooltip Value="le Claquement ici pour ouvrir les options de détail parfaites"/>
+
+    <FineDetailFile Value="Dossier de Détail"/>
+    <FineDetailFileTooltip Value="l'Élection ici en utilisant le bouton '...' heightmap signé reflète pour le micro-détail parfait"/>
+    <FineDetailBlendFactor Value="Facteur de mélange"/>
+    <FineDetailBlendFactorTooltip Value="Mélangeant le facteur de mélange. Le zéro signifie qu'aucun détail sera ajouté au normalmap. On veut dire que vous verrez seulement le détail et vous ne verrez pas normalmap produit du tout. 0.5 moyens 50 % du détail seront mélangés avec normalmap produit"/>
+
+    <!-- Tools tab-->
+    <ToolsButtonText Value="Outils"/>
+    <ToolsButtonTooltip Value="Clic ici pour ouvrir les outils"/>
+    <ToolsAvailable Value="Usine disponible"/>
+
+    <ToolsHeightmapToNM Value="Carte de taille à la carte normale"/>
+    <ToolsOptions Value="Options"/>
+    <ToolsHeightSrc Value="Source de taille"/>
+    <ToolsNormalizeHeights Value="Normaliser les tailles"/>
+    <ToolsSmooth Value="Lisse"/>
+    <ToolsSmoothTooltip Value="Ceci commandes comment l'abrubt la normale sera"/>
+    <ToolsMethod Value="Méthode"/>
+    <ToolsMethodTooltip Value="Ceci commande la méthode de génération. Une méthode (et plus pointus) plus rapides est les quatre échantillons. Pour obtenir une utilisation plus sans heurt de résultats que les 7x7 filtrent"/>
+    <ToolsPutHeightInAlpha Value="Mettre la taille dans l'alpha"/>
+    <ToolsBrowseHeightmap Value="Passer en revue la carte de taille"/>
+    <ToolsSaveNormalmap Value="Économiser la carte normale"/>
+
+    <ToolsNormalmapToCavity Value="Carte normale de l'tangente-espace à la carte de cavité"/>
+    <ToolsCavityMap Value="Carte de cavité"/>
+    <ToolsBrowseTangentSpaceNormalmap Value="Passez en revue le dossier normal de carte de l'tangente-espace"/>
+    <ToolsBright Value="Lumineux"/>
+    <ToolsContrast Value="Contraste"/>
+    <ToolsNormalize Value="Normalisez"/>
+    <ToolsUseLuminance Value="Employez la luminance"/>
+    <ToolsSaveCavitymap Value="Économiser la carte de cavité"/>
+    <ToolsGenerate Value="Se produire"/>
+    <ToolsAllowTiling Value="Laisser le carrelage"/>
+    <ToolsSavedOK Value="Le dossier a été sauvé avec succès"/>
+
+    <ToolsPhotoLightLeft Value="Allumé de la photo gauche"/>
+    <ToolsPhotoLightRight Value="Droit-a allumé la photo"/>
+    <ToolsPhotoLightTop Value="Dessus-a allumé la photo"/>
+    <ToolsPhotoLightBottom Value="Fond-a allumé la photo"/>
+    <ToolsLoadImage Value="Image de charge"/>
+
+    <ToolsHeightmapToOcclusion Value="Carte de taille à la carte d'occlusion"/>
+    <ToolsSaveOcclusionmap Value="Stocker la carte d'occlusion"/>
+
+    <ToolsObjectTangentSpaceConverter Value="Convertisseur de l'espace d'objet/tangente"/>
+    <ToolsInputNormalmap Value="Carte de normale d'entrée"/>
+    <ToolsOutputNormalmap Value="Carte de normale de rendement"/>
+    <ToolsConvertObjectToTangentSpace Value="L'espace d'objet de converti à l'espace de tangente"/>
+    <ToolsConvertTangentToObjectSpace Value="L'espace de tangente de converti pour objecter l'espace"/>
+
+    <ToolsRelaxedConemap Value="Carte détendue de cône"/>
+    <ToolsHeightmapToRelaxedConemap Value="Heightmap à la carte détendue de cône"/>
+    <ToolsConemapNSteps Value="Étapes"/>
+    <ToolsConemapSave Value="L'économiser a détendu la carte de cône"/>
+    <ToolsHeightIsDepth Value="La taille est profondeur"/>
+
+    <ToolsSimpleAOGenerator Value="Générateur ambiant simple d'occlusion"/>
+    <ToolsPrecision Value="Précision"/>
+    <ToolsPrecisionWarning Value="Vous avez placé FP16 et plus de 2048 échantillons. Selon votre GPU ceci pourrait être ou non possible ainsi, si vous voyez un résultat incorrect, diminuez svp le nombre d'échantillons ou changez en la précision CPU/FP32"/>
+    <ToolsCosineWeightingWarning Value="Bright supérieur à 1,0 n'est pas recommandé lors de l'utilisation de pondération cosinus ... Mais bien ... Vous qui décidez ..."/>
+    <ToolsSimpleGPUMeshDenseWarning Value="Le maillage est très dense. Certaines cartes graphiques ne permettent pas d'utiliser des maillages avec plus de 1 ou 16 millions de sommets ou des triangles. Si vous observez un tout noir ou blanc résultat final peut être dû à cela."/>
+    <ToolsSimpleGPUSmoothShadows Value="Ombres lisses"/>
+
+    <ToolsRayDistanceCalculator Value="Ray calculateur de distance"/>
+
+    <ToolsSH Value="Environnement cube à la carte ambiant cube générateur de carte"/>
+    <ToolsSHInputEnvironmentCubeMap Value="Entrée environnement cube carte"/>
+    <ToolsSHOutputAmbientCubeMap Value="Ambient cube carte"/>
+    <ToolsSHOutputCoefficients Value="Coefficients de sortie"/>
+    <ToolsSHNumberOfBands Value="Nombre de bandes"/>
+    <ToolsSHNumberOfBandsTooltip Value="Moins signifie plus flou. Plus de moyens moins flou."/>
+    <ToolsSHBrowseCubeMap Value="Sélectionnez la carte cubes"/>
+    
+    <!-- 3D Viewer -->
+    <Viewer3DButtonText Value="3ème Téléspectateur"/>
+    <Viewer3DButtonTooltip Value="Claquement ici pour montrer les 3ème options de téléspectateur"/>
+
+    <Viewer3DMesh Value="Lowpoly s'enchevêtrent"/>
+    <Viewer3DMeshTooltip Value="Utilisent le combobox pour choisir une maille pour réviser ses propriétés"/>
+    <Viewer3DCastShadows Value="Ténèbres d'Ensemble des acteurs"/>
+    <Viewer3DCastShadowsTooltip Value="Vérifie si vous voulez que cette maille jette des ténèbres sur d'autres mailles"/>
+    <Viewer3DReceiveShadows Value="Reçoivent des ténèbres"/>
+    <Viewer3DReceiveShadowsTooltip Value="Vérifie si vous voulez que cette maille reçoive des ténèbres d'autres mailles"/>
+    <Viewer3DBackfaceCull Value="Backface choisissant"/>
+    <Viewer3DBackfaceCullTooltip Value="Vérifient pour cacher les visages pas montrant à la caméra pour optimiser la vitesse d'interprétation"/>
+
+    <Viewer3DBaseTex Value="Texture Basée"/>
+    <Viewer3DBaseTexTooltip Value="Base (diffus, l'albédo) la texture"/>
+
+    <Viewer3DTransparencyModeLabel Value="Mode de transparent"/>
+    <Viewer3DTransparencyMode_None Value="Aucun"/>
+    <Viewer3DTransparencyMode_1Bit Value="1Bit"/>
+    <Viewer3DTransparencyMode_AdditiveGlow Value="Additif-rougeoyer"/>
+    <Viewer3DTransparencyMode_ScreenGlass Value="Écran-verre"/>
+    <Viewer3DTransparencyMode_Blend Value="Mélange"/>
+
+    <Viewer3DNormTex Value="Normal texture"/>
+    <Viewer3DNormTexTooltip Value="Carte normale"/>
+    <Viewer3DTangentSpace Value="Eespace de tangente"/>
+    <Viewer3DTangentSpaceTooltip Value="Le vérifie si la carte normale est dans l'espace de tangente ou le non vérifier si pour l'espace d'objet"/>
+    <Viewer3DNMSwizzle Value="Permuter"/>
+
+    <Viewer3DHeightTex Value="Texture de taille"/>
+    <Viewer3DHeightTexTooltip Value="Texture de taille pour tracer de parallaxe"/>
+
+    <Viewer3DOccLMTex Value="Occlusion / allume map texture"/>
+    <Viewer3DOccLMTexTooltip Value="Occlusion ou la texture de carte claire multipliera la couleur de texture basée"/>
+    <Viewer3DUsePerVertexColors Value="Employez colours de par-sommet"/>
+
+    <Viewer3DReflectTex Value="Reflètent la texture"/>
+    <Viewer3DReflectTexTooltip Value="l'Environnement cubemap la texture"/>
+    <Viewer3DEnableFresnel Value="Permettent fresnel"/>
+    <Viewer3DEnableFresnelTooltip Value="Le vérifient pour rendre les surfaces montrant à la caméra plus pensives"/>
+    <Viewer3DFresnelRefractiveIndex Value="Fresnel reflètent l'index"/>
+    <Viewer3DFresnelRefractiveIndexTooltip Value="une valeur indiquant combien de lumière doit refléter la surface. 1.33 est de l'eau, 2 est un diamant, 30 est un miroir"/>
+    <Viewer3DGlossTex Value="Texture de Lustre"/>
+    <Viewer3DGlossTexTooltip Value="la texture de Lustre multiplie la texture de réflexion. Utilisez-le pour rendre quelques pixels pensifs ou non pensifs"/>
+
+    <Viewer3DEmissiveTex Value="Texture d'Emissive"/>
+    <Viewer3DEmissiveTexTooltip Value="la texture d'Emissive ajoutera 'un rougeoiement' clair même lorsque il n'y a aucun présent clair"/>
+
+    <Viewer3DSpecularTex Value="Texture Spéculaire"/>
+    <Viewer3DSpecularTexTooltip Value="les valeurs RGB de la texture spéculaire multipliera le facteur spéculaire de la lumière. L'ALPHA sera utilisé pour contrôler le terme Phong-exponentiel (plus de moyens plus pointus)"/>
+
+    <Viewer3DDiffuseGITex Value="Texture de DiffuseGI"/>
+    <Viewer3DDiffuseGITexTooltip Value="la carte de cube Diffuse avec la distribution de fréquence basse d'éclairage de l'environnement. L'idéal pour simuler les environnements en plein air"/>
+
+    <Viewer3DRunWindowed Value="Dirigé dans le mode de fenêtre"/>
+    <Viewer3DRunWindowedTooltip Value="le Claquement ici pour diriger le 3ème téléspectateur dans le mode de fenêtre (non fullscreen)"/>
+    <Viewer3DVideoMode Value="Mode de Vidéo"/>
+    <Viewer3DVideoModeTooltip Value="l'Élection ici le mode vidéo le 3ème téléspectateur utilisera"/>
+
+    <Viewer3DPlayMusic Value="Musique de Jeu à l'intérieur du téléspectateur"/>
+    <Viewer3DPlayMusicTooltip Value="Vérifie si vous voulez que xNormal joue une musique de fond pendant que vous utilisez le 3ème téléspectateur"/>
+
+    <Viewer3DUseXBox360Gamepad Value="Utilisez le manche de XBox 360"/>
+    <Viewer3DUseXBox360GamepadTooltip Value="Marquez-le pour utiliser le manche de XBox 360 à l'intérieur de la visionneuse 3D"/>
+
+    <Viewer3DLaunch Value="Lancent le téléspectateur"/>
+    <Viewer3DLaunchTooltip Value="Presse ici pour commencer le 3ème téléspectateur"/>
+
+    <!-- Settings and examples-->
+    <SettingsAndExamplesButtonText Value="Cadres et les exemples"/>
+    <SettingsAndExamplesButtonTooltip Value="Claquement ici pour ouvrir les options de cadres et les exemples"/>
+
+    <SettingsLoad Value="Cadres de Charge"/>
+    <SettingsLoadTooltip Value="Claquement ici pour charger un dossier XML de cadres auparavant sauvés"/>
+    <SettingsLoadDialogTitle Value="S'il vous plaît, choisissez un dossier XML pour CHARGER des cadres auparavant sauvés contenants"/>
+    <SettingsLoadedOK Value="les Cadres chargés correctement"/>
+    <SettingsLoadError Value="Erreur. Ne peut pas charger des cadres."/>
+
+    <SettingsRestore Value="Restituent des cadres implicites"/>
+    <SettingsRestoreTooltip Value="le Claquement ici à la reconstruction les cadres implicites"/>
+    <SettingsRestoredOK Value="les Cadres ont été restitués avec les valeurs implicites"/>
+
+    <SettingsSave Value="Sauvent des cadres"/>
+    <SettingsSaveTooltip Value="le Claquement ici pour sauver les cadres actuels à un dossier XML"/>
+    <SettingsSaveDialogTitle Value="S'il vous plaît, choisissez un dossier XML où SAUVER les cadres actuels"/>
+    <SettingsSavedOK Value="les Cadres ont été sauvés correctement"/>
+    <SettingsSaveError Value="Erreur. Ne peut pas sauver des cadres."/>
+
+    <SettingsXMLFilter Value="xNormal XML cadres"/>
+
+    <SettingsExamplesGroupbox Value="Exemples"/>
+
+    <AcidButtonText Value="l'Acide Pensif"/>
+    <AcidButtonTooltip Value="Claquement ici pour charger l'exemple 'acide'"/>
+
+    <WallButtonText Value="Mur Fait la carte de parallaxe"/>
+    <WallButtonTooltip Value="Claquement ici pour charger l'exemple mural"/>
+
+    <DiabloButtonText Value="Pablo Hoyos's Diablo"/>
+    <DiabloButtonTooltip  Value="Claquement ici pour charger l'exemple du Pablo Hoyos Diablo" />
+
+    <XemakosButtonText Value="Paul Greveson's Xemakos"/>
+    <XemakosButtonTooltip Value="Claquement ici pour ouvrir l'exemple de général Xemakos du Paul Greveson"/>
+
+    <SyliaButtonText Value="Kevin George's Sylia"/>
+    <SyliaButtonTooltip Value="Claquement ici pour ouvrir l'exemple du Kevin George Sylia"/>
+
+    <FlagButtonText Value="Traitement au four bas de texture de drapeau"/>
+    <FlagButtonTooltip Value="Clic ici pour ouvrir l'exemple de drapeau"/>
+
+    <MirroredUVsAndHardEdgesButtonText Value="UVs reflété et bords durs"/>
+    <MirroredUVsAndHardEdgesTooltip Value="Cliquer ici pour ouvrir l'UVs reflété et l'exemple dur de bords"/>
+
+    <!-- Support and about-->
+    <SupportAndAboutButtonText Value="Soutien et de"/>
+    <SupportAndAboutButtonTooltip Value="Claquement ici pour ouvrir le soutien et de la fenêtre"/>
+
+    <WebPage Value="Page Web"/>
+    <ContactEMail Value="Contactent E-mail"/>
+    
+    <!-- Plugin manager -->
+    <AllThePluginsTab Value="Tout le plugins"/>
+    <ImageImportersTab Value="Reflètent des importateurs"/>
+    <ImageExportersTab Value="Reflètent des exportateurs"/>
+    <ImageFiltersTab Value="Image pénètre"/>
+    <MeshImportersTab Value="Font concorder des importateurs"/>
+    <MeshExportersTab Value="Font concorder des exportateurs"/>
+    <GraphicsDriversTab Value="Chauffeurs graphiques"/>
+    <TangentBasisCalculatorsTab Value="Calculatrices de base de Tangente"/>
+    <RenderersTab Value="Renderers"/>
+    <VideoMakersTab Value="Fabricants Visuels"/>
+
+    <PluginInformation Value="Renseignements enfichables"/>
+    <PluginName Value="Nom"/>
+    <PluginGUID Value="Dentificateur unique Global"/>
+    <PluginDescription Value="Description"/>
+    <PluginAuthor Value="Auteur"/>
+    <PluginVersion Value="Version"/>
+    <PluginConfigure Value="Configurent"/>
+
+    <Defaults Value="Défauts"/>
+    <DefaultsGraphicsDriver Value="Chauffeur graphique"/>
+    <DefaultsTBCalculator Value="Calculatrice de base"/>
+    <DefaultsLanguage Value="Langue"/>
+    <DefaultsVideoMaker Value="Fabricant Visuel"/>
+
+    <!-- Viewer3D (inside) -->
+    <PressESCToAbort Value="Appuient sur ESC pour avorter"/>
+
+    <BackgroundColor Value="Fond change couleur"/>
+    <GridColor Value="Grille change couleur"/>
+
+    <ShowLowpolyNormals Value="Montrent normals"/>
+    <ShowAO Value="Montrez l'occlusion de par-sommet"/>
+    <DrawGrid Value="Grille d'Attraction"/>
+    <ShowLowpolyWireframe Value="Spectacle télégraphie"/>
+    <ShowLowpolyTangents Value="Tangentes de spectacle"/>
+    <ShowLowpolyMeshes Value="Montrent bas des mailles"/>
+    <ShowHighpolyMeshes Value="Montrent haut des mailles"/>
+    <DrawStarfield Value="L'aspiration tient le premier rôle"/>
+
+    <DiffuseGIIntensity Value="Intensité de DiffuseGI"/>
+    <LightIntensity Value="Intensité Claire"/>
+    <LightIndirectIntensity Value="Intensité de la lumière indirecte"/>
+    <LightOrbitDistance Value="distance d'orbite Claire"/>
+    <LightAmbientColor Value="Allument la couleur ambiante"/>
+    <LightDiffuseColor Value="Lumière diffuse la couleur"/>
+    <LightSpecularColor Value="Allument la couleur spéculaire"/>
+    <LightSecondaryColor Value="Couleur secondaire légère"/>
+    <LightTertiaryColor Value="Couleur tertiaire légère"/>
+
+    <Exposure Value="Exposition (DX10)"/>
+    <HDRThreshold Value="HDR Threshold (DX10)"/>
+
+    <SaveMeshes Value="Sauvent des mailles"/>
+    <ReloadTextures Value="Rechargent des textures"/>
+    <ReloadMeshes Value="Rechargent des mailles"/>
+
+    <CastShadows Value="Permettez des ténèbres"/>
+    <ShadowBias Value="Ombre influe"/>
+    <AreaLightRadius Value="Ombre penumbrae(DX)"/>
+    <DisableFresnelReflections Value="Rendent infirme Fresnel"/>
+
+    <UseEmissiveGlow Value="Utilisent le rougeoiement d'emissive"/>
+    <EmissiveGlowIntensity Value="Intensité de rougeoiement d'Emissive"/>
+
+    <UseParallax Value="Fracas de parallaxe d'Utilisation"/>
+    <ParallaxStrength Value="Force de parallaxe"/>
+
+    <ShowCage Value="Montrent la cage"/>
+    <EditCage Value="Révisent la cage"/>
+    <CageOpacity Value="Opacité de cage"/>
+    <CageColor Value="Cage change de couleur"/>
+    <CageGlobalExtrussion Value="Cage extrusion globale"/>
+
+    <SelectionExtrussion Value="Extrusion de sélection"/>
+    <IgnoreHiddenFacesForSelection Value="Ignorent des visages cachés pour la sélection"/>
+    <UseMButtonToSelectVertices Value="Bouton de middle pour choisir les vertices"/>
+    <HoldShiftToMultiSelect Value="SE DÉPLACE pour multichoisir"/>
+    <SelectionMoveX Value="Mouvement de sélection X"/>
+    <SelectionMoveY Value="Mouvement de sélection Y"/>
+    <SelectionMoveZ Value="Mouvement de sélection Z"/>
+    <ResetCageSelectionValues Value="Reset"/>
+    <BreakCageSelectionValues Value="Briser"/>
+    <AverageCageSelectionValues Value="Avarie"/>
+    <CameraAdvanceSensibility Value="Sensibilité d'avance"/>
+    <CameraRotationSensibility Value="Sensibilité de rotation"/>
+    <AxisDebugScale Value="Échelle d'axe/débogage"/>
+    <CameraOrbitDistance Value="Distance de orbite de camèra"/>
+
+    <FPS Value="FPS"/>
+
+    <Radius Value="Rayon"/>
+    <MaxCageExtrussion Value="Distance maximale de la cage"/>
+
+    <ASWDRMouseToMove Value="bouton de droit d'ASWD déplace la caméra"/>
+    <CTRLRMouseToOrbitCam Value="bouton de droit d'CTRL pour orbit la caméra"/>
+    <ALTRMouseToOrbitLight Value="bouton de droit d'ALT pour orbit la lumière"/>
+    <F8ToTakeScreenshot Value="F8 pour prendre un screenshot"/>
+    <F1ToShowHideUI Value="F1 pour montrer/cacher l'interface d'utilisateur"/>
+    <F9ToVideoCapture Value="F9 à la capture visuelle"/>
+    <VideoCapturing Value="VIDÉO CAPTURANT..."/>
+
+    <LockLightToCamera Value="Fermer la lumière à cámara"/>
+    <CameraAutoOrbitCenter Value="Camera auto-orbit-center"/>
+
+    <ALTENTERToAttach Value ="La souris a libéré. Serrer ALT+ENTER pour attacher"/>
+
+    <SSAOEnable Value="Activer SSAO"/>
+    <SSAOBright Value="SSAO Luminosité"/>
+    <SSAOContrast Value="SSAO de contraste"/>
+    <SSAOAtten Value="Atténuation SSAO"/>
+    <SSAORadius Value="SSAO rayon"/>
+    <SSAOBlurRadius Value="SSAO blur rayon"/>
+    
+    <SaveMeshesAutoAssign Value="Voulez-vous auto-attribuer les mailles sauvegardé dans votre maillage créneaux?"/>
+
+    <ShowBlockers Value="Voir bloquants"/>
+
+    <ShowVDMSeams Value="Voir déplacement coutures"/>
+    
+    <!-- Preview dialog -->
+    <NormalMap Value="Carte normale"/>
+    <HeightMap Value="Carte de taille"/>
+    <OcclusionMap Value="Carte d'occlusion"/>
+    <ConvexityMap Value="Carte de convexité"/>
+    <ThicknessMap Value="Carte d'épaisseur"/>
+    <ProximityMap Value="Carte de proximité"/>
+    <BaseTextureBaked Value="Texture basée cuite au four"/>
+
+    <Statistics Value="Statistique"/>
+    <NumRaysFailed Value="Rayons Ratés"/>
+    <MaxHeight Value="Hauteur de max"/>
+    <MaxThickness Value="Épaisseur maximum"/>
+    <MaxProximity Value="Proximité maximum"/>
+    <TimeInSecs Value="Temps (secondes)"/>
+    <KRaysPerSec Value="KRays/second"/>
+    <MapsRAMInMb Value="Fait la carte de la mémoire(Mb)"/>
+    <LowpolyRAMInMb Value="fait Bas concorder la mémoire(Mb)"/>
+    <HighpolyRAMInMb Value="fait haut concorder la mémoire(Mb)"/>
+
+    <NotifyTileUpdates Value="Avertissez tuiles mises à jour"/>
+    <DoNotNotifyTileUpdates Value="Ne pas notifier les mises à jour de tuiles"/>
+
+</Localization>

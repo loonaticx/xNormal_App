@@ -1,0 +1,571 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization xmlns="http://www.xnormal.net/xNormal" Name="עברית (Hebrew)" Version="3.19.3" ISO3166One="il-IL" RightToLeft="true">
+
+    <!-- General -->
+    <LoadingPlugin Value="להטעין פלאגין"/>
+    <Visible Value="נראה"/>
+    <Warning Value="אזהרה"/>
+    <Error Value="טעות"/>
+    <Filter Value="סנן"/>
+    <Enabled Value="אפשר"/>
+    <Disabled Value="נכה"/>
+    <File Value="תייק"/>
+    <Copy Value="להעתיק"/>
+    <Paste Value="לרועה ב"/>
+    <Save Value="להחזיק"/>
+    <AllKnownFileTypes Value="כל קובץ ידוע מדפיס"/>
+    <Color Value="צבע"/>
+    <FileAreadyExistsOverwriteConfirmation Value="תייק כבר קיים. האם אתה רוצה לכתוב באופן מוגזם זה?"/>
+    <Threshold Value="סף"/>
+    <Maximum Value="מירבי"/>
+    <Minimum Value="מינימום"/>
+    <Options Value="אופציות"/>
+
+    <!-- GeneralUI -->
+    <RightClickToShowContextMenu Value="לוחץ את כפתור העכבר הנכון להראות את תפריט ההקשר"/>
+
+    <Close Value="סגור"/>
+    <CloseToolip Value="לחץ כאן לסגור את קסנורמאל"/>
+
+    <GenerateMaps Value="יצור מפות"/>
+    <GenerateMapsTooltip Value="לחץ כאן להתחיל ליצור את המפות"/>
+    <Generating Value="ליצור"/>
+    <Progress Value="מתקדם"/>
+
+    <AbortMaps Value="הפל"/>
+    <AbortMapsTooltip Value="לחץ כאן להפיל את תהליך הדור"/>
+    <MinimizeTooltip Value="לחץ כאן למזער את החלון של קסנורמאל"/>
+    <PluginManagerTooltip Value="לחץ כאן להראות את מנהל הפלאגין"/>
+    <ButtonSoundsTooltip Value="לחץ כאן לאפשר \ פוסל את הכפתור נשמע"/>
+    <HaltedTooltip Value="המחוון הזה הופך את הצבע שלו להראות אם קסנורמאל נעצר או לא"/>
+
+    <ClickToBrowseTexture Value="לחץ כאן לגלוש בדמות או טקסטורה"/>
+    <BrowseTextureDialogTitle Value="נא, בוחר את הדמות או טקסטורה"/>
+    <ClickToResetTexture Value="לחץ כאן לקבוע מחדש את הדמות או טקסטורה"/>
+
+    <DefaultMeshScale Value="סולם של רישות של בררת המחדל"/>
+
+    <SmoothNormals Value="חלק רגיל"/>
+    <UseExportedNormals Value="שימוש הוציא רגיל"/>
+    <AverageNormals Value="ממוצע רגיל"/>
+    <HardenNormals Value="חזק רגיל"/>
+
+    <ClearAllMeshes Value=" כָּל אֶחָד, כָּל אֶחָד"/>
+
+    <FileOverwriteWarning Value="אזהרה של מדפיסה באופן מוגזם של קבצים"/>
+
+  
+  <!-- Highpoly tab -->
+    <HighpolyButtonText Value="רישותי הגדרה גבוהים"/>
+    <HighpolyButtonTooltip Value="לחץ כאן להראות את הרשימה הגבוהה של רישותים של ההגדרה ואופציות שלהם"/>
+
+    <HighpolyVisibleTooltip Value="בדוק את זה לעשות את רישות ההגדרה הגבוה נראה ( ב3D צופה ולראיטראכאר )"/>
+
+    <HighpolyFileTooltip Value="קובץ מכיל רישות ההגדרה הגבוה. לחיצה בימני להראות את תפריט ההקשר"/>
+
+    <HighpolyBaseTextureToBake Value="בסס טקסטורה לאפות"/>
+    <HighpolyBaseTextureToBakeTooltip Value="בסס טקסטורה של דוגמא ההגדרה הגבוהה שתהיה הטילה לתוך ההגדרה הנמוכה אחת"/>
+    <HighpolyBaseTextureIsTSNM Value="הטקסטורה מבססת זאת מפה של נורמלית ברווח משיקי"/>
+    
+    <HighpolyIgnorePerVertexColor Value="התעלם לאטימה סביבתית של הפסגה"/>
+    <HighpolyMenu_BrowseMeshes Value="גלוש ברישותים"/>
+    <HighpolyMenu_BrowseBaseTexstureForBaking Value="גלוש בטקסטורת בסיס בשביל לאפות"/>
+    <HighpolyMenu_ResetBaseTexstureForBaking Value="סידרה מחדש מבססת טקסטורה בשביל לאפות"/>
+    <HighpolyMenu_Delete Value="בטל רישות"/>
+
+    <HighpolyMenu_BrowseMeshesDialogTitle Value="נא, בוחר את דוגמאות ההגדרה הגבוהות להוסיף"/>
+
+    <HighpolyMenu_LoadMeshFolder Value="הטען תיקית רישות"/>
+    <FolderToLoad Value="תיקיה להטעין"/>
+    <StartingName Value="להתחיל שם"/>
+    <MeshFileExtension Value="הרישות מתייק הארכה"/>
+    <MeshFileExtensionTooltip Value="הרישות מתייק הארכה ( למשל, ובג' ) בלי כל נקודה"/>
+    <ImageFileExtension Value="הדמות מתייקת הארכה"/>
+    <ImageFileExtensionTooltip Value="הדמות מתייקת הארכה ( למשל, ג'אי.פי.ג'י ) בלי כל נקודה"/>
+
+    <Load Value="הטען את זה "/>
+
+    <!-- Lowpoly tab -->
+    <LowpolyButtonText Value="רישותי הגדרה נמוכים"/>
+    <LowpolyButtonTooltip Value="לחץ כאן להראות את הרשימה הנמוכה של רישותים של ההגדרה ואופציות שלהם"/>
+
+    <LowpolyVisibleTooltip Value="בדוק את זה לעשות את רישות ההגדרה הנמוך נראה ( בצופה ובראיטראכאר )"/>
+
+    <LowpolyFileTooltip Value="קובץ מכיל רישות ההגדרה הנמוך. לחיצה בימני להראות את תפריט ההקשר"/>
+
+    <LowpolyMaxRayDistanceFront Value="מרחק קרן מירבי ( מצחי )"/>
+    <LowpolyMaxRayDistanceFrontTooltip Value="מרחק קרן מירבי אחיד ( לקרנות מצחיות )"/>
+
+    <LowpolyMaxRayDistanceBack Value="מרחק קרן אחורי מירבי"/>
+    <LowpolyMaxRayDistanceBackTooltip Value="מרחק קרן מירבי אחיד ( לקרנות אחוריות )"/>
+
+    <LowpolyUseCage Value="השתמש בכלוב"/>
+    <LowpolyUseCageTooltip Value="בדוק את זה להשתמש במשתמש מוגדר כלוב רישות למרחקי קרן מירביים"/>
+    <LowpolyExternalCageWarning Value="אם אתה מפרט כלוב חיצוני מתייק נא ט. בטוח רישות נבחר לחלוטין אותו טופולוגיה מהרישות של לווופולי או אתה תשיג טעויות..."/>
+
+    <LowpolyBatchProtection Value="הגנת אצווה"/>
+    <LowpolyBatchProtectionTooltip Value="בדוק את זה למנוע את הפיקסלים של הרישות הזה להיות נכתב באופן מוגזם על ידי האצווה הבאה השב רישות"/>
+
+    <LowpolyExternalCageFile Value="כלוב חיצוני מתייק"/>
+    <LowpolyExternalCageFileTooltip Value="לחיצה בימני להראות את התפריט להטעין את הכלוב החיצוני מתייקת"/>
+
+    <LowpolyAONormalsOverrideFile Value="היפולי רגיל דוחק קובץ"/>
+    <LowpolyAONormalsOverrideFileTooltip Value="בחר מפה נורמלית לדחוק את ההיפולי מכה רגילה בחישוב האטימה הסביבתי"/>
+    <LowpolyAONormalsOverrideTangentSpace Value="היפולי רגיל דוחק רווח קו משיק"/>
+    <LowpolyAONormalsOverrideTangentSpaceTooltip Value="ציין את זה להשתמש ברווח קו משיק מפה נורמלית או אחזקה שזאת לא מרוסנת להשתמש ברווח אוביקט אחת" />
+
+    <LowpolyMeshScale Value="מערכות מדרגות רישות"/>
+
+    <LowpolyRenderOrder Value="השב הזמנה"/>
+    <LowpolyRenderOrderTooltip Value="אצווה משיבה הזמנה. רישותים ישבו מבכירים לתחתיים"/>
+
+    <LowpolyMenu_BrowseMeshes Value="גלוש ברישותים"/>
+    <LowpolyMenu_MoveUp Value="עכבר {למעלה{"/>
+    <LowpolyMenu_MoveDown Value="זוז למטה"/>
+    <LowpolyMenu_Delete Value="בטל"/>
+    <LowpolyMenu_BrowseExternalCage Value="גלוש בכלוב חיצוני תייק"/>
+    <LowpolyMenu_ResetExternalCage Value="קבע מחדש כלוב חיצוני תייק"/>
+
+    <LowpolyMenu_BrowseMeshesDialogTitle Value="נא, בוחר את הדוגמאות של לווופולי להוסיף"/>
+    <LowpolyMenu_BrowseCageDialogTitle Value="נא, בוחר את רישות הכלוב החיצוני מתייק"/>
+
+    <LowpolyMenu_BrowseAONormalsOverride Value="גלוש בהיפולי רגיל דחוק"/>
+    <LowpolyMenu_ResetAONormalsOverride Value="קבע מחדש את היפולי רגיל דחוק"/>
+
+    <Lowpoly_BlockersFile Value="אני מתייק של לחסום"/>
+    <LowpolyMenu_BrowseBlockers Value="לבחור את הקובץ של לחסום"/>
+    <LowpolyMenu_ResetBlockers Value="ראסאטאיר הקובץ של לחסום"/>
+    
+    <!-- Normal map tab -->
+    <NormalmapButtonText Value="מפה נורמלית"/>
+    <NormalmapButtonTooltip Value="לחץ כאן להראות את אופציות המפה הנורמליות"/>
+
+    <NormalmapOutputFile Value="קובץ פלט"/>
+    <NormalmapOutputFileTooltip Value="נבחר כאן שם קובץ לפלט מפות משתמשת ב'...' כפתר"/>
+
+    <NormalmapSize Value="מדוד"/>
+    <NormalmapSizeTooltip Value="הגודל, בפיקסלים, של הפלט ממפה. אני לא ממליץ אותך לעבור 2048X2048 או תהיה מאוד איטי ותאכל טונות של זכרון"/>
+
+    <NormalmapBackgroundColor Value="צבע רקע"/>
+    <NormalmapEdgePadding Value="ריפוד קצה"/>
+    <NormalmapBucketSize Value="גודל דלי"/>
+
+    <NormalmapAntialiasing Value="לייזר מתגמר שרותים"/>
+
+    <NormalmapGenerateMipmaps Value="יצור את מיפמאפס"/>
+    <NormalmapGenerateMipmapsTooltip Value="בדוק את זה ליצור מיפמאפס מאוד מדויק. בדוק את זה אם אתה לא הצטרך את מיפמאפס."/>
+
+    <NormalmapClosestHitIfRayFails Value="סגור מכה אם קרן נכשלת"/>
+    <NormalmapClosestHitIfRayFailsTooltip Value="שימוש סוגר מכה אם אין התנגשות קרן בין הרישות של לווופולי והרישות של היפולי. החזק לו בדוק להמנע מבעיות."/>
+
+    <NormalmapDiscardBackFacesHits Value="השלך גב מצפה למכות "/>
+    <NormalmapDiscardBackFacesHitsTooltip Value="ציין את זה להשליך את הקרן מכה אם הלווופולי נורמלי וההיפולי נורמליים ניגודים"/>
+
+    <GenerateNormals Value="יצור נורמלי ומפת גובה"/>
+    <NormalmapSwizzleCoordinates Value="הפך קואורדינטות"/>
+    <NormalmapSwizzleCoordinatesTooltip Value="אתה יכול להפוך את קואורדינטות המפה הנורמלית הסופית המשתמשת בזה"/>
+    <NormalmapTangentSpace Value="רווח קו משיק"/>
+    <NormalmapTangentSpaceTooltip Value="בדוק את זה ליצור רווח קו משיק מפה נורמלית. או ם בודק את זה להשתמש ברווח אוביקט מפה נורמלית"/>
+
+    <NormalmapBakeHighpolyBaseTex Value="אפה טקסטורה של בסיס של היפולי בלווופולי"/>
+    <NormalmapBakeHighpolyBaseTexTooltip Value="בדוק את זה לאפות את הבסיס הגבוה של רישות של טקסטורת ההגדרה לתוך רישות ההגדרה הנמוך"/>
+    <NormalmapBakeHighpolyBaseTexWriteObjectIDIfNoTexture Value="כתוב את ובג'אכטיד אם אין טקסטורה"/>
+    <NormalmapBakeHighpolyBaseTexDrawUsingThisColor Value="Draw using this color"/>
+
+    <NormalmapRenderer Value="השב"/>
+    <NormalmapRendererTooltip Value="השב"/>
+
+    <NormalmapAdditionalMaps Value="מפות של אדיטיונאל"/>
+
+    <NormalmapGenerateAmbientOcclusion Value="יצור אטימה סביבתית"/>
+    <NormalmapGenerateAmbientOcclusionTooltip Value="בדוק את זה ליצור מפמפת אטימה סביבתית"/>
+
+    <NormalmapAODistribution Value="הפצה"/>
+    <NormalmapAODistributionTooltip Value="בחר בכאן הפצת האטימה הסביבתית. מדים נותן תוצאות יותר נקיות וקוסינוס יותר כהה בדרך כלל"/>
+    <NormalmapAODistributionUniform Value="מדים"/>
+    <NormalmapAODistributionCosine Value="קוסינוס"/>
+    <NormalmapAOLimitRayDistance Value="הגבל מרחק קרן"/>
+    <NormalmapAOAttenuation Value="המעטה"/>
+    <NormalmapAOEnableWeighting Value="אפשר לשקלל"/>
+    <NormalmapAOPRTColorNormalize Value="צבע של פ.ר.ט. מנרמל"/>
+
+    <NormalmapAOAllowPureOcclusion Value="לתת לאטימה כוללת"/>
+    <NormalmapAOCoordinateSystem Value="מערכת של התאימה"/>
+    <NormalmapEncodeAO Value="ינכלא? R אטימה"/>
+    
+    <NormalmapGenerateProximity Value="יצור קירבה"/>
+
+    <NormalmapRays Value="קרנות"/>
+    <NormalmapAngle Value="דוג"/>
+    <NormalmapMinValue Value="ערך של מ.י.נ."/>
+    <NormalmapMaxValue Value="ערך של מקס"/>
+    <NormalmapMinValueInvalid Value="ערך מ.י.נ. בלי ערך ( צריך להיות פחות או שווה מהערך של מקס )"/>
+
+    <NormalmapConvexityScale Value="סולם קמירות"/>
+    <NormalmapConcavity Value="שקערוריות"/>
+
+    <NormalmapFilters Value="מסננים"/>
+
+    <NormalmapWireframeAndRayFails Value="וויראפראם וקרן נכשל"/>
+    <NormalmapRenderWireframe Value="השב את וויראפראם"/>
+    <NormalmapRenderRayFails Value="השב את הקרן נכשלת"/>
+
+    <NormalmapDirectionMap Value="פונה למפה"/>
+    <NormalmapEncodeHeights Value="להצפין גבהים"/>
+
+	<NormalmapBakeHighpolyVertexColors Value="Bake highpoly's vertex colors"/>
+
+	<ImageFilterMenu_Tooltip Value="הקש את כפתור העכבר הנכון להראות את תפריט המסנן"/>
+    <ImageFilterMenu_AddFilter Value="הוסף מסנן דמות"/>
+    <ImageFilterMenu_RemoveFilter Value="סלק מסנן דמות"/>
+    <ImageFilterMenu_MoveUp Value="עבור מסנן {למעלה{"/>
+    <ImageFilterMenu_MoveDown Value="עבור מסנן למטה"/>
+    <ImageFilterMenu_ShowInfo Value="הראה אינפורמצית מסנן"/>
+    <ImageFilterMenu_Configure Value="סדר מסנן"/>
+
+    <AutoNormalizeHeight Value="למכונית מנרמל גבהים"/>
+    <ManualNormalization Value="גבהי חוברת"/>
+    
+    <!-- Fine detail tab-->
+    <FineDetailButtonText Value="פרט טוב"/>
+    <FineDetailButtonTooltip Value="לחץ כאן לפתוח את אופציות הפרט הטובות"/>
+
+    <FineDetailFile Value="פרט מתייק"/>
+    <FineDetailFileTooltip Value="נבחר כאן משתמש ב'...' כפתר חתום דמות של האיטמאף לקנס מיקרו פרט"/>
+    <FineDetailBlendFactor Value="ערבב גורם"/>
+    <FineDetailBlendFactorTooltip Value="להתערבב מערבב גורם. אפס לא אומר לא פרט יוסף לנורמאלמאף. מישהו אומר אותך תראה רק הפרט ואתה לא תראה את היצרת את נורמאלמאף בכלל. 0.5 אומר 50% של הפרט יעורבב עם היצר את נורמאלמאף"/>
+
+    <!-- Tools tab -->
+    <ToolsButtonText Value="כלים"/>
+    <ToolsButtonTooltip Value="לחץ כאן לפתוח את הכלים"/>
+    <ToolsAvailable Value="כלים ניתנים להשיג"/>
+
+    <ToolsHeightmapToNM Value="מפמפת גובה למפה נורמלית"/>
+    <ToolsOptions Value="אופציות"/>
+    <ToolsHeightSrc Value="מקור גובה"/>
+    <ToolsNormalizeHeights Value="נרמל גבהים"/>
+    <ToolsSmooth Value="חלק"/>
+    <ToolsSmoothTooltip Value="השליטות הזאת איך אבראבט הנורמליות יהיו"/>
+    <ToolsMethod Value="שיטה"/>
+    <ToolsMethodTooltip Value="זה שולט בשיטת הדור. שיטה יותר מהירה ( ויותר חדה ) ארבע הדוגמאות. להשיג תוצאות יותר חלקות משתמש ב7X7 מסנן "/>
+    <ToolsPutHeightInAlpha Value="שים גובה באלפא"/>
+    <ToolsBrowseHeightmap Value="גלוש במפת גובה"/>
+    <ToolsSaveNormalmap Value="חסוך מפה נורמלית"/>
+
+    <ToolsNormalmapToCavity Value="רווח קו משיק מפה נורמלית למפת חור"/>
+    <ToolsCavityMap Value="מפמפת חור"/>
+    <ToolsBrowseTangentSpaceNormalmap Value="גלוש ברווח קו משיק מפה נורמלית"/>
+    <ToolsBright Value="מואר" />
+    <ToolsContrast Value="עמת" />
+    <ToolsNormalize Value="נרמל"/>
+    <ToolsUseLuminance Value="השתמש בלאמינאנך"/>
+    <ToolsSaveCavitymap Value="חסוך מפמפת חור"/>
+
+    <ToolsGenerate Value="יצור"/>
+    <ToolsAllowTiling Value="תן לרעף"/>
+    <ToolsSavedOK Value="הקובץ נחסך בהצלחה"/>
+
+    <ToolsPhotoLightLeft Value="עזוב צילום מודלק"/>
+    <ToolsPhotoLightRight Value="צילום מודלק נכון "/>
+    <ToolsPhotoLightTop Value="Tצילום מודלק בכיר"/>
+    <ToolsPhotoLightBottom Value="צילום מודלק תחתי"/>
+    <ToolsLoadImage Value="הטען דמות"/>
+
+    <ToolsHeightmapToOcclusion Value="מפמפת גובה למפת אטימה"/>
+    <ToolsSaveOcclusionmap Value="אחסן מפמפת אטימה"/>
+
+    <ToolsObjectTangentSpaceConverter Value="התנגד ל\ קו משיק פסק ממיר"/>
+    <ToolsInputNormalmap Value="הכנס מפה נורמלית"/>
+    <ToolsOutputNormalmap Value="מפה נורמלית של הפלט"/>
+    <ToolsConvertObjectToTangentSpace Value="גיור מתנגד לרווח לקו משיק מפסק"/>
+    <ToolsConvertTangentToObjectSpace Value="הפך קו משיק פסק להתנגד לרווח"/>
+
+    <ToolsRelaxedConemap Value="מפמפת קונוס נרגעת "/>
+    <ToolsHeightmapToRelaxedConemap Value="מפמפת גובה לנרגעה מפמפת קונוס"/>
+    <ToolsConemapNSteps Value="צעדים"/>
+    <ToolsConemapSave Value="חסוך מפמפת קונוס נרגעת"/>
+    <ToolsHeightIsDepth Value="גובה הוא עומק"/>
+
+    <ToolsSimpleAOGenerator Value="גנרטור אטימה סביבתי פשוט"/>
+    <ToolsPrecision Value="דיוק"/>
+    <ToolsPrecisionWarning Value="  אתה קובע את פפ16 ויותר מ2048 דוגמאות. לתלות בג.פ.א. שלך זה נוכל להיות או לא אפשרי כל כך, אם אתה רואה תוצאה לא נכונה, נא להקטין את המיספר דוגמאות או משתנה למעבד מרכזי \ דיוק של פפ32"/>
+    <ToolsCosineWeightingWarning Value="ותר מואר יותר גדול מ1.0 לא מומלץ כאשר משתמש בקוסינוס משקלל... אבל טוב... אתה מי מחליט"/>
+    <ToolsSimpleGPUMeshDenseWarning Value="הרישות מאוד צפוף. כמה כרטיסי גרפיקה לא נותנים להשתמש ברישותים עם יותר מ1 או 16 מיליון פסגות או משולשים. אם אתה מתבונן בלגמרי שחור או תוצאה סופית לבנה יכולה להיות בגלל זה"/>
+    <ToolsSimpleGPUSmoothShadows Value="צללים חלקים"/>
+
+    <ToolsRayDistanceCalculator Value="מחשב כיס של קרן מרחיק"/>
+
+    <ToolsSH Value="מפה סביבתית קוב לקוב מפיצה מפה"/>
+    <ToolsSHInputEnvironmentCubeMap Value="מפה סביבתית קוב"/>
+    <ToolsSHOutputAmbientCubeMap Value="קוב מפיץ מפה"/>
+    <ToolsSHOutputCoefficients Value="יצא מקדמים"/>
+    <ToolsSHNumberOfBands Value="מיספר רצועות"/>
+    <ToolsSHNumberOfBandsTooltip Value="פחות רע יותר מטושטש"/>
+    <ToolsSHBrowseCubeMap Value="לבחור מפה קוב"/>
+    
+    <!-- 3D Viewer -->
+    <Viewer3DButtonText Value="3D צופה"/>
+    <Viewer3DButtonTooltip Value="לחץ כאן להראות את ה3D אופציות צופה"/>
+
+    <Viewer3DMesh Value="רישות של לווופולי"/>
+    <Viewer3DMeshTooltip Value="השתמש בכומבובוקס לבחור רישות כדי לערוך את התכונות שלו"/>
+    <Viewer3DCastShadows Value="הטל צללים"/>
+    <Viewer3DCastShadowsTooltip Value="בדוק את זה אם אתה רצה שהרישות הזה יטיל צללים מעל רישותים אחרים"/>
+    <Viewer3DReceiveShadows Value="קבל צללים"/>
+    <Viewer3DReceiveShadowsTooltip Value="בדוק את זה אם אתה רצה שהרישות הזה יקבל צללים מרישותים אחרים"/>
+    <Viewer3DBackfaceCull Value="באקפאך בורר"/>
+    <Viewer3DBackfaceCullTooltip Value="בדוק את זה להסתיר את הפנים לא מצביע למצלמה כדי לעשות ט. אופטימלי מהירות משיבה"/>
+
+    <Viewer3DBaseTex Value="בסס טקסטורה"/>
+    <Viewer3DBaseTexTooltip Value="הבסיס ( מפיץ, אלבאדו ) טקסטורה"/>
+
+    <Viewer3DTransparencyModeLabel Value="מודוס שקיפות"/>
+    <Viewer3DTransparencyMode_None Value="נכה"/>
+    <Viewer3DTransparencyMode_1Bit Value="1Bit"/>
+    <Viewer3DTransparencyMode_AdditiveGlow Value="להט תוספת"/>
+    <Viewer3DTransparencyMode_ScreenGlass Value="הקרן כוס"/>
+    <Viewer3DTransparencyMode_Blend Value="עיוור"/>
+
+    <Viewer3DNormTex Value="מפה נורמלית"/>
+    <Viewer3DNormTexTooltip Value="מפה נורמלית"/>
+    <Viewer3DTangentSpace Value="רווח קו משיק"/>
+    <Viewer3DTangentSpaceTooltip Value="בדוק את זה אם נורמאלמאף הוא ברווח קו משיק או שזאת אם להתנגד לרווח"/>
+    <Viewer3DNMSwizzle Value="תמור"/>
+
+    <Viewer3DHeightTex Value="מפמפת גובה"/>
+    <Viewer3DHeightTexTooltip Value="טקסטורת גובה להסט ממפה"/>
+
+    <Viewer3DOccLMTex Value="אטימה \ טקסטורת מפה קלה"/>
+    <Viewer3DOccLMTexTooltip Value="אטימה או טקסטורה של ליטמאף תכפיל את הצבע של טקסטורה של הבסיס"/>
+    <Viewer3DUsePerVertexColors Value="השתמש לאטימת פסגה"/>
+
+    <Viewer3DReflectTex Value="שקף טקסטורה"/>
+    <Viewer3DReflectTexTooltip Value="סביבה טקסטורה של כאבאמאף"/>
+    <Viewer3DEnableFresnel Value="אפשר לפראסנאל"/>
+    <Viewer3DEnableFresnelTooltip Value="בדוק את זה לעשות את המשטחים המצביע למצלמה יותר החזרי"/>
+    <Viewer3DFresnelRefractiveIndex Value="פראסנאל משקף אינדקס"/>
+    <Viewer3DFresnelRefractiveIndexTooltip Value="ערך מסמן כמה קל חייב לשקף את המשטח. 1.33 הוא משקה, 2 הוא יהלום, 30 הוא ראי"/>
+    <Viewer3DGlossTex Value="מדלג טקסטורה"/>
+    <Viewer3DGlossTexTooltip Value="מדלג טקסטורה מכפילה את טקסטורת ההשתקפות. השתמש בזה לעשות כמה פיקסלים החזרי או היוה החזרי"/>
+
+    <Viewer3DEmissiveTex Value="טקסטורה של אמיסיו"/>
+    <Viewer3DEmissiveTexTooltip Value="טקסטורה של אמיסיו תוסיף אור ' תגחיל ' אפילו כאשר אין נוכחית קלה"/>
+
+    <Viewer3DSpecularTex Value="טקסטורה של ספאכאלאר"/>
+    <Viewer3DSpecularTexTooltip Value="הערכים של ר.ג.ב. של הטקסטורה של ספאכאלאר יכפילו את הגורם של ספאכאלאר של האור. האלפא ישתמש לשלוט במונח האקספוננציאלי של פונג ( יותר יאמר יותר חד )"/>
+
+    <Viewer3DDiffuseGITex Value="הפץ טקסטורת תאורה גלובלית"/>
+    <Viewer3DDiffuseGITexTooltip Value="הפץ את כאבאמאף עם התדירות הנמוכה של הפצת התאורה. עקרון להתחפש בסביבות בחוץ"/>
+
+    <Viewer3DRunWindowed Value="רוץ במודוס מאושנב"/>
+    <Viewer3DRunWindowedTooltip Value="לחץ כאן להריץ את ה3D צופה במודוס מאושנב ( את פאלסכרין )"/>
+    <Viewer3DVideoMode Value="מודוס וידאו"/>
+    <Viewer3DVideoModeTooltip Value="נבחר כאן הוידאו מודוס ה3D צופה ישתמש"/>
+
+    <Viewer3DPlayMusic Value="שחק מוסיקה בתוך הצופה"/>
+    <Viewer3DPlayMusicTooltip Value="בדוק זה אם אתה רצה את הקסנורמאל הזה תשחק כמה מוסיקת רקע בזמן שאתה תשתמש ב3D צופה"/>
+
+    <Viewer3DUseXBox360Gamepad Value="השתמש באיקס בוקס ה360 פקח"/>
+    <Viewer3DUseXBox360GamepadTooltip Value="ציין את זה להשתמש באיקס בוקס ה360 ג'ויסטיק אם זה ניתן להשיג"/>
+
+    <Viewer3DLaunch Value="שגר צופה"/>
+    <Viewer3DLaunchTooltip Value="לוחץ כאן להתחיל את ה3D צופה"/>
+
+    <!-- Settings and examples-->
+    <SettingsAndExamplesButtonText Value="סביבות ודוגמאות"/>
+    <SettingsAndExamplesButtonTooltip Value="לחץ כאן לפתוח את אופציות הסביבות והדוגמאות"/>
+
+    <SettingsLoad Value="הטען סביבות"/>
+    <SettingsLoadTooltip Value="לחץ כאן להטעין אקס.אם.אל מתייק עם סביבות שנחסכות מקודם"/>
+    <SettingsLoadDialogTitle Value="נא, בוחר אקס.אם.אל מתייקת להטעין להכיל סביבות שנחסכות מקודם"/>
+    <SettingsLoadedOK Value="סביבות הטעינו נכון"/>
+    <SettingsLoadError Value="טעות. לא יכול להטעין סביבות."/>
+
+    <SettingsRestore Value="החזר סביבות בררת מחדל"/>
+    <SettingsRestoreTooltip Value="לחץ כאן לקבוע מחדש את סביבות הבררת מחדל"/>
+    <SettingsRestoredOK Value="סביבות הוחזרו עם ברירות המחדל"/>
+
+    <SettingsSave Value="חסוך סביבות"/>
+    <SettingsSaveTooltip Value="לחץ כאן לחסוך את הסביבות הנוכחיות לאקס.אם.אל מתייק"/>
+    <SettingsSaveDialogTitle Value="נא, בוחר אקס.אם.אל מתייקת איפה לחסוך את הסביבות הנוכחיות"/>
+    <SettingsSavedOK Value="סביבות נחסכו נכון"/>
+    <SettingsSaveError Value="טעות."/>
+
+    <SettingsXMLFilter Value="סביבות של קסנורמאל אקס.אם.אל"/>
+
+    <SettingsExamplesGroupbox Value="דוגמאות"/>
+
+    <AcidButtonText Value="החומצה ההחזרית"/>
+    <AcidButtonTooltip Value="לחץ כאן להטעין את ה' חומצה ' דוגמה"/>
+
+    <WallButtonText Value="הסט מיפה קיר"/>
+    <WallButtonTooltip Value="לחץ כאן להטעין את דוגמת הקיר"/>
+
+    <DiabloButtonText Value="פאבלו ההויוס דיאבלו"/>
+    <DiabloButtonTooltip  Value="לחץ כאן להטעין את הפאבלו ההויוס דוגמה של דיאבלו" />
+
+    <XemakosButtonText Value="פאול הגראואסון קסאמאקוס"/>
+    <XemakosButtonTooltip Value="לחץ כאן לפתוח את הפאול הגראואסון דוגמת קסאמאקוס כללי"/>
+
+    <SyliaButtonText Value="קווין הג'ורג' סיליה"/>
+    <SyliaButtonTooltip Value="לחץ כאן לפתוח את הקווין הג'ורג' דוגמה של סיליה"/>
+
+    <FlagButtonText Value="דגלל טקסטורת בסיס אופה"/>
+    <FlagButtonTooltip Value="לחץ כאן לפתוח את דוגמת הדגל"/>
+
+    <MirroredUVsAndHardEdgesButtonText Value="שקף את א.ו.ס. וקצוות קשים"/>
+    <MirroredUVsAndHardEdgesTooltip Value="לחץ כאן לפתוח את המשוקף את א.ו.ס. ודוגמת קצוות קשות"/>
+
+    <!-- Support and about-->
+    <SupportAndAboutButtonText Value="תמוך ועל"/>
+    <SupportAndAboutButtonTooltip Value="לחץ כאן לפתוח את התמיכה ועל חלון"/>
+
+    <WebPage Value="וובפייג'"/>
+    <ContactEMail Value="התקשר לשלוח 1"/>
+
+    <!-- Plugin manager -->
+    <AllThePluginsTab Value="כל הפלאגינים"/>
+    <ImageImportersTab Value="יבואני דמות"/>
+    <ImageExportersTab Value="יצואני דמות"/>
+    <ImageFiltersTab Value="מסנני דמות"/>
+    <MeshImportersTab Value="יבואני רישות"/>
+    <MeshExportersTab Value="יצואני רישות"/>
+    <GraphicsDriversTab Value="נהגי גרפיקה"/>
+    <TangentBasisCalculatorsTab Value="מחשבי כיס של בסיס של קו המשיק"/>
+    <RenderersTab Value="Renderers"/>
+    <VideoMakersTab Value="בוראי וידאו"/>
+
+    <PluginInformation Value="מידע פלאגין"/>
+    <PluginName Value="קרא"/>
+    <PluginGUID Value="מזהה יחידה גלובלית"/>
+    <PluginDescription Value="תאור"/>
+    <PluginAuthor Value="כתוב"/>
+    <PluginVersion Value="גירסה"/>
+    <PluginConfigure Value="סדר"/>
+
+    <Defaults Value="בררות מחדל"/>
+    <DefaultsGraphicsDriver Value="תמוך"/>
+    <DefaultsTBCalculator Value="מחשב כיס של בסיס של קו המשיק"/>
+    <DefaultsLanguage Value="שפה"/>
+    <DefaultsVideoMaker Value="בורא וידאו"/>
+
+    <!-- Viewer3D (inside) -->
+    <PressESCToAbort Value="לוחץ את א.ס.כ. להפיל"/>
+
+    <BackgroundColor Value="צבע רקע"/>
+    <GridColor Value="צבע אסכלה"/>
+
+    <ShowLowpolyNormals Value="הראה רגיל"/>
+    <ShowAO Value="הראה לאטימת פסגה"/>
+    <DrawGrid Value="צייר אסכלה"/>
+    <ShowLowpolyWireframe Value="הראה את וויראפראם"/>
+    <ShowLowpolyTangents Value="הראה קוי משיק"/>
+    <ShowLowpolyMeshes Value="הראה רישותי הגדרה נמוכים"/>
+    <ShowHighpolyMeshes Value="הראה רישותי הגדרה גבוהים"/>
+    <DrawStarfield Value="צייר כוכבים"/>
+
+    <DiffuseGIIntensity Value="הפץ אינטנסיביות תאורה גלובלית"/>
+    <LightIntensity Value="אינטנסיביות קלה"/>
+    <LightIndirectIntensity Value="אינטנסיביות לא ישירה קלה"/>
+    <LightOrbitDistance Value="מרחק מסלול קל"/>
+    <LightAmbientColor Value="צבע סביבתי קל"/>
+    <LightDiffuseColor Value="אור מפיץ צבע"/>
+    <LightSpecularColor Value="צבע ספאכאלאר קל"/>
+    <LightSecondaryColor Value="צבע משני קל"/>
+    <LightTertiaryColor Value="צבע שלישוני קל "/>
+
+    <Exposure Value="(DX10) חשיפה"/>
+    <HDRThreshold Value="HDR Threshold (DX10)"/>
+
+    <SaveMeshes Value="חסוך רישותים"/>
+    <ReloadTextures Value="הטען מחדש טקסטורות"/>
+    <ReloadMeshes Value="הטען מחדש רישותים"/>
+
+    <CastShadows Value="הטל צללים"/>
+    <ShadowBias Value="נטיית צל"/>
+    <AreaLightRadius Value="צל פאנאמברא(DX)"/>
+    <DisableFresnelReflections Value="פסול את פראסנאל"/>
+
+    <UseEmissiveGlow Value="השתמש בלהט של אמיסיו"/>
+    <EmissiveGlowIntensity Value="אינטנסיביות של להט של אמיסיו"/>
+
+    <UseParallax Value="השתמש בגליטת הסט"/>
+    <ParallaxStrength Value="חוזק הסט"/>
+
+    <ShowCage Value="הראה כלוב"/>
+    <EditCage Value="ערוך כלוב"/>
+    <CageOpacity Value="כיהוי כלוב"/>
+    <CageColor Value="צבע כלוב"/>
+    <CageGlobalExtrussion Value="כלוב אקסטראסיון גלובלי"/>
+
+    <SelectionExtrussion Value="שיחול מבחר"/>
+    <IgnoreHiddenFacesForSelection Value="התעלם מהתחבא פנים למבחר"/>
+    <UseMButtonToSelectVertices Value="כפתור אמצעי לבחור פסגות"/>
+    <HoldShiftToMultiSelect Value="העבר למאלטיסאלאכט"/>
+    <SelectionMoveX Value="מבחר עובר X"/>
+    <SelectionMoveY Value="מבחר עובר Y"/>
+    <SelectionMoveZ Value="מבחר עובר Z"/>
+    <ResetCageSelectionValues Value="להחזיר"/>
+    <BreakCageSelectionValues Value="לשבור"/>
+    <AverageCageSelectionValues Value="לרכך"/>
+    <CameraAdvanceSensibility Value="הקדם רגישות"/>
+    <CameraRotationSensibility Value="רגישות הסתובבות"/>
+    <AxisDebugScale Value="ציר \ מדבג סולם"/>
+    <CameraOrbitDistance Value="מרחק של מסלול של המצלמה"/>
+
+    <FPS Value="FPS"/>
+
+    <Radius Value="רדיוס"/>
+    <MaxCageExtrussion Value="מרחק כלוב מירבי"/>
+
+    <ASWDRMouseToMove Value="כפתור נכון של אסווד עובר את המצלמה"/>
+    <CTRLRMouseToOrbitCam Value="כפתור נכון של כטרל מסתחרר המצלמה"/>
+    <ALTRMouseToOrbitLight Value="כפתור נכון של א.ל.ט. מסתחרר האור"/>
+    <F8ToTakeScreenshot Value="לוחץ F8 ללוקח צילום מסך"/>
+    <F1ToShowHideUI Value="F1 להראות\מסתיר את הא.י."/>
+    <F9ToVideoCapture Value="F9 לתפיסת וידאו"/>
+    <VideoCapturing Value="וידאו לוכד..."/>
+
+    <LockLightToCamera Value="נעול קל למצלמה"/>
+    <CameraAutoOrbitCenter Value="מסלול של מכונית של החדר לרכז"/>
+
+    <ALTENTERToAttach Value ="עכבר שחרר. לוחץ את אלטאנטאר לקשר"/>
+
+    <SSAOEnable Value="להפעיל את ס.א.ו."/>
+    <SSAOBright Value="אני בוהק את ס.א.ו."/>
+    <SSAOContrast Value="קונטרסט של ס.א.ו."/>
+    <SSAOAtten Value="אטאנאאטיון ס.א.ו."/>
+    <SSAORadius Value="רדיו של ס.א.ו."/>
+    <SSAOBlurRadius Value="רדיו של ס.א.ו.(blur)"/>
+
+    <SaveMeshesAutoAssign Value="האם אתה רוצה למכונית קובע את הרישותים החסוכים לתוך חריצי הרישות שלך?"/>
+
+    <ShowBlockers Value="להראות לחסום"/>
+
+    <ShowVDMSeams Value="להראות תפרי דחיקה"/>
+    
+    <!-- Preview dialog -->
+    <NormalMap Value="מפה נורמלית"/>
+    <HeightMap Value="מפמפת גובה"/>
+    <OcclusionMap Value="מפמפת אטימה"/>
+    <ConvexityMap Value="מפמפת קמירות"/>
+    <ThicknessMap Value="מפמפת עובי"/>
+    <ProximityMap Value="מפמפת קירבה"/>
+
+    <BaseTextureBaked Value="בסס טקסטורה אפה"/>
+
+    <Statistics Value="סטטיסטיקות"/>
+    <NumRaysFailed Value="קרנות נכשלו"/>
+    <MaxHeight Value="גובה מירבי גילה"/>
+    <MaxThickness Value="עובי של מקס"/>
+    <MaxProximity Value="קירבה של מקס"/>
+    <TimeInSecs Value="תזמן ( בשניות )"/>
+    <KRaysPerSec Value="קראיס \ שני"/>
+    <MapsRAMInMb Value="זכרון מפות(Mb)"/>
+    <LowpolyRAMInMb Value="זכרון רישותים נמוכים(Mb)"/>
+    <HighpolyRAMInMb Value="זכרון רישותים גבוהים(Mb)"/>
+
+    <NotifyTileUpdates Value="הודע לעדכוני אריח"/>
+    <DoNotNotifyTileUpdates Value="לא מודיע לעדכוני אריח"/>
+
+</Localization>

@@ -1,0 +1,215 @@
+//
+// This file is a part of the xNormal SBM Translator for Maya
+// (c) 2005-2018 S.Orgaz.
+//
+global proc XNSBM_TestExportTB ()
+{
+	if ( `checkBox -query -value ExportNormalsChk` == true &&
+		 `checkBox -query -value ExportUVsChk` == true )
+	{
+		checkBox -edit -enable true ExportTBChk;
+	}
+	else
+	{
+		checkBox -edit -enable false ExportTBChk;
+		checkBox -edit -value false ExportTBChk;
+	}
+}
+
+global proc int xNormalSBMTranslator ( string $parent,
+	string $action, string $settings, string $callback )
+{
+	// $parent - the parent UI layout
+	// $action - "post" or "query"
+	// $settings - the initial exporter settings
+	// $callback - the function to call
+
+  	if ( $action == "post" )
+	{
+  		setParent $parent;
+		columnLayout;
+
+		//Set export checkboxes options
+		checkBox 
+			-label "Export normals" 
+			-annotation "Check it to export the vertex normals"
+			-value true
+			-offCommand "$ExportNormalsChk=false; checkBox -edit -value false SmoothNormalsChk; checkBox -edit -enable false SmoothNormalsChk; XNSBM_TestExportTB();" 
+			-onCommand "$ExportNormalsChk=true; checkBox -edit -enable true SmoothNormalsChk; XNSBM_TestExportTB();"  
+			ExportNormalsChk;
+		  
+		checkBox 
+			-label "Smooth normals"   
+			-annotation "Check it to average the vertex normals. Notice it requires to check the export normals."
+			-value false
+			SmoothNormalsChk;
+
+		checkBox 
+			-label "Export UVs" 
+			-annotation "Check it to export the texture coordinates."
+			-value true
+			-offCommand "$ExportUVsChk=false; XNSBM_TestExportTB();" 
+			-onCommand "$ExportUVsChk=true; XNSBM_TestExportTB();" 
+			ExportUVsChk;
+			
+		checkBox 
+			-label "Export tangent basis" 
+			-annotation "Check it to export the tangent basis. Notice it requires to check the export UVs and the export normals."
+			-value false
+			ExportTBChk;
+
+		checkBox 
+			-label "Export vertex colors" 
+			-annotation "Check it to export the vertex colors"
+			-value false
+			-offCommand "$ExportVColsChk=false;" 
+			-onCommand "$ExportVColsChk=true;"  
+			ExportVColsChk;
+
+		// split the previous set of options  
+		string $optionList[];
+		int $ntokens = `tokenize $settings " " $optionList`;
+		
+		// loop through each option
+		for( $i=0; $i<$ntokens; ++$i )
+		{
+  			// get this option
+			$option = $optionList[$i];
+		
+			if ( $option=="-ExportNormals" )
+			{
+  				if ( $optionList[++$i]=="false" )
+				{
+					checkBox -edit -value false ExportNormalsChk;
+					checkBox -edit -enable false SmoothNormalsChk;
+					checkBox -edit -enable false ExportTBChk;
+				}
+				else
+				{
+					checkBox -edit -value true ExportNormalsChk;
+					checkBox -edit -enable true SmoothNormalsChk;
+					checkBox -edit -enable true ExportTBChk;
+				}
+			}
+
+			if ( $option=="-SmoothNormals" )
+			{
+  				if ( $optionList[++$i]=="false" )
+				{
+					checkBox -edit -value false SmoothNormalsChk;
+				}
+				else
+				{
+					checkBox -edit -value true SmoothNormalsChk;
+				}
+			}
+			
+			if ( $option=="-ExportUVs" )
+			{
+  				if ( $optionList[++$i]=="false" )
+				{
+					checkBox -edit -value false ExportUVsChk;
+					checkBox -edit -enable false ExportTBChk;
+				}
+				else
+				{
+					checkBox -edit -value true ExportUVsChk;
+					checkBox -edit -enable true ExportTBChk;
+				}
+			}
+
+			if ( $option=="-ExportTB" )
+			{
+  				if ( $optionList[++$i]=="false" )
+				{
+					checkBox -edit -value false ExportTBChk;
+				}
+				else
+				{
+					checkBox -edit -value true ExportTBChk;
+				}
+				checkBox -edit -enable true ExportTBChk;
+			}
+			
+			if ( $option=="-ExportVCols" )
+			{
+  				if ( $optionList[++$i]=="false" )
+				{
+					checkBox -edit -value false ExportVColsChk;
+				}
+				else
+				{
+					checkBox -edit -value true ExportVColsChk;
+				}
+			}
+		}
+	}
+	else
+	{
+		if ( $action=="query" )
+		{
+			string $option="-ExportNormals ";
+			if ( `checkBox -query -value ExportNormalsChk` == true)
+			{
+				$option += "true ";
+
+				$option += "-SmoothNormals ";
+				if ( `checkBox -query -value SmoothNormalsChk` == true)
+				{
+					$option += "true ";
+				}
+				else
+				{
+					$option += "false ";
+				}
+			}
+			else
+			{
+				$option += "false -SmoothNormals false ";
+			}
+
+			$option += "-ExportUVs ";
+			if ( `checkBox -query -value ExportUVsChk` == true)
+			{
+				$option += "true ";
+			}
+			else
+			{
+				$option += "false ";
+			}
+			
+			if ( `checkBox -query -value ExportNormalsChk` == true &&
+				 `checkBox -query -value ExportUVsChk` == true )
+			{
+				if ( `checkBox -query -value ExportTBChk` == true)
+				{
+					$option += "-ExportTB true ";
+				}
+				else
+				{
+					$option += "-ExportTB false ";
+				}
+			}
+			else
+			{
+				$option += "-ExportTB false ";
+			}
+
+			$option += "-ExportVCols ";
+			if ( `checkBox -query -value ExportVColsChk` == true)
+			{
+				$option += "true ";
+			}
+			else
+			{
+				$option += "false ";
+			}
+			
+			eval( $callback + "\"" + $option + "\"" );
+		}
+	}
+
+	return 1;
+}
+
+

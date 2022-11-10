@@ -1,0 +1,571 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization xmlns="http://www.xnormal.net/xNormal" Name="Русский язык (Russian)" Version="3.19.3" ISO3166One="ru-RU" RightToLeft="false">
+
+    <!-- General -->
+    <LoadingPlugin Value="Нагружать plugin"/>
+    <Visible Value="Видимо"/>
+    <Warning Value="Предупреждение"/>
+    <Error Value="Ошибка"/>
+    <Filter Value="Фильтр"/>
+    <Enabled Value="Включено"/>
+    <Disabled Value="Неработающе"/>
+    <File Value="Архив"/>
+    <Copy Value="Копия"/>
+    <Paste Value="Вставить"/>
+    <Save Value="Хранить"/>
+    <AllKnownFileTypes Value="Все известные типы файлов"/>
+    <Color Value="Цвет"/>
+    <FileAreadyExistsOverwriteConfirmation Value="Файл уже существует. Хотите перезаписать его?"/>
+    <Threshold Value="Порог"/>
+    <Maximum Value="Максимальное"/>
+    <Minimum Value="Минимальные"/>
+    <Options Value="Функции"/>
+
+    <!-- GeneralUI -->
+    <RightClickToShowContextMenu Value="Нажмите правую кнопку мыши чтобы показать контекстное меню"/>
+
+    <Close Value="конец"/>
+    <CloseToolip Value="Щелкните здесь для того чтобы закрыть xNormal"/>
+
+    <GenerateMaps Value="Произведите Карты"/>
+    <GenerateMapsTooltip Value="Щелкните здесь для того чтобы НАЧАТЬ произвести карты"/>
+    <Generating Value="Генерация"/>
+    <Progress Value="Прогресс"/>
+
+    <AbortMaps Value="Стоп"/>
+    <AbortMapsTooltip Value="Щелкните здесь для того чтобы ОСТАНОВИТЬ процесс поколения"/>
+    <MinimizeTooltip Value="Щелкните здесь для того чтобы уменьшить xNormal окно"/>
+    <PluginManagerTooltip Value="Щелкните здесь для того чтобы показать plugin менеджера"/>
+    <ButtonSoundsTooltip Value="Щелкните здесь для того чтобы включить/выведите звуки из строя кнопки"/>
+    <HaltedTooltip Value="Остановлен этот индикатор изменяет свой цвет к выставке если xNormal или не"/>
+
+    <ClickToBrowseTexture Value="Щелкните здесь для того чтобы browse изображение или текстура"/>
+    <BrowseTextureDialogTitle Value="Пожалуйста, выберите изображение или текстурируйте"/>
+    <ClickToResetTexture Value="Щелкните здесь для того чтобы переустановить изображение или текстуру"/>
+
+    <DefaultMeshScale Value="По умолчанию сетка шкалы"/>
+
+    <SmoothNormals Value="Ровный нормальный вершины"/>
+    <UseExportedNormals Value="Используйте ехпортированные normals"/>
+    <AverageNormals Value="Средние normals"/>
+    <HardenNormals Value="Затвердейте normals"/>
+
+    <ClearAllMeshes Value="Очистить все ячейки"/>
+
+    <FileOverwriteWarning Value="Файл перезапишет предупреждение"/>
+
+    <!-- Highpoly tab -->
+    <HighpolyButtonText Value="высокие сетки"/>
+    <HighpolyButtonTooltip Value="Щелкните здесь для того чтобы показать высокий список сеток определения и их варианты"/>
+
+    <HighpolyVisibleTooltip Value="Проверите его для того чтобы сделать высокую сетку определения видимо (в телезрителе 3D и для луч-riqinusa)"/>
+
+    <HighpolyFileTooltip Value="Архив содержа высокую сетку определения. Правый click для того чтобы показать меню смысла"/>
+
+    <HighpolyBaseTextureToBake Value="Низкопробная текстура, котор нужно испечь"/>
+    <HighpolyBaseTextureToBakeTooltip Value="Низкопробная текстура высокой модели определения будет запроектирована до lowpoly одно"/>
+    <HighpolyBaseTextureIsTSNM Value="Текстура базы касательной-пространстве нормальные карты"/>
+
+    <HighpolyIgnorePerVertexColor Value="Проигнорируйте окклюзию в-verwiny окружающюю"/>
+
+    <HighpolyMenu_BrowseMeshes Value="Выберите сеткии"/>
+    <HighpolyMenu_BrowseBaseTexstureForBaking Value="Выберите низкопробную текстуру для выпечки"/>
+    <HighpolyMenu_ResetBaseTexstureForBaking Value="Сброс базы текстуры для выпечки"/>
+    <HighpolyMenu_Delete Value="Сотрите сетку"/>
+
+    <HighpolyMenu_BrowseMeshesDialogTitle Value="Пожалуйста, выберите ВЫСОКИЕ модели ОПРЕДЕЛЕНИЯ для того чтобы ДОБАВИТЬ"/>
+
+    <HighpolyMenu_LoadMeshFolder Value="Скоросшиватель сетки нагрузки"/>
+    <FolderToLoad Value="Скоросшиватель, котор нужно нагрузить"/>
+    <StartingName Value="Начинать имя"/>
+
+    <MeshFileExtension Value="Ячеистая в расширение файла"/>
+    <MeshFileExtensionTooltip Value="Ячеистая файла расширение (например, цель), без каких-либо точке"/>
+    <ImageFileExtension Value="Изображение в расширение файла"/>
+    <ImageFileExtensionTooltip Value="Изображение в расширение файла (например, jpg) без каких-либо точке"/>
+
+    <Load Value="Нагрузка"/>
+
+    <!-- Lowpoly tab -->
+    <LowpolyButtonText Value="низкие сетки"/>
+    <LowpolyButtonTooltip Value="Щелкните здесь для того чтобы показать низкий список сеток определения и их варианты"/>
+
+    <LowpolyVisibleTooltip Value="Проверите его для того чтобы сделать низкую сетку определения видимо (в телезрителе и в луч-riqinuse)"/>
+
+    <LowpolyFileTooltip Value="Архив содержа низкую сетку определения. Правый click для того чтобы показать меню смысла"/>
+
+    <LowpolyMaxRayDistanceFront Value="Максимальное расстояние луча (прифронтовое)"/>
+    <LowpolyMaxRayDistanceFrontTooltip Value="Равномерное максимальное расстояние луча (для лучей передн-storony)"/>
+
+    <LowpolyMaxRayDistanceBack Value="Максимальное расстояние луча (заднее)"/>
+    <LowpolyMaxRayDistanceBackTooltip Value="Равномерное максимальное расстояние луча (для лучей задней стороны)"/>
+
+    <LowpolyUseCage Value="Используйте клетку"/>
+    <LowpolyUseCageTooltip Value="Проверите его для использования user-defined клетки содержа максимальные расстояния луча"/>
+    <LowpolyExternalCageWarning Value="Если вы определите внешний каркас файл пожалуйста УВЕРЕН отдельных сетка имеет ничего ЖЕ топологии, чем низкие или полигональной сетки, вы получаете ошибки ..."/>
+
+    <LowpolyBatchProtection Value="Предохранение от серии"/>
+    <LowpolyBatchProtectionTooltip Value="Проверите его для того чтобы предотвратить пикселы этой сетки, котор будет overwritten следующая сери-predstavlenna4 сетка"/>
+
+    <LowpolyExternalCageFile Value="Внешние клетки файл"/>
+    <LowpolyExternalCageFileTooltip Value="Щелкните правой кнопкой показать меню для загрузки внешнего файла клетками"/>
+
+    <LowpolyAONormalsOverrideFile Value="Highpoly жесткостей переопределить файл"/>
+    <LowpolyAONormalsOverrideFileTooltip Value="Выберите обычной карте перекрыть highpoly хитов жесткостей в окружающем непроходимость расчет"/>
+    <LowpolyAONormalsOverrideTangentSpace Value="Highpoly жесткостей отменять пространства касательной"/>
+    <LowpolyAONormalsOverrideTangentSpaceTooltip Value="Марк ему использовать касательное пространство обычной карте или держать его бесконтрольно использовать объект пространства одного"/>
+
+    <LowpolyMeshScale Value="Маштаб сетки"/>
+
+    <LowpolyRenderOrder Value="Представьте заказ"/>
+    <LowpolyRenderOrderTooltip Value="Серия представляет заказ. Сетки будут представлены от ВЕРХНЕЙ ЧАСТИ к ДНУ"/>
+
+    <LowpolyMenu_BrowseMeshes Value="Задайте сетки"/>
+    <LowpolyMenu_MoveUp Value="Мышь вверх"/>
+    <LowpolyMenu_MoveDown Value="Двиньте вниз"/>
+    <LowpolyMenu_Delete Value="Извлекайте"/>
+    <LowpolyMenu_BrowseExternalCage Value="Обзор внешних отсека файл"/>
+    <LowpolyMenu_ResetExternalCage Value="Сбросить внешний каркас файл"/>
+
+    <LowpolyMenu_BrowseMeshesDialogTitle Value="Пожалуйста, выберите НИЗКИЕ модели ОПРЕДЕЛЕНИЯ для того чтобы ДОБАВИТЬ"/>
+    <LowpolyMenu_BrowseCageDialogTitle Value="Пожалуйста, выберите внешнюю сетку клетки файл"/>
+
+    <LowpolyMenu_BrowseAONormalsOverride Value="Показать highpoly жесткостей переопределить"/>
+    <LowpolyMenu_ResetAONormalsOverride Value="Reset highpoly жесткостей переопределить"/>
+
+    <Lowpoly_BlockersFile Value="Блокаторы файл"/>
+    <LowpolyMenu_BrowseBlockers Value="Люди блокаторы файл"/>
+    <LowpolyMenu_ResetBlockers Value="Сбросить блокаторы файл"/>
+    
+    <!-- Normal map tab -->
+    <NormalmapButtonText Value="Нормальная карта"/>
+    <NormalmapButtonTooltip Value="Щелкните здесь для того чтобы показать нормальные варианты карты"/>
+
+    <NormalmapOutputFile Value="Выходной файл"/>
+    <NormalmapOutputFileTooltip Value="Выберите здесь имя архива для использования карт выхода '... ' кнопка"/>
+
+    <NormalmapSize Value="Размер"/>
+    <NormalmapSizeTooltip Value="Размер, в пикселах, outmap составляет карту. Я не рекомендую вас для того чтобы пройти 2048x2048 или буду очень медленн и уничтожу тонны памяти"/>
+
+    <NormalmapBackgroundColor Value="Цвет предпосылки"/>
+    <NormalmapEdgePadding Value="Прокладка края"/>
+    <NormalmapBucketSize Value="Размер ведра"/>
+
+    <NormalmapAntialiasing Value="Anti-aliasing"/>
+
+    <NormalmapGenerateMipmaps Value="Произведите mipmaps"/>
+    <NormalmapGenerateMipmapsTooltip Value="Проверите его для того чтобы произвести очень точные mipmaps mipmaps. Uncheck оно если вы mipmaps"/>
+
+    <NormalmapClosestHitIfRayFails Value="Самый близкий удар если луч терпит неудачу"/>
+    <NormalmapClosestHitIfRayFailsTooltip Value="Используйте самый близкий удар если не будет столкновения луча между lowpoly сеткой и высокой сеткой определения. Содержание, котор оно проверил для избежания проблем"/>
+
+    <NormalmapDiscardBackFacesHits Value="Сбросьте удары назад-storons"/>
+    <NormalmapDiscardBackFacesHitsTooltip Value="Маркируйте его для того чтобы сбросить ударенный луч если низкая сетка определения нормальная и высокое одно напротив"/>
+
+    <GenerateNormals Value="Произведите карту нормального и высоты"/>
+    <NormalmapSwizzleCoordinates Value="Преобразуйте Координаты"/>
+    <NormalmapSwizzleCoordinatesTooltip Value="Вы можете преобразовать окончательные нормальные координаты карты использующ это"/>
+    <NormalmapTangentSpace Value="Космос тангенса"/>
+    <NormalmapTangentSpaceTooltip Value="Проверите его для того чтобы произвести карту нормального тангенс-kosmosa. Ун-proverite его для использования предмет-kosmosa одного"/>
+
+    <NormalmapBakeHighpolyBaseTex Value="Испеките высокую текстуру основания сетки определения в низкое определение одно"/>
+    <NormalmapBakeHighpolyBaseTexTooltip Value="Проверите его для того чтобы испечь высокую текстуру основания сетки определения в низкую сетку определения"/>
+    <NormalmapBakeHighpolyBaseTexWriteObjectIDIfNoTexture Value="Напишите ObjectID если никакая текстура"/>
+    <NormalmapBakeHighpolyBaseTexDrawUsingThisColor Value="Нарисуйте, используя этот цвет"/>
+
+    <NormalmapRenderer Value="Renderer"/>
+    <NormalmapRendererTooltip Value="Выберите здесь renderer для использования"/>
+
+    <NormalmapAdditionalMaps Value="Дополнительные карты"/>
+
+    <NormalmapGenerateAmbientOcclusion Value="Произведите окружающюю окклюзию"/>
+    <NormalmapGenerateAmbientOcclusionTooltip Value="Проверите его для того чтобы произвести окружающюю карту окклюзии"/>
+
+    <NormalmapAODistribution Value="Распределение"/>
+    <NormalmapAODistributionTooltip Value="Выберите здесь окружающее распределение окклюзии. Форма дает более чистые результаты и косинус более темные обычно"/>
+    <NormalmapAODistributionUniform Value="Форма"/>
+    <NormalmapAODistributionCosine Value="Косинус"/>
+    <NormalmapAOLimitRayDistance Value="Расстояние луча предела"/>
+    <NormalmapAOAttenuation Value="Затухание"/>
+    <NormalmapAOEnableWeighting Value="Включение весов"/>
+    <NormalmapAOPRTColorNormalize Value="ГВП нормализовать цвет"/>
+
+    <NormalmapAOAllowPureOcclusion Value="Разрешить чисто окклюзии"/>
+    <NormalmapAOCoordinateSystem Value="Система координат"/>
+    <NormalmapEncodeAO Value="Кодировать окклюзии"/>
+    
+    <NormalmapGenerateProximity Value="Генерация близости"/>
+
+    <NormalmapRays Value="Лучей"/>
+    <NormalmapAngle Value="Угол"/>
+    <NormalmapMinValue Value="Минимальное Значение"/>
+    <NormalmapMaxValue Value="Максимальное Значение"/>
+    <NormalmapMinValueInvalid Value="Инвалидное минимальное значение (потребность быть или равным чем максимальное значение)"/>
+
+    <NormalmapConvexityScale Value="Маштаб выпуклости"/>
+    <NormalmapConcavity Value="вогнутость"/>
+
+    <NormalmapFilters Value="Фильтры"/>
+
+    <NormalmapWireframeAndRayFails Value="Wireframe и лучей, не"/>
+    <NormalmapRenderWireframe Value="Render wireframe"/>
+    <NormalmapRenderRayFails Value="Render лучей, не"/>
+
+    <NormalmapDirectionMap Value="Направление карте"/>
+    <NormalmapEncodeHeights Value="Кодировать высот"/>
+
+	<NormalmapBakeHighpolyVertexColors Value="Bake highpoly's vertex colors"/>
+
+	<ImageFilterMenu_Tooltip Value="Щелкните правой кнопкой мыши для того чтобы показать меню фильтра"/>
+    <ImageFilterMenu_AddFilter Value="Добавьте фильтр изображения"/>
+    <ImageFilterMenu_RemoveFilter Value="Извлекайте фильтр изображения"/>
+    <ImageFilterMenu_MoveUp Value="Двиньте фильтр вверх"/>
+    <ImageFilterMenu_MoveDown Value="Двиньте фильтр вниз"/>
+    <ImageFilterMenu_ShowInfo Value="Покажите данные по фильтра"/>
+    <ImageFilterMenu_Configure Value="Установите фильтр"/>
+
+    <AutoNormalizeHeight Value="Авто-нормализовать высот"/>
+    <ManualNormalization Value="Руководство нормализации"/>
+    
+    <!-- Fine detail tab-->
+    <FineDetailButtonText Value="Точная деталь"/>
+    <FineDetailButtonTooltip Value="Щелкните здесь для того чтобы раскрыть точные варианты детали"/>
+
+    <FineDetailFile Value="Архив Детали"/>
+    <FineDetailFileTooltip Value="Выберите здесь использовать '... ' застегните подписанное изображение heightmap для точной микро--detali"/>
+    <FineDetailBlendFactor Value="Фактор бленды"/>
+    <FineDetailBlendFactorTooltip Value="Смешивая фактор смешивания. Нул намеревается никакая деталь не будет добавлена к normalmap. Одно намеревается вы увидит только деталь и вы не увидите произведенное normalmap на всех. 0.5 середины 50% из детали будут смешаны с произведенной нормальной картой"/>
+
+    <!-- Tools -->
+    <ToolsButtonText Value="Инструменты"/>
+    <ToolsButtonTooltip Value="Нажмите здесь, чтобы открыть инструменты"/>
+    <ToolsAvailable Value="Инструменты имеющиеся"/>
+
+    <ToolsHeightmapToNM Value="Высота обычной карте сайта"/>
+    <ToolsOptions Value="Опции"/>
+    <ToolsHeightSrc Value="Высота источника"/>
+    <ToolsNormalizeHeights Value="Нормализовать высот"/>
+    <ToolsSmooth Value="Сглаживание"/>
+    <ToolsSmoothTooltip Value="Это определяет, насколько резким будет нормальным"/>
+    <ToolsMethod Value="Метод"/>
+    <ToolsMethodTooltip Value="Этот контроль поколения методом. Ускорение метода (и более) имеет четыре образца. Для получения плавной результаты применения фильтра 7x7"/>
+    <ToolsPutHeightInAlpha Value="Положить высот в альфа"/>
+    <ToolsBrowseHeightmap Value="Найдите высоту карте"/>
+    <ToolsSaveNormalmap Value="Сохранить нормальную карту"/>
+
+    <ToolsNormalmapToCavity Value="карта Тангенс-kosmosa нормальная к карте полости"/>
+    <ToolsCavityMap Value="Карта полости"/>
+    <ToolsBrowseTangentSpaceNormalmap Value="Выберите архив карты тангенс-kosmosa нормальный"/>
+    <ToolsBright Value="Ярко" />
+    <ToolsContrast Value="Контраст" />
+    <ToolsNormalize Value="Нормализуйте"/>
+    <ToolsUseLuminance Value="Используйте luminance"/>
+    <ToolsSaveCavitymap Value="За исключением карты полости"/>
+
+    <ToolsGenerate Value="Генерация"/>
+    <ToolsAllowTiling Value="Позвольте плитки"/>
+    <ToolsSavedOK Value="Архив был сохранен успешно"/>
+
+    <ToolsPhotoLightLeft Value="Слева - включается фото"/>
+    <ToolsPhotoLightRight Value="Право освещенная фотография"/>
+    <ToolsPhotoLightTop Value="К началу освещенная фотография"/>
+    <ToolsPhotoLightBottom Value="Внизу освещенная фотография"/>
+    <ToolsLoadImage Value="Изображение нагрузки"/>
+
+    <ToolsHeightmapToOcclusion Value="Высота карте непроходимость карте"/>
+    <ToolsSaveOcclusionmap Value="Магазин непроходимость карте"/>
+
+    <ToolsObjectTangentSpaceConverter Value="Объект / Прямая пространстве преобразователя"/>
+    <ToolsInputNormalmap Value="Вход обычной карте"/>
+    <ToolsOutputNormalmap Value="Результат обычной карте"/>
+    <ToolsConvertObjectToTangentSpace Value="Конвертировать объекта к касательной космического пространства"/>
+    <ToolsConvertTangentToObjectSpace Value="Конвертировать касательного пространства к объекту пространства"/>
+
+    <ToolsRelaxedConemap Value="Смягчены конус карт"/>
+    <ToolsHeightmapToRelaxedConemap Value="Номер карты смягчены конус карте"/>
+    <ToolsConemapNSteps Value="Шаги"/>
+    <ToolsConemapSave Value="Сохранить расслабиться конус карте"/>
+    <ToolsHeightIsDepth Value="Высотой будет глубина"/>
+
+    <ToolsSimpleAOGenerator Value="Просто окружающий генератор окклюзии"/>
+    <ToolsPrecision Value="Точность"/>
+    <ToolsPrecisionWarning Value="Вы установили FP16 и больше чем 2048 образцов. В зависимости от вашего GPU это смогло быть или по возможности так, если вы видите неправильно результат, то пожалуйста уменьшейте число образцов или измените к точности CPU/FP32"/>
+    <ToolsCosineWeightingWarning Value="Яркое более 1,0 не рекомендуется использовать, когда косинус взвешивания ... , но хорошо ... Вы, кто принимает решения ..."/>
+    <ToolsSimpleGPUMeshDenseWarning Value="Сетка очень плотной. Некоторые графические карты не позволяет использовать сетки с более чем 1 или 16 миллионов вершин или треугольники. Если вы наблюдаете абсолютно черного или белого окончательный результат может быть из-за этого."/>
+    <ToolsSimpleGPUSmoothShadows Value="Ровные тени"/>
+
+    <ToolsRayDistanceCalculator Value="Рэй Расстояние калькулятор"/>
+
+    <ToolsSH Value="Окружающая среда куба карта окружающего куба карта генератор"/>
+    <ToolsSHInputEnvironmentCubeMap Value="Вход окружающей среды куба карта" />
+    <ToolsSHOutputAmbientCubeMap Value="Окружающие куба карта"/>
+    <ToolsSHOutputCoefficients Value="Результат коэффициентов"/>
+    <ToolsSHNumberOfBands Value="Число бандами"/>
+    <ToolsSHNumberOfBandsTooltip Value="Меньше значит больше Blur. Больше средств меньше размытия."/>
+    <ToolsSHBrowseCubeMap Value="Выберите карту куб" />
+    
+    
+    <!-- 3D Viewer -->
+    <Viewer3DButtonText Value="телезритель 3D"/>
+    <Viewer3DButtonTooltip Value="Щелкните здесь для того чтобы показать варианты телезрителя 3D"/>
+
+    <Viewer3DMesh Value="Низкая сетка определения"/>
+    <Viewer3DMeshTooltip Value="Используйте комбинированную рамку для того чтобы выбрать сетку для того чтобы редактировать свои свойства"/>
+    <Viewer3DCastShadows Value="Тени бросания"/>
+    <Viewer3DCastShadowsTooltip Value="Проверите его если вы хотите эту сетку бросить тени над другими сетками"/>
+    <Viewer3DReceiveShadows Value="Получите тени"/>
+    <Viewer3DReceiveShadowsTooltip Value="Проверите его если вы хотите эту сетку получить тени от других сеток"/>
+    <Viewer3DBackfaceCull Value="Задняя сторона отбраковывая"/>
+    <Viewer3DBackfaceCullTooltip Value="Проверите его для того чтобы спрятать стороны не указывая к камере для того чтобы оптимизировать представляя скорость"/>
+
+    <Viewer3DBaseTex Value="Низкопробная текстура"/>
+    <Viewer3DBaseTexTooltip Value="Низкопробная (отразите, альбедо) текстура"/>
+
+    <Viewer3DTransparencyModeLabel Value="Прозрачность режим"/>
+    <Viewer3DTransparencyMode_None Value="Не"/>
+    <Viewer3DTransparencyMode_1Bit Value="1Bit"/>
+    <Viewer3DTransparencyMode_AdditiveGlow Value="Добавка - отблеск"/>
+    <Viewer3DTransparencyMode_ScreenGlass Value="Экран - стекло"/>
+    <Viewer3DTransparencyMode_Blend Value="Блэнд"/>
+
+    <Viewer3DNormTex Value="Нормальная карта"/>
+    <Viewer3DNormTexTooltip Value="Нормальная текстура для составлять карту ремуа"/>
+    <Viewer3DTangentSpace Value="Космос тангенса"/>
+    <Viewer3DTangentSpaceTooltip Value="Проверите его если нормальная карта находится в космосе тангенса или ун-proverite его, то если нормальная карта находится в космосе предмета"/>
+    <Viewer3DNMSwizzle Value="Свиззле"/>
+
+    <Viewer3DHeightTex Value="Карта высоты"/>
+    <Viewer3DHeightTexTooltip Value="Текстура высоты для составлять карту параллакса"/>
+
+    <Viewer3DOccLMTex Value="Окклюзия/светлая текстура карты"/>
+    <Viewer3DOccLMTexTooltip Value="Текстура окклюзии или lightmap будет модулировать (умножить) низкопробный цвет текстуры"/>
+    <Viewer3DUsePerVertexColors Value="Польза в окклюзию вершины"/>
+
+    <Viewer3DReflectTex Value="Текстура отражения"/>
+    <Viewer3DReflectTexTooltip Value="Текстура карты кубика окружающей среды"/>
+    <Viewer3DEnableFresnel Value="Включите fresnel"/>
+    <Viewer3DEnableFresnelTooltip Value="Проверите его для того чтобы сделать поверхности указывая к камере отражательно"/>
+    <Viewer3DFresnelRefractiveIndex Value="Fresnel отражает индекс"/>
+    <Viewer3DFresnelRefractiveIndexTooltip Value="Значение показывая how much света должен отразить поверхность. 1.33 будет водой, 2 будет диамантом, 30 будет зеркалом"/>
+    <Viewer3DGlossTex Value="Текстура лоска"/>
+    <Viewer3DGlossTexTooltip Value="Текстура лоска умножит текстуру отражения. Используйте это для того чтобы сделать некоторые пикселы отражательной или non отражательной"/>
+
+    <Viewer3DEmissiveTex Value="Текстура зарева"/>
+    <Viewer3DEmissiveTexTooltip Value="Эта текстура добавит светлое ' зарево ' even when не будет света"/>
+
+    <Viewer3DSpecularTex Value="Отражающая текстура"/>
+    <Viewer3DSpecularTexTooltip Value="Значения rgb отражающей текстуры умножат отражающий фактор света. АЛЬФАА будет использована для того чтобы контролировать Пюонг-stepennuh термину (больше середин более острых)"/>
+
+    <Viewer3DDiffuseGITex Value="Гловальная текстура освещения"/>
+    <Viewer3DDiffuseGITexTooltip Value="Диффузная карта кубика с распределением относящого к окружающей среде освещения низкочастотным. Идеально сымитировать напольные окружающие среды"/>
+
+    <Viewer3DRunWindowed Value="Режим окна"/>
+    <Viewer3DRunWindowedTooltip Value="Щелкните здесь для того чтобы побежать телезритель 3D в режиме окна (отсутствие полного экрана"/>
+    <Viewer3DVideoMode Value="Видео- режим"/>
+    <Viewer3DVideoModeTooltip Value="Выберите здесь видео- режим телезритель 3D, котор будет использовать"/>
+
+    <Viewer3DPlayMusic Value="Нот игры внутри телезрителя"/>
+    <Viewer3DPlayMusicTooltip Value="Проверите это если вы хотите xNormal сыграть некоторое нот, то предпосылки пока вы используете телезрителя 3D"/>
+
+    <Viewer3DUseXBox360Gamepad Value="Используйте регулятор XBox 360"/>
+    <Viewer3DUseXBox360GamepadTooltip Value="Маркируйте его для использования регулятора XBox 360's внутри телезрителя 3D"/>
+
+    <Viewer3DLaunch Value="Телезритель старта"/>
+    <Viewer3DLaunchTooltip Value="Отожмите здесь для того чтобы начать телезрителя 3D"/>
+
+    <!-- Settings and examples-->
+    <SettingsAndExamplesButtonText Value="Установки и примеры"/>
+    <SettingsAndExamplesButtonTooltip Value="Щелкните здесь для того чтобы раскрыть варианты установок и примеры"/>
+
+    <SettingsLoad Value="Установки нагрузки"/>
+    <SettingsLoadTooltip Value="Щелкните здесь для того чтобы нагрузить архив XML с ранее сохраненные установки"/>
+    <SettingsLoadDialogTitle Value="Пожалуйста, выберите архив XML для того чтобы НАГРУЗИТЬ содержать ранее-soxranennye установки"/>
+    <SettingsLoadedOK Value="Установки нагруженные правильно"/>
+    <SettingsLoadError Value="Ошибка. Не смогите нагрузить установки."/>
+
+    <SettingsRestore Value="Начальные установкы восстановления"/>
+    <SettingsRestoreTooltip Value="Щелкните здесь для того чтобы переустановить начальные установкы"/>
+    <SettingsRestoredOK Value="Установками было восстановленное witht он автоматически принимаемые значения"/>
+
+    <SettingsSave Value="За исключением установок"/>
+    <SettingsSaveTooltip Value="Щелкните здесь для того чтобы сохранить в настоящее время установки к архиву XML"/>
+    <SettingsSaveDialogTitle Value="Пожалуйста, выберите архив XML где СОХРАНИТЬ в настоящее время установки"/>
+    <SettingsSavedOK Value="Установки были сохранены правильно"/>
+    <SettingsSaveError Value="Ошибка. Не смогите сохранить установки."/>
+
+    <SettingsXMLFilter Value="xNormal установки XML"/>
+
+    <SettingsExamplesGroupbox Value="Примеры"/>
+
+    <AcidButtonText Value="Отражательная Кислота"/>
+    <AcidButtonTooltip Value="Щелкните здесь для того чтобы нагрузить кисловочный пример"/>
+
+    <WallButtonText Value="Параллакс-sostavlenna4 карту Стена"/>
+    <WallButtonTooltip Value="Щелкните здесь для того чтобы нагрузить пример стены"/>
+
+    <DiabloButtonText Value="Diablo Pablo Hoyos's"/>
+    <DiabloButtonTooltip Value="Щелкните здесь для того чтобы нагрузить пример diablo pablo Hoyos's" />
+
+    <XemakosButtonText Value="Paul Greveson's Хемакос"/>
+    <XemakosButtonTooltip Value="Щелкните здесь для того чтобы раскрыть пример генералитета Хемакос Paul Greveson's"/>
+
+    <SyliaButtonText Value="Kevin George's Sylia"/>
+    <SyliaButtonTooltip Value="Щелкните здесь для того чтобы раскрыть пример Sylia Kevin George's"/>
+
+    <FlagButtonText Value="Печеный флаг"/>
+    <FlagButtonTooltip Value="Нажмите сюда, чтобы загрузить пекла флаг например"/>
+
+    <MirroredUVsAndHardEdgesButtonText Value="Отраженные UVS и тяжелые границы"/>
+    <MirroredUVsAndHardEdgesTooltip Value="Щелчок здесь открыться отраженный UVS и тяжелый граничит пример"/>
+
+    <!-- Support and about-->
+    <SupportAndAboutButtonText Value="Поддержка и около"/>
+    <SupportAndAboutButtonTooltip Value="Щелкните здесь для того чтобы раскрыть поддержку и о окне"/>
+
+    <WebPage Value="Web page"/>
+    <ContactEMail Value="E-mail контакта"/>
+
+    <!-- Plugin manager -->
+    <AllThePluginsTab Value="Все plugins"/>
+    <ImageImportersTab Value="Импортеры изображения"/>
+    <ImageExportersTab Value="Консигнанты изображения"/>
+    <ImageFiltersTab Value="Фильтры изображения"/>
+    <MeshImportersTab Value="Импортеры сетки"/>
+    <MeshExportersTab Value="Консигнанты сетки"/>
+    <GraphicsDriversTab Value="Водитель графиковs"/>
+    <TangentBasisCalculatorsTab Value="Чалькуляторы основы тангенса"/>
+    <RenderersTab Value="Устройство видеообработки"/>
+    <VideoMakersTab Value="Видео- Создателя"/>
+
+    <PluginInformation Value="Plugin информация"/>
+    <PluginName Value="Имя"/>
+    <PluginGUID Value="Гловальное уникально обозначение"/>
+    <PluginDescription Value="Описание"/>
+    <PluginAuthor Value="Автор"/>
+    <PluginVersion Value="Вариант"/>
+    <PluginConfigure Value="Установите"/>
+
+    <Defaults Value="Невыполнения обязательства"/>
+    <DefaultsGraphicsDriver Value="Водитель графиков"/>
+    <DefaultsTBCalculator Value="Чалькулятор основы"/>
+    <DefaultsLanguage Value="Язык"/>
+    <DefaultsVideoMaker Value="Видео- Создатель"/>
+
+    <!-- Viewer3D (inside) -->
+    <PressESCToAbort Value="Отожмите esc для выкидки"/>
+
+    <BackgroundColor Value="Цвет предпосылки"/>
+    <GridColor Value="Цвет решетки"/>
+
+    <ShowLowpolyNormals Value="Покажите нормальный"/>
+    <ShowAO Value="Покажите окклюзию в-verwiny"/>
+    <DrawGrid Value="Решетка притяжки"/>
+    <ShowLowpolyWireframe Value="Покажите проводы"/>
+    <ShowLowpolyTangents Value="Покажите тангенсы"/>
+    <ShowLowpolyMeshes Value="Покажите низкие сетки"/>
+    <ShowHighpolyMeshes Value="Покажите высокие сетки"/>
+    <DrawStarfield Value="Подготовка звезд"/>
+
+    <DiffuseGIIntensity Value="Диффузные интенсивности ГИ"/>
+    <LightIntensity Value="Интенсивность света"/>
+    <LightIndirectIntensity Value="Легкие косвенные интенсивность"/>
+    <LightOrbitDistance Value="Светлое расстояние орбиты"/>
+    <LightAmbientColor Value="Светлый окружающий цвет"/>
+    <LightDiffuseColor Value="Цвет света диффузный"/>
+    <LightSpecularColor Value="Светлый отражающий цвет"/>
+    <LightSecondaryColor Value="Светлый вторичный цвет"/>
+    <LightTertiaryColor Value="Светлый третичный цвет"/>
+
+    <Exposure Value="Выдержка (DX10)"/>
+    <HDRThreshold Value="HDR Threshold (DX10)"/>
+
+    <SaveMeshes Value="За исключением сеток"/>
+    <ReloadTextures Value="текстуры перезарядки"/>
+    <ReloadMeshes Value="сетки перезарядки"/>
+
+    <CastShadows Value="Тени бросания"/>
+    <ShadowBias Value="Смещение тени"/>
+    <AreaLightRadius Value="Полутени тени(DX)"/>
+    <DisableFresnelReflections Value="Аннулируйте Fresnel"/>
+
+    <UseEmissiveGlow Value="Используйте зарево"/>
+    <EmissiveGlowIntensity Value="Интенсивность зарева"/>
+
+    <UseParallax Value="Используйте ремуо параллакса"/>
+    <ParallaxStrength Value="Прочность параллакса"/>
+
+    <ShowCage Value="Показать клетками"/>
+    <EditCage Value="Редактировать каркас"/>
+    <CageOpacity Value="Клеточное непрозрачности"/>
+    <CageColor Value="Клеточное цветов"/>
+    <CageGlobalExtrussion Value="Клеточное глобальной экструзии"/>
+
+    <SelectionExtrussion Value="Штранге-прессовани выбора"/>
+    <IgnoreHiddenFacesForSelection Value="Проигнорируйте назад стороны"/>
+    <UseMButtonToSelectVertices Value="м-knopka выбирает вершины"/>
+    <HoldShiftToMultiSelect Value="ПЕРЕНЕСИТЕ к multiselect"/>
+    <SelectionMoveX Value="Движение выбора в х"/>
+    <SelectionMoveY Value="Движение выбора в ы"/>
+    <SelectionMoveZ Value="Движение выбора в з"/>
+    <ResetCageSelectionValues Value="сброс"/>
+    <BreakCageSelectionValues Value="ломать"/>
+    <AverageCageSelectionValues Value="авария"/>
+    <CameraAdvanceSensibility Value="Предварительный фактор"/>
+    <CameraRotationSensibility Value="Фактор вращения"/>
+    <AxisDebugScale Value="Ось/debug маштаб"/>
+    <CameraOrbitDistance Value="Камера орбиты расстояние"/>
+
+    <FPS Value="Рвс"/>
+
+    <Radius Value="Радиус"/>
+    <MaxCageExtrussion Value="Максимальное расстояние клетке"/>
+
+    <ASWDRMouseToMove Value="ASWD+правая кнопка двигает камеру"/>
+    <CTRLRMouseToOrbitCam Value="Ctrl+рknopka двигают по орбите камера"/>
+    <ALTRMouseToOrbitLight Value="Alt+рknopka двигают по орбите свет"/>
+    <F8ToTakeScreenshot Value="F8 принимает фотоего"/>
+    <F1ToShowHideUI Value="F1 выставки/прячут UI"/>
+    <F9ToVideoCapture Value="F9 к видео- захвату"/>
+    <VideoCapturing Value="ВИДЕОИЙ ЗАХВАТЫВАЯ..."/>
+
+    <LockLightToCamera Value="Блокировка свет камера"/>
+    <CameraAutoOrbitCenter Value="Автоматическое орбите центр"/>
+
+    <ALTENTERToAttach Value ="Мышь освобождены. Нажмите клавиши ALT + ENTER для подключения"/>
+
+    <SSAOEnable Value="Включить SSAO"/>
+    <SSAOBright Value="SSAO Яркость"/>
+    <SSAOContrast Value="SSAO Контрастность"/>
+    <SSAOAtten Value="SSAO Затухание"/>
+    <SSAORadius Value="SSAO радиус"/>
+    <SSAOBlurRadius Value="SSAO радиус(blur)"/>
+
+    <SaveMeshesAutoAssign Value="Вы хотите автоматически присваивать сохраненные ячейки в вашу сетку окон?"/>
+
+    <ShowBlockers Value="Показать блокаторы"/>
+
+    <ShowVDMSeams Value="Показать перемещения пластов"/>
+    
+    <!-- Preview dialog -->
+    <NormalMap Value="Нормальная карта"/>
+    <HeightMap Value="Высота сайта"/>
+    <OcclusionMap Value="Карта окклюзии"/>
+    <ConvexityMap Value="Саггитальная сайта"/>
+    <ThicknessMap Value="Толщина карты"/>
+    <ProximityMap Value="Бесконтактные карты"/>
+    <BaseTextureBaked Value="Низкопробная испеченная текстура"/>
+
+    <Statistics Value="Статистик"/>
+    <NumRaysFailed Value="Лучи Потерпели неудачу"/>
+    <MaxHeight Value="Максимальная высота"/>
+    <MaxThickness Value="Максимальная толщина"/>
+    <MaxProximity Value="Максимальная близость"/>
+    <TimeInSecs Value="Время (в секундах)"/>
+    <KRaysPerSec Value="К-Luci в секунду"/>
+    <MapsRAMInMb Value="Составляет карту память (mb)"/>
+    <LowpolyRAMInMb Value="Низкая память (mb)"/>
+    <HighpolyRAMInMb Value="Высокая память (mb)"/>
+
+    <NotifyTileUpdates Value="Уведомить плитки обновлений"/>
+    <DoNotNotifyTileUpdates Value="НЕ уведомить плитки обновлений"/>
+</Localization>

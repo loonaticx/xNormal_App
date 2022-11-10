@@ -1,0 +1,572 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization xmlns="http://www.xnormal.net/xNormal" Name="Português (Portuguese)" Version="3.19.3" ISO3166One="pr-PR" RightToLeft="false">
+
+    <!-- General -->
+    <LoadingPlugin Value="Carregamento plugin"/>
+    <Visible Value="Visível"/>
+    <Warning Value="Aviso"/>
+    <Error Value="Erro"/>
+    <Filter Value="Filtro"/>
+    <Enabled Value="Permitido"/>
+    <Disabled Value="Inválidos"/>
+    <File Value="Arquivo"/>
+    <Copy Value="Copy"/>
+    <Paste Value="Pasta"/>
+    <Save Value="Manter"/>
+    <AllKnownFileTypes Value="Todos os tipos de arquivo conhecidos"/>
+    <Color Value="Cor"/>
+    <FileAreadyExistsOverwriteConfirmation Value="O arquivo já existe. Quer gravar por cima dele?"/>
+    <Threshold Value="Limiar"/>
+    <Maximum Value="Máxima"/>
+    <Minimum Value="Mínima"/>
+    <Options Value="Opções"/>
+
+    <!-- GeneralUI -->
+    <RightClickToShowContextMenu Value="Pressionar a tecla de rato direita para mostrar o menu do contexto"/>
+
+    <Close Value="Perto"/>
+    <CloseToolip Value="Clique aqui para fechar xNormal"/>
+
+    <GenerateMaps Value="Geram Mapas"/>
+    <GenerateMapsTooltip Value="Clique aqui para COMEÇAR a gerar os mapas"/>
+    <Generating Value="Gerar"/>
+    <Progress Value="Progresso"/>
+
+    <AbortMaps Value="Abortam"/>
+    <AbortMapsTooltip Value="Clique aqui para ABORTAR a geração processa"/>
+    <MinimizeTooltip Value="Clique aqui para minimizar a janela xNormal"/>
+    <PluginManagerTooltip Value="Clique aqui para mostrar o gerente de plug-in"/>
+    <ButtonSoundsTooltip Value="Clique aqui para permitir/incapacitar o botão toca"/>
+    <HaltedTooltip Value="Este indicador modifica a sua cor para mostrar se xNormal é parado ou não"/>
+
+    <ClickToBrowseTexture Value="Clique aqui para pastar a imagem ou textura"/>
+    <BrowseTextureDialogTitle Value="Por Favor, selecione a imagem ou a textura"/>
+    <ClickToResetTexture Value="Clique aqui para reinicializar a imagem ou textura"/>
+
+    <DefaultMeshScale Value="Default malha escala"/>
+
+    <SmoothNormals Value="Alisam normals"/>
+    <UseExportedNormals Value="Use normals exportados"/>
+    <AverageNormals Value="Normals médios"/>
+    <HardenNormals Value="Endureça normals"/>
+
+    <ClearAllMeshes Value="Limpar todas as malhas"/>
+
+    <FileOverwriteWarning Value="Arquivo sobrescreverá advertência"/>
+
+    <!-- Highpoly tab -->
+    <HighpolyButtonText Value="Alta definição engrena"/>
+    <HighpolyButtonTooltip Value="Clique aqui para mostrar a alta definição engrena a lista e as suas opções"/>
+
+    <HighpolyVisibleTooltip Value="Marcam-no para fazer a alta rede de definição visível (no 3o espectador e para o investigador de raio)"/>
+
+    <HighpolyFileTooltip Value="Arquivo que contém a alta rede de definição. Clique direito para mostrar o cardápio de contexto"/>
+
+    <HighpolyBaseTextureToBake Value="Textura baseada para assar"/>
+    <HighpolyBaseTextureToBakeTooltip Value="A textura baseada do alto modelo de definição que será projetado na definição baixa um"/>
+    <HighpolyBaseTextureIsTSNM Value="A base é uma textura normal mapa de espaço tangente"/>
+
+    <HighpolyIgnorePerVertexColor Value="Ignore a color do por-per-vertex"/>
+
+    <HighpolyMenu_BrowseMeshes Value="Brotos Ternos engrena"/>
+    <HighpolyMenu_BrowseBaseTexstureForBaking Value="os Brotos Ternos baseiam a textura para assar"/>
+    <HighpolyMenu_ResetBaseTexstureForBaking Value="Reset base textura para panificação"/>
+    <HighpolyMenu_Delete Value="Eliminam a rede"/>
+
+    <HighpolyMenu_BrowseMeshesDialogTitle Value="Por Favor, selecione os ALTOS modelos de DEFINIÇÃO PARA ACRESCENTAR"/>
+
+    <HighpolyMenu_LoadMeshFolder Value="Dobrador do engranzamento da carga"/>
+    <FolderToLoad Value="Dobrador a carregar"/>
+    <StartingName Value="Começando o nome"/>
+
+    <MeshFileExtension Value="Malha da extensão"/>
+    <MeshFileExtensionTooltip Value="Malha da extensão (por exemplo, obj), sem qualquer ponto"/>
+    <ImageFileExtension Value="Imagem da extensão"/>
+    <ImageFileExtensionTooltip Value="Imagem da extensão (por exemplo, jpg), sem qualquer ponto"/>
+
+    <Load Value="Carga"/>
+
+    <!-- Lowpoly tab -->
+    <LowpolyButtonText Value="Definição baixa engrena"/>
+    <LowpolyButtonTooltip Value="Clique aqui para mostrar a definição baixa engrena a lista e as suas opções"/>
+
+    <LowpolyVisibleTooltip Value="Arquivo que contém a rede de definição baixa. Clique direito para mostrar o cardápio de contexto"/>
+
+    <LowpolyFileTooltip Value="File containing the low definition mesh. Right click to show the context menu"/>
+
+    <LowpolyMaxRayDistanceFront Value="Distância de raio máxima (frente)"/>
+    <LowpolyMaxRayDistanceFrontTooltip Value="distância de raio máxima uniforme (para raios de lado dianteiro)"/>
+
+    <LowpolyMaxRayDistanceBack Value="Distância de raio máxima (atrás)"/>
+    <LowpolyMaxRayDistanceBackTooltip Value="Distância de raio máxima uniforme (para raios de traseiro)"/>
+
+    <LowpolyUseCage Value="Jaula de uso"/>
+    <LowpolyUseCageTooltip Value="Verificam-no para usar uma jaula definida por usuário que contém distâncias de raio máximas"/>
+    <LowpolyExternalCageWarning Value="Se você especificar uma lima externa da gaiola por favor CERTA o engranzamento selecionado tiver ABSOLUTAMENTE a MESMA topologia do que o engranzamento baixo do polygon ou você começará erros..."/>
+
+    <LowpolyBatchProtection Value="Proteção de lote"/>
+    <LowpolyBatchProtectionTooltip Value="Verificam-no para prevenir os píxeis desta rede ser sobregravados pela seguinte rede dada por lote"/>
+
+    <LowpolyExternalCageFile Value="Lima externa da gaiola"/>
+    <LowpolyExternalCageFileTooltip Value="Clique direito para mostrar o menu para carregar a lima externa da gaiola"/>
+
+    <LowpolyAONormalsOverrideFile Value="Lima da ultrapassagem dos normals de Highpoly"/>
+    <LowpolyAONormalsOverrideFileTooltip Value="Selecionar um mapa normal para cancelar highpoly os normals da batida no cálculo ambiental da oclusão"/>
+    <LowpolyAONormalsOverrideTangentSpace Value="Espaço do tangent da ultrapassagem dos normals de Highpoly"/>
+    <LowpolyAONormalsOverrideTangentSpaceTooltip Value="Marcá-lo para usar um mapa normal do tangent-espaço ou para mantê-lo unchecked para usar um objeto-espaço um"/>
+
+    <LowpolyMeshScale Value="Escala do engranzamento"/>
+
+    <LowpolyRenderOrder Value="Dão a ordem"/>
+    <LowpolyRenderOrderTooltip Value="o Lote dá a ordem. As redes serão dadas de cima para baixo"/>
+
+    <LowpolyMenu_BrowseMeshes Value="Brotos Ternos engrena"/>
+    <LowpolyMenu_MoveUp Value="Rato em cima de"/>
+    <LowpolyMenu_MoveDown Value="Movimento abaixo"/>
+    <LowpolyMenu_Delete Value="Eliminam"/>
+    <LowpolyMenu_BrowseExternalCage Value="Browse a lima externa da gaiola"/>
+    <LowpolyMenu_ResetExternalCage Value="Restaurar a lima externa da gaiola"/>
+
+    <LowpolyMenu_BrowseMeshesDialogTitle Value="Por favor, selecione os modelos de LOWPOLY para ACRESCENTAR"/>
+    <LowpolyMenu_BrowseCageDialogTitle Value="Por favor, selecionar a lima externa do engranzamento da gaiola"/>
+
+    <LowpolyMenu_BrowseAONormalsOverride Value="Browse highpoly a ultrapassagem dos normals"/>
+    <LowpolyMenu_ResetAONormalsOverride Value="Da restauração ultrapassagem dos normals highpoly"/>
+
+    <Lowpoly_BlockersFile Value="Bloqueadores arquivo"/>
+    <LowpolyMenu_BrowseBlockers Value="Navegar bloqueadores arquivo"/>
+    <LowpolyMenu_ResetBlockers Value="Redefinir bloqueadores arquivo"/>
+    
+    <!-- Normal map tab -->
+    <NormalmapButtonText Value="Mapa normal"/>
+    <NormalmapButtonTooltip Value="Clique aqui para mostrar as opções de mapa normais"/>
+
+    <NormalmapOutputFile Value="Arquivo de Produção"/>
+    <NormalmapOutputFileTooltip Value="Selecionam aqui um nome de arquivo dos mapas de produção que usam o botão '...'"/>
+
+    <NormalmapSize Value="Tamanho"/>
+    <NormalmapSizeTooltip Value="O tamanho, em píxeis, dos mapas de produção. Não lhe recomendo passar 2048x2048 ou serei muito lento e consumirei toneladas da memória"/>
+
+    <NormalmapBackgroundColor Value="Cor do fundo"/>
+    <NormalmapEdgePadding Value="Estofamento da borda"/>
+    <NormalmapBucketSize Value="Tamanho da cubeta"/>
+
+    <NormalmapAntialiasing Value="Anti-aliasing"/>
+
+    <NormalmapGenerateMipmaps Value="Geram mipmaps"/>
+    <NormalmapGenerateMipmapsTooltip Value="Marcam-no para gerar mipmaps muito exato. Não verifique-o se você não precisar de mipmaps."/>
+
+    <NormalmapClosestHitIfRayFails Value="Golpe mais fechado se o raio falha"/>
+    <NormalmapClosestHitIfRayFailsTooltip Value="Usa o golpe mais fechado se não houver nenhum choque de raio entre a rede de lowpoly e a rede de highpoly. Guarde-o verificado para evitar problemas."/>
+
+    <NormalmapDiscardBackFacesHits Value="Rejeite batidas das para trás-caras"/>
+    <NormalmapDiscardBackFacesHitsTooltip Value="Marque-o para rejeitar o raio batido se o engranzamento baixo da definição normal e elevado estiverem oposto a"/>
+
+    <GenerateNormals Value="Mapa do normal"/>
+    <NormalmapSwizzleCoordinates Value="Transformam Coordenadas"/>
+    <NormalmapSwizzleCoordinatesTooltip Value="Você pode transformar o final normalmap coordenadas que usam isto"/>
+    <NormalmapTangentSpace Value="Espaço de tangente"/>
+    <NormalmapTangentSpaceTooltip Value="Marcam-no para gerar um mapa normal espacial de tangente. Não verifique-o para usar um mapa normal espacial de objeto"/>
+
+    <NormalmapBakeHighpolyBaseTex Value="Assam a textura de base de highpoly em lowpoly"/>
+    <NormalmapBakeHighpolyBaseTexTooltip Value="Marcam-no para assar a alta textura de base de rede de definição na rede de definição baixa"/>
+    <NormalmapBakeHighpolyBaseTexWriteObjectIDIfNoTexture Value="Escreva ObjectID se nenhuma textura"/>
+    <NormalmapBakeHighpolyBaseTexDrawUsingThisColor Value="Desenhe usando essa cor"/>
+
+    <NormalmapRenderer Value="Renderer"/>
+    <NormalmapRendererTooltip Value="Selecionam aqui o renderer para usar"/>
+
+    <NormalmapAdditionalMaps Value="Mapas adicionais"/>
+
+    <NormalmapGenerateAmbientOcclusion Value="Geram a oclusão ambiente"/>
+    <NormalmapGenerateAmbientOcclusionTooltip Value="Marcam-no para gerar o mapa de oclusão ambiente"/>
+
+    <NormalmapAODistribution Value="Distribuição"/>
+    <NormalmapAODistributionTooltip Value="Escolhem aqui a distribuição de oclusão ambiente. O uniforme dá resultados mais limpos e co-seno mais escuro normalmente"/>
+    <NormalmapAODistributionUniform Value="Uniforme"/>
+    <NormalmapAODistributionCosine Value="Co-seno"/>
+    <NormalmapAOLimitRayDistance Value="Limite a distância do raio"/>
+    <NormalmapAOAttenuation Value="Atenuação"/>
+    <NormalmapAOEnableWeighting Value="Permitir pesosg"/>
+    <NormalmapAOPRTColorNormalize Value="PRT cor normalizar"/>
+
+    <NormalmapAOAllowPureOcclusion Value="Permitir puro oclusão"/>
+    <NormalmapAOCoordinateSystem Value="Coordenar Sistema"/>
+    <NormalmapEncodeAO Value="Codificar oclusão"/>
+    
+    <NormalmapGenerateProximity Value="Gerar a proximidade"/>
+
+    <NormalmapRays Value="Raios"/>
+    <NormalmapAngle Value="Ângulo"/>
+    <NormalmapMinValue Value="Valor Mínimo"/>
+    <NormalmapMaxValue Value="Valor Máximo"/>
+    <NormalmapMinValueInvalid Value="Valor mínimo inválido (necessidade ser menos ou igual do que o valor máximo)"/>
+
+    <NormalmapConvexityScale Value="Escala do convexidade"/>
+    <NormalmapConcavity Value="Concavidade"/>
+
+    <NormalmapFilters Value="Filtros"/>
+
+    <NormalmapWireframeAndRayFails Value="Wireframe e Ray falhar"/>
+    <NormalmapRenderWireframe Value="Render wireframe"/>
+    <NormalmapRenderRayFails Value="Render Ray falhar"/>
+
+    <NormalmapDirectionMap Value="Direção mapa"/>
+    <NormalmapEncodeHeights Value="Codificar alturas"/>
+
+	<NormalmapBakeHighpolyVertexColors Value="Bake highpoly's vertex colors"/>
+
+	<ImageFilterMenu_Tooltip Value="Clicam o botão de rato direito para mostrar o cardápio com filtro"/>
+    <ImageFilterMenu_AddFilter Value="Acrescentam o filtro de imagem"/>
+    <ImageFilterMenu_RemoveFilter Value="Retiram o filtro de imagem"/>
+    <ImageFilterMenu_MoveUp Value="Sobem o filtro"/>
+    <ImageFilterMenu_MoveDown Value="Movimento filtra abaixo"/>
+    <ImageFilterMenu_ShowInfo Value="Demonstração filtra a informação"/>
+    <ImageFilterMenu_Configure Value="Configuram o filtro"/>
+
+    <AutoNormalizeHeight Value="Auto-normalizar alturas"/>
+    <ManualNormalization Value="Manual alturas"/>
+    
+    <!-- Fine detail tab-->
+    <FineDetailButtonText Value="Detalhe perfeito"/>
+    <FineDetailButtonTooltip Value="Clique aqui para abrir as opções de detalhe perfeitas"/>
+
+    <FineDetailFile Value="Arquivo de Detalhe"/>
+    <FineDetailFileTooltip Value="Selecionam aqui a utilização do botão '...' uma imagem heightmap assinada do micro-detalhe perfeito"/>
+    <FineDetailBlendFactor Value="Fator de mistura"/>
+    <FineDetailBlendFactorTooltip Value="Misturando fator de mistura. O zero significa que nenhum detalhe será acrescentado ao normalmap. Cada um pensa que você verá só o detalhe e você não verá o normalmap gerado em absoluto. 0.5 meios 50 % do detalhe serão mistos com o normalmap gerado"/>
+
+    <!-- Tools -->
+    <ToolsButtonText Value="Ferramentas"/>
+    <ToolsButtonTooltip Value="Estalar aqui para abrir as ferramentas"/>
+    <ToolsAvailable Value="Dirige disponível"/>
+
+    <ToolsHeightmapToNM Value="Mapa da altura ao mapa normal"/>
+    <ToolsOptions Value="Opções"/>
+    <ToolsHeightSrc Value="Fonte da altura"/>
+    <ToolsNormalizeHeights Value="Normalizar alturas"/>
+    <ToolsSmooth Value="Liso"/>
+    <ToolsSmoothTooltip Value="Isto controles como abrupto o normal será"/>
+    <ToolsMethod Value="Método"/>
+    <ToolsMethodTooltip Value="Isto controla o método da geração. Um método (e um mais afiados mais rápidos) são as quatro amostras. Para começar o uso que mais liso dos resultados os 7x7 filtram"/>
+    <ToolsPutHeightInAlpha Value="Pôr a altura no alfa"/>
+    <ToolsBrowseHeightmap Value="Selecionar o mapa da altura"/>
+    <ToolsSaveNormalmap Value="Excepto o mapa normal"/>
+
+    <ToolsNormalmapToCavity Value="mapa normal do tangent-espaço ao mapa da cavidade"/>
+    <ToolsCavityMap Value="Mapa da cavidade"/>
+    <ToolsBrowseTangentSpaceNormalmap Value="Browse a lima normal do mapa do tangent-espaço"/>
+    <ToolsBright Value="Brilhante" />
+    <ToolsContrast Value="Contraste" />
+    <ToolsNormalize Value="Normalize"/>
+    <ToolsUseLuminance Value="Use o luminancia"/>
+    <ToolsSaveCavitymap Value="Excepto o mapa da cavidade"/>
+
+    <ToolsGenerate Value="Gerar"/>
+    <ToolsAllowTiling Value="Reservar telhar"/>
+    <ToolsSavedOK Value="A lima foi conservada com sucesso"/>
+
+    <ToolsPhotoLightLeft Value="Esquerdo-iluminou a foto"/>
+    <ToolsPhotoLightRight Value="Direito-iluminou a foto"/>
+    <ToolsPhotoLightTop Value="Alto-iluminou a foto"/>
+    <ToolsPhotoLightBottom Value="Fundo-iluminou a foto"/>
+    <ToolsLoadImage Value="Imagem da carga"/>
+
+    <ToolsHeightmapToOcclusion Value="Mapa da altura ao mapa da oclusão"/>
+    <ToolsSaveOcclusionmap Value="Armazenar o mapa da oclusão"/>
+
+    <ToolsObjectTangentSpaceConverter Value="Conversor do espaço do objeto/tangente"/>
+    <ToolsInputNormalmap Value="Mapa do normal da entrada"/>
+    <ToolsOutputNormalmap Value="Mapa do normal da saída"/>
+    <ToolsConvertObjectToTangentSpace Value="Espaço do objeto do converso ao espaço do tangent"/>
+    <ToolsConvertTangentToObjectSpace Value="Espaço do tangent do converso para objetar o espaço"/>
+
+    <ToolsRelaxedConemap Value="Mapa relaxado do cone"/>
+    <ToolsHeightmapToRelaxedConemap Value="Mapa da altura ao mapa relaxado do cone"/>
+    <ToolsConemapNSteps Value="Etapas"/>
+    <ToolsConemapSave Value="As economias relaxaram o mapa do cone"/>
+    <ToolsHeightIsDepth Value="A altura está a uma profundidade"/>
+
+    <ToolsSimpleAOGenerator Value="Gerador ambiental simples da oclusão"/>
+    <ToolsPrecision Value="Precisão"/>
+    <ToolsPrecisionWarning Value="Você ajustou FP16 e mais de 2048 amostras. Dependendo de seu GPU isto poderia ser ou nao possível assim, se você vir um resultado incorreto, diminua por favor o número das amostras ou mude-o à precisão CPU/FP32"/>
+    <ToolsCosineWeightingWarning Value="Bright superior a 1,0 não é recomendado quando usando cosine ponderação ... Mas bem ... Você é quem decide ..."/>
+    <ToolsSimpleGPUMeshDenseWarning Value="A malha é muito denso. Algumas placas gráficas não permitem utilizar malhas, com mais de 1 ou 16 milhões de vértices ou triângulos. Se você observar um completamente preto ou branco resultado final pode ser devido a isso."/>
+    <ToolsSimpleGPUSmoothShadows Value="Sombras lisas"/>
+
+    <ToolsRayDistanceCalculator Value="Ray distância calculadora"/>
+
+    <ToolsSH Value="Ambiente cubo mapa para ambientes cubo gerador mapa"/>
+    <ToolsSHInputEnvironmentCubeMap Value="Entrada ambiente cubo mapa"/>
+    <ToolsSHOutputAmbientCubeMap Value="Ambient cubo mapa"/>
+    <ToolsSHOutputCoefficients Value="Saída de coeficientes"/>
+    <ToolsSHNumberOfBands Value="Número de bandas"/>
+    <ToolsSHNumberOfBandsTooltip Value="Menos significa mais confuso. Mais meios menos confuso."/>
+    <ToolsSHBrowseCubeMap Value="Selecione mapa cúbico"/>
+    
+    <!-- 3D Viewer -->
+    <Viewer3DButtonText Value="3o Espectador"/>
+    <Viewer3DButtonTooltip Value="Clique aqui para mostrar as 3as opções de espectador"/>
+
+    <Viewer3DMesh Value="Rede de definição baixa"/>
+    <Viewer3DMeshTooltip Value="Usam o combobox para selecionar uma rede para editar as suas propriedades"/>
+    <Viewer3DCastShadows Value="Sombras de forma"/>
+    <Viewer3DCastShadowsTooltip Value="Marca-o se você quiser que esta rede lance sombras por cima de outras redes"/>
+    <Viewer3DReceiveShadows Value="Recebem sombras"/>
+    <Viewer3DReceiveShadowsTooltip Value="Marca-o se você quiser que esta rede receba sombras de outras redes"/>
+    <Viewer3DBackfaceCull Value="Oara trás enfrentam o escolhimento"/>
+    <Viewer3DBackfaceCullTooltip Value="Marcam-no para ocultar as caras que não apontam para a câmera para otimizar a velocidade de interpretação"/>
+
+    <Viewer3DBaseTex Value="Textura baseada"/>
+    <Viewer3DBaseTexTooltip Value="A base (difuso, albedo) textura"/>
+
+    <Viewer3DTransparencyModeLabel Value="Modalidade da transparência"/>
+    <Viewer3DTransparencyMode_None Value="Nenhum"/>
+    <Viewer3DTransparencyMode_1Bit Value="1Bit"/>
+    <Viewer3DTransparencyMode_AdditiveGlow Value="Aditivo-incandescer"/>
+    <Viewer3DTransparencyMode_ScreenGlass Value="Tela-vidro"/>
+    <Viewer3DTransparencyMode_Blend Value="Mistura"/>
+
+    <Viewer3DNormTex Value="Mapa normal"/>
+    <Viewer3DNormTexTooltip Value="Mapa normal"/>
+    <Viewer3DTangentSpace Value="Espaço de tangente"/>
+    <Viewer3DTangentSpaceTooltip Value="Marcam-no se o normalmap estiver no espaço de tangente ou não verificá-lo se o espaço de objeto"/>
+    <Viewer3DNMSwizzle Value="Permute"/>
+
+    <Viewer3DHeightTex Value="Mapa da altura"/>
+    <Viewer3DHeightTexTooltip Value="Textura da altura para traçar do parallax"/>
+
+    <Viewer3DOccLMTex Value="Oclusão/ilumina a textura de mapa"/>
+    <Viewer3DOccLMTexTooltip Value="Oclusão ou textura lightmap multiplicará a cor de textura baseada"/>
+    <Viewer3DUsePerVertexColors Value="Use a color do por-per-vertex"/>
+
+    <Viewer3DReflectTex Value="Refletem a textura"/>
+    <Viewer3DReflectTexTooltip Value="Ambiente cubemap textura"/>
+    <Viewer3DEnableFresnel Value="Permitem fresnel"/>
+    <Viewer3DEnableFresnelTooltip Value="Marcam-no para fazer as superfícies que apontam para a câmera mais refletivas"/>
+    <Viewer3DFresnelRefractiveIndex Value="Fresnel refletem o índice"/>
+    <Viewer3DFresnelRefractiveIndexTooltip Value="um valor que indica quanta luz deve refletir a superfície. 1.33 é a água, 2 é um diamante, 30 é um espelho"/>
+    <Viewer3DGlossTex Value="Textura de lustro"/>
+    <Viewer3DGlossTexTooltip Value="A textura de Lustro multiplica a textura de reflexão. Use isto para fazer alguns píxeis refletivos ou não refletivos"/>
+
+    <Viewer3DEmissiveTex Value="Textura emissiva"/>
+    <Viewer3DEmissiveTexTooltip Value="textura Emissiva acrescentará 'uma incandescência' leve mesmo quando não há nenhum presente leve"/>
+
+    <Viewer3DSpecularTex Value="Textura especular"/>
+    <Viewer3DSpecularTexTooltip Value="Os valores de RGB da textura especular multiplicará o fator especular da luz. A ALFA será usada para controlar o termo Phong-exponencial (mais meios mais agudos)"/>
+
+    <Viewer3DDiffuseGITex Value="Difundem GI textura"/>
+    <Viewer3DDiffuseGITexTooltip Value="Difundem cubemap com a distribuição de freqüência baixa de iluminação ambiental. Ideal para simular ambientes existentes ao ar livre"/>
+
+    <Viewer3DRunWindowed Value="Modalidade da janela"/>
+    <Viewer3DRunWindowedTooltip Value="Clique aqui para dirigir o 3o espectador no modo de janela (não tela cheia)"/>
+    <Viewer3DVideoMode Value="Modo de video"/>
+    <Viewer3DVideoModeTooltip Value="Seleciona aqui o modo vídeo que o 3o espectador usará"/>
+
+    <Viewer3DPlayMusic Value="Música de jogo dentro da visãor"/>
+    <Viewer3DPlayMusicTooltip Value="Verifica isto se você quiser que xNormal toque um pouco de música de fundo enquanto você usa o 3o espectador"/>
+
+    <Viewer3DUseXBox360Gamepad Value="Use o controlador de XBox 360"/>
+    <Viewer3DUseXBox360GamepadTooltip Value="Marque-o para usar o controlador de XBox 360's dentro do visor 3D"/>
+
+    <Viewer3DLaunch Value="Espectador de lançamento"/>
+    <Viewer3DLaunchTooltip Value="Prensa aqui para começar o 3o espectador"/>
+
+    <!-- Settings and examples-->
+    <SettingsAndExamplesButtonText Value="Colocações e exemplos"/>
+    <SettingsAndExamplesButtonTooltip Value="Clique aqui para abrir as opções de colocações e os exemplos"/>
+
+    <SettingsLoad Value="Colocações de load"/>
+    <SettingsLoadTooltip Value="Clique aqui para carregar um arquivo de XML com umas colocações anteriormente salvadas"/>
+    <SettingsLoadDialogTitle Value="Por Favor, selecione um arquivo de XML para CARREGAR colocações anteriormente salvadas contêm"/>
+    <SettingsLoadedOK Value="Colocações carregadas corretamente"/>
+    <SettingsLoadError Value="Erro. Não pode carregar colocações."/>
+
+    <SettingsRestore Value="Restauram colocações de default"/>
+    <SettingsRestoreTooltip Value="Clique aqui para reinicializar as colocações de default"/>
+    <SettingsRestoredOK Value="As colocações foram restauradas com os valores de default"/>
+
+    <SettingsSave Value="colocações de Save"/>
+    <SettingsSaveTooltip Value="Clique aqui para salvar as colocações atuais a um arquivo de XML"/>
+    <SettingsSaveDialogTitle Value="Por Favor, selecione um arquivo de XML onde SALVAR as colocações atuai"/>
+    <SettingsSavedOK Value="As colocações foram salvadas corretamente"/>
+    <SettingsSaveError Value="Erro. Não pode salvar colocações."/>
+
+    <SettingsXMLFilter Value="xNormal Colocações de XML"/>
+
+    <SettingsExamplesGroupbox Value="Exemplos"/>
+
+    <AcidButtonText Value="o Ácido Refletivo"/>
+    <AcidButtonTooltip Value="Clique aqui para carregar o exemplo 'ácido'"/>
+
+    <WallButtonText Value="Parede Feita o mapa por paralaxe"/>
+    <WallButtonTooltip Value="Clique aqui para carregar o exemplo de parede"/>
+
+    <DiabloButtonText Value="Pablo Hoyos's Diablo"/>
+    <DiabloButtonTooltip  Value="Clique aqui para carregar o exemplo do Pablo Hoyos Diablo" />
+
+    <XemakosButtonText Value="Paul Greveson's Xemakos"/>
+    <XemakosButtonTooltip Value="Clique aqui para abrir o exemplo de General Xemakos do Paul Greveson"/>
+
+    <SyliaButtonText Value="Kevin George's Sylia"/>
+    <SyliaButtonTooltip Value="Clique aqui para abrir o exemplo do Kevin George Sylia"/>
+
+    <FlagButtonText Value="Baking baixo da textura da bandeira"/>
+    <FlagButtonTooltip Value="Estalar aqui para abrir o exemplo da bandeira"/>
+
+    <MirroredUVsAndHardEdgesButtonText Value="UVs refletido e bordas duras"/>
+    <MirroredUVsAndHardEdgesTooltip Value="Clique aqui para abrir o UVs refletido e exemplo de bordas duro"/>
+
+    <!-- Support and about-->
+    <SupportAndAboutButtonText Value="Suporte e sobre"/>
+    <SupportAndAboutButtonTooltip Value="Clique aqui para abrir o suporte e sobre a janela"/>
+
+    <WebPage Value="Página web"/>
+    <ContactEMail Value="E-mail de contato"/>
+
+    <!-- Plugin manager -->
+    <AllThePluginsTab Value="Todos os plug-ins"/>
+    <ImageImportersTab Value="Importadores de imagem"/>
+    <ImageExportersTab Value="Exportadores de imagem"/>
+    <ImageFiltersTab Value="Imagem filtra"/>
+    <MeshImportersTab Value="Importadores de rede"/>
+    <MeshExportersTab Value="Exportadores de rede"/>
+    <GraphicsDriversTab Value="Motoristas de gráficos"/>
+    <TangentBasisCalculatorsTab Value="Calculadores de base tangente"/>
+    <RenderersTab Value="Renderers"/>
+    <VideoMakersTab Value="Fabricantes Video"/>
+
+    <PluginInformation Value="Informação sobre plugin"/>
+    <PluginName Value="Nome"/>
+    <PluginGUID Value="Identificador único global"/>
+    <PluginDescription Value="Descrição"/>
+    <PluginAuthor Value="Autor"/>
+    <PluginVersion Value="Versão"/>
+    <PluginConfigure Value="Configuram"/>
+
+    <Defaults Value="Defaults"/>
+    <DefaultsGraphicsDriver Value="Motorista de gráficos"/>
+    <DefaultsTBCalculator Value="Calculador de base de tangente"/>
+    <DefaultsLanguage Value="Língua"/>
+    <DefaultsVideoMaker Value="Fabricante Video"/>
+
+    <!-- Viewer3D (inside) -->
+    <PressESCToAbort Value="Apertam ESC para abortar"/>
+
+    <BackgroundColor Value="Contexto colore"/>
+    <GridColor Value="Grade colore"/>
+
+    <ShowLowpolyNormals Value="Mostram normals"/>
+    <ShowAO Value="Mostre a oclusão do por-per-vertex"/>
+    <DrawGrid Value="Grade de sorteio"/>
+    <ShowLowpolyWireframe Value="Demonstração conecta"/>
+    <ShowLowpolyTangents Value="Tangentes de demonstração"/>
+    <ShowLowpolyMeshes Value="Mostram redes de definição baixas"/>
+    <ShowHighpolyMeshes Value="Mostram altas redes de definição"/>
+    <DrawStarfield Value="Estrelas da tração"/>
+
+    <DiffuseGIIntensity Value="Difundem a intensidade illlumination global"/>
+    <LightIntensity Value="Intensidade leve"/>
+    <LightIndirectIntensity Value="Luz indireta intensidade"/>
+    <LightOrbitDistance Value="Distância de órbita leve"/>
+    <LightAmbientColor Value="Iluminam a cor ambiente"/>
+    <LightDiffuseColor Value="Luz difunde a cor"/>
+    <LightSpecularColor Value="Iluminam a cor especular"/>
+    <LightSecondaryColor Value="Cor secundária clara"/>
+    <LightTertiaryColor Value="Cor tertiary clara"/>
+
+    <Exposure Value="Exposição (DX10)"/>
+    <HDRThreshold Value="HDR Threshold (DX10)"/>
+
+    <SaveMeshes Value="Salvam redes"/>
+    <ReloadTextures Value="Texturas de recarregamento"/>
+    <ReloadMeshes Value="Recarregamento engrena"/>
+
+    <CastShadows Value="Sombras de forma"/>
+    <ShadowBias Value="Sombra influencia"/>
+    <AreaLightRadius Value="Sombra penumbrae(DX)"/>
+    <DisableFresnelReflections Value="Inutilizam Fresnel"/>
+
+    <UseEmissiveGlow Value="Usam a incandescência emissiva"/>
+    <EmissiveGlowIntensity Value="Intensidade de incandescência emissiva"/>
+
+    <UseParallax Value="Impacto de paralaxe de uso"/>
+    <ParallaxStrength Value="Força de paralaxe"/>
+
+    <ShowCage Value="Demonstração a jaula"/>
+    <EditCage Value="Editam a jaula"/>
+    <CageOpacity Value="Opacidade de jaula"/>
+    <CageColor Value="Jaula colore"/>
+    <CageGlobalExtrussion Value="Jaula extrução global"/>
+
+    <SelectionExtrussion Value="Extrução de seleção"/>
+    <IgnoreHiddenFacesForSelection Value="Ignoram caras ocultadas da seleção"/>
+    <UseMButtonToSelectVertices Value="Botão meio para selecionar vértices"/>
+    <HoldShiftToMultiSelect Value="DESLOCAM para multiselecionar"/>
+    <SelectionMoveX Value="Movimento de seleção X"/>
+    <SelectionMoveY Value="Movimento de seleção Y"/>
+    <SelectionMoveZ Value="Movimento de seleção Z"/>
+    <ResetCageSelectionValues Value="restabelecer"/>
+    <BreakCageSelectionValues Value="romper"/>
+    <AverageCageSelectionValues Value="média"/>
+    <CameraAdvanceSensibility Value="Sensibilidade de avanço"/>
+    <CameraRotationSensibility Value="Ssensibilidade de rotação"/>
+    <AxisDebugScale Value="Escala de eixo/ajuste"/>
+    <CameraOrbitDistance Value="Distância da órbita da câmera"/>
+
+    <FPS Value="FPS"/>
+
+    <Radius Value="Raio"/>
+    <MaxCageExtrussion Value="Máxima distância gaiola"/>
+
+    <ASWDRMouseToMove Value="Botão de direito de ASWD move a câmera"/>
+    <CTRLRMouseToOrbitCam Value="Botão de direito de CTRL a órbita a câmera"/>
+    <ALTRMouseToOrbitLight Value="Órbitas de botão de direito de ALT a luz"/>
+    <F8ToTakeScreenshot Value="F8 toma uma captura de tela"/>
+    <F1ToShowHideUI Value="F1 mostra/oculta a interface de usuário"/>
+    <F9ToVideoCapture Value="F9 à captação video"/>
+    <VideoCapturing Value="VÍDEO QUE CAPTURA..."/>
+
+
+    <LockLightToCamera Value="Travar a luz à câmera"/>
+    <CameraAutoOrbitCenter Value="Camera auto-órbita-center"/>
+
+    <ALTENTERToAttach Value ="O rato liberou-se. Pressionar ALT+ENTER para unir"/>
+
+    <SSAOEnable Value="Ativar SSAO"/>
+    <SSAOBright Value="SSAO Brilho "/>
+    <SSAOContrast Value="SSAO Contraste"/>
+    <SSAOAtten Value="SSAO Atenuação"/>
+    <SSAORadius Value="SSAO raio"/>
+    <SSAOBlurRadius Value="SSAO raio(blur)"/>
+
+    <SaveMeshesAutoAssign Value="Você quer atribuir à auto-salva malhas em sua malha slots?"/>
+
+    <ShowBlockers Value="Mostrar bloqueadores"/>
+
+    <ShowVDMSeams Value="Mostrar deslocamento costuras"/>
+    
+    <!-- Preview dialog -->
+    <NormalMap Value="Mapa Normal"/>
+    <HeightMap Value="Mapa da altura"/>
+    <OcclusionMap Value="Mapa de oclusão"/>
+    <ConvexityMap Value="Mapa do convextura"/>
+    <ThicknessMap Value="Mapa da espessura"/>
+    <ProximityMap Value="Mapa da proximidade"/>
+    <BaseTextureBaked Value="Textura baseada assada"/>
+
+    <Statistics Value="Estatística"/>
+    <NumRaysFailed Value="Raios fracassados"/>
+    <MaxHeight Value="Altura máxima"/>
+    <MaxThickness Value="Espessura máxima"/>
+    <MaxProximity Value="Proximidade máxima"/>
+    <TimeInSecs Value="Tempo (em segundos)"/>
+    <KRaysPerSec Value="KRaios/segundo"/>
+    <MapsRAMInMb Value="Faz o mapa da memória(Mb)"/>
+    <LowpolyRAMInMb Value="Memória de redes de definição baixa(Mb)"/>
+    <HighpolyRAMInMb Value="memória de redes de alta definição(Mb)"/>
+
+    <NotifyTileUpdates Value="Notifique atualizações azulejo"/>
+    <DoNotNotifyTileUpdates Value="Não avisar azulejo atualizações"/>
+
+</Localization>
