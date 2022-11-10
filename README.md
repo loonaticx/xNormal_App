@@ -8,3 +8,8 @@ xNormal is a FREE application to generate normal / ambient occlusion / displacem
 Unfortunately, it is relatively more difficult to find a safe downloadable copy of the SDK as the website no longer exists. This repo serves to be a faux-mirror of the SDK for anyone to use. It includes the standalone installer along with everything that would be found from installing the application.
 
 This repository does not provide any support or questions about the use of the program. It is merely here to serve a download mirror.
+
+# Related GitHub Repositories
+- [xNormal Python Wrapper](https://github.com/orangeduck/Python-xNormal)
+- [xNormal Batch Baker for Autodesk Maya](https://github.com/tpoveda/xNormalBatchBaker)
+- [xNormal Blender Plugin](https://github.com/felixSchl/blender-xnormal)
